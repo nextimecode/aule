@@ -5,9 +5,9 @@ import ModalVideo from 'react-modal-video'
 
 import Image from 'next/image'
 
-import SectionTitle from '../Common/SectionTitle'
+import { SectionTitle } from '../Common/SectionTitle'
 
-const Video = () => {
+export const Video = () => {
   const [isOpen, setOpen] = useState(false)
 
   return (
@@ -51,10 +51,9 @@ const Video = () => {
 
       <ModalVideo
         channel="youtube"
-        autoplay={true}
-        start={true}
         isOpen={isOpen}
         videoId="L61p2uyiMSo"
+        youtube={{ autoplay: 1 }}
         onClose={() => setOpen(false)}
       />
 
@@ -64,5 +63,3 @@ const Video = () => {
     </section>
   )
 }
-
-export default Video

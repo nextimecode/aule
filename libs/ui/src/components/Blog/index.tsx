@@ -1,8 +1,8 @@
 import type { BlogProps } from '@/types/blog'
 
-import SectionTitle from '../Common/SectionTitle'
+import { SectionTitle } from '../Common/SectionTitle'
 import { blogData } from './blogData'
-import SingleBlog from './SingleBlog'
+import { SingleBlog } from './SingleBlog'
 
 export const Blog = () => {
   return (

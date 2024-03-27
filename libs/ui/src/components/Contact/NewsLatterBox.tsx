@@ -1,4 +1,4 @@
-const NewsLatterBox = () => {
+export const NewsLatterBox = () => {
   return (
     <div
       className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
@@ -43,7 +43,7 @@ const NewsLatterBox = () => {
         >
           <mask
             id="mask0_88:141"
-            style={{ maskType: "alpha" }}
+            style={{ maskType: 'alpha' }}
             maskUnits="userSpaceOnUse"
             x="0"
             y="0"
@@ -169,7 +169,5 @@ const NewsLatterBox = () => {
         </svg>
       </div>
     </div>
-  );
-};
-
-export default NewsLatterBox;
+  )
+}

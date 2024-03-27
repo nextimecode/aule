@@ -1,5 +1,4 @@
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
+import { Breadcrumb, Contact } from '@aule/ui'
 
 const ContactPage = () => {
   return (
@@ -11,7 +10,7 @@ const ContactPage = () => {
 
       <Contact />
     </>
-  );
-};
+  )
+}
 
-export default ContactPage;
+export default ContactPage

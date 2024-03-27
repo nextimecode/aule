@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 const SigninPage = () => {
   return (
@@ -155,7 +155,7 @@ const SigninPage = () => {
           >
             <mask
               id="mask0_95:1005"
-              style={{ maskType: "alpha" }}
+              style={{ maskType: 'alpha' }}
               maskUnits="userSpaceOnUse"
               x="0"
               y="0"
@@ -204,7 +204,7 @@ const SigninPage = () => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default SigninPage;
+export default SigninPage

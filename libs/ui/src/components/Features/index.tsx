@@ -1,8 +1,10 @@
-import SectionTitle from '../Common/SectionTitle'
-import featuresData from './featuresData'
-import SingleFeature from './SingleFeature'
+import type { FeatureProps } from '@/types/feature'
 
-const Features = () => {
+import { SectionTitle } from '../Common/SectionTitle'
+import { featuresData } from './featuresData'
+import { SingleFeature } from './SingleFeature'
+
+export const Features = () => {
   return (
     <>
       <section
@@ -17,7 +19,7 @@ const Features = () => {
           />
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map(feature => (
+            {featuresData.map((feature: FeatureProps) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
           </div>
@@ -26,5 +28,3 @@ const Features = () => {
     </>
   )
 }
-
-export default Features

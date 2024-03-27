@@ -1,11 +1,11 @@
 'use client'
 import { useState } from 'react'
 
-import SectionTitle from '../Common/SectionTitle'
-import OfferList from './OfferList'
-import PricingBox from './PricingBox'
+import { SectionTitle } from '../Common/SectionTitle'
+import { OfferList } from './OfferList'
+import { PricingBox } from './PricingBox'
 
-const Pricing = () => {
+export const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true)
 
   return (
@@ -161,5 +161,3 @@ const Pricing = () => {
     </section>
   )
 }
-
-export default Pricing

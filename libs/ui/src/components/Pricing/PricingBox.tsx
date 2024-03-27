@@ -1,11 +1,11 @@
-const PricingBox = (props: {
-  price: string;
-  duration: string;
-  packageName: string;
-  subtitle: string;
-  children: React.ReactNode;
+export const PricingBox = (props: {
+  price: string
+  duration: string
+  packageName: string
+  subtitle: string
+  children: React.ReactNode
 }) => {
-  const { price, duration, packageName, subtitle, children } = props;
+  const { price, duration, packageName, subtitle, children } = props
 
   return (
     <div className="w-full">
@@ -75,7 +75,5 @@ const PricingBox = (props: {
         </div>
       </div>
     </div>
-  );
-};
-
-export default PricingBox;
+  )
+}
