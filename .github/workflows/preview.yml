@@ -1,0 +1,65 @@
+name: preview
+
+on:
+  pull_request:
+    branches: ['main']
+
+env:
+  NODE_VERSION: '20.9.0'
+  PNPM_VERSION: '8.10.5'
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm and cache
+        uses: ./.github/actions/prepare
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          pnpm-version: ${{ env.PNPM_VERSION }}
+
+  lint:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install pnpm and dependencies
+        run: |
+          npm install -g pnpm@${{ env.PNPM_VERSION }}
+          pnpm install
+
+      - name: Run lint
+        run: pnpm run lint
+
+  typecheck:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install pnpm and dependencies
+        run: |
+          npm install -g pnpm@${{ env.PNPM_VERSION }}
+          pnpm install
+
+      - name: Run typecheck
+        run: pnpm run typecheck
+
+  audit:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install pnpm and dependencies
+        run: |
+          npm install -g pnpm@${{ env.PNPM_VERSION }}
+          pnpm install
+
+      - name: Audit dependencies
+        run: pnpm audit

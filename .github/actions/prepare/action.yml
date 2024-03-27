@@ -1,0 +1,46 @@
+name: 'Install'
+description: 'Install project dependencies'
+inputs:
+  node-version:
+    description: 'Node.js version'
+    required: true
+    default: '20.9.0'
+  pnpm-version:
+    description: 'pnpm version'
+    required: true
+    default: '8.10.5'
+
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ inputs.node-version }}
+
+    - name: Restore node_modules cache
+      uses: actions/cache@v3
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-node-modules-${{ hashFiles('**/pnpm-lock.yaml', '**/.npmrc') }}
+        restore-keys: |
+          ${{ runner.os }}-node-modules-
+
+    - name: Install pnpm 
+      if: ${{ inputs.install == 'true' }}
+      shell: bash
+      run: |
+        npm install -g pnpm
+        pnpm install --frozen-lockfile
+        pnpm clean:cache
+
+    - name: Save node_modules cache
+      if: always() && inputs.install == 'true'
+      uses: actions/cache/save@v3
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-node-modules-${{ hashFiles('pnpm-lock.yaml', '.npmrc', 'pnpm-workspace.yaml') }}

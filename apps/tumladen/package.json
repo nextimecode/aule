@@ -1,0 +1,13 @@
+{
+  "name": "tumladen",
+  "version": "0.1.0",
+  "description": "Parte logada o www - Tumladen, um vale escondido dentro de aule, onde a lendária cidade de Gondolin foi construída, serve de inspiração para o nosso front end logado. Assim como Tumladen era conhecida por sua beleza oculta e proteção, nosso projeto logado é projetado para oferecer uma experiência segura, envolvente e rica em conteúdo.",
+  "private": true,
+  "scripts": {
+    "dev": "rm -rf .next && next dev --port 3001",
+    "clean": "rm -rf .turbo .next dist node_modules pnpm-lock.yaml",
+    "build": "next build",
+    "start": "next start --port 3001",
+    "lint": "next lint"
+  }
+}
