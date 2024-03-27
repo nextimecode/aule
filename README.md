@@ -1,6 +1,6 @@
 # aule - O Portal de Notícias Tecnológicas
 
-![Logo do aule]('./apps/minastirith/public/hero_readme.png')
+![Logo do aule]('./apps/naugrim/public/hero_readme.png')
 
 ## Sobre
 

@@ -183,9 +183,9 @@ importers:
         specifier: 5.4.3
         version: 5.4.3
 
-  apps/dolamroth: {}
+  apps/angainor: {}
 
-  apps/minastirith: {}
+  apps/naugrim: {}
 
   apps/tumladen: {}
 
