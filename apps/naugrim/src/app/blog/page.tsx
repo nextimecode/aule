@@ -1,7 +1,7 @@
 import { blogData, SingleBlog, Breadcrumb } from '@aule/ui'
 import type { BlogProps } from '@aule/ui'
 
-const Blog = () => {
+export default function Blog() {
   return (
     <>
       <Breadcrumb
@@ -89,5 +89,3 @@ const Blog = () => {
     </>
   )
 }
-
-export default Blog

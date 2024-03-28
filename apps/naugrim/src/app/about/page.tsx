@@ -1,6 +1,6 @@
 import { AboutSectionOne, AboutSectionTwo, Breadcrumb } from '@aule/ui'
 
-const AboutPage = () => {
+export default function AboutPage() {
   return (
     <>
       <Breadcrumb
@@ -12,5 +12,3 @@ const AboutPage = () => {
     </>
   )
 }
-
-export default AboutPage

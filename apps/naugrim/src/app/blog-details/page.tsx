@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { TagButton, SharePost } from '@aule/ui'
 
-const BlogDetailsPage = () => {
+export default function BlogDetailsPage() {
   return (
     <>
       <section className="pt-[150px] pb-[120px]">
@@ -336,5 +336,3 @@ const BlogDetailsPage = () => {
     </>
   )
 }
-
-export default BlogDetailsPage

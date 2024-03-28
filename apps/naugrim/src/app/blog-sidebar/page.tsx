@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { RelatedPost, SharePost, TagButton, NewsLatterBox } from '@aule/ui'
 
-const BlogSidebarPage = () => {
+export default function BlogSidebarPage() {
   return (
     <>
       <section className="overflow-hidden pt-[180px] pb-[120px]">
@@ -455,5 +455,3 @@ const BlogSidebarPage = () => {
     </>
   )
 }
-
-export default BlogSidebarPage

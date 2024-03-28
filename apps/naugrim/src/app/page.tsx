@@ -14,7 +14,7 @@ import {
 
 export default function Home() {
   return (
-    <>
+    <main>
       <ScrollUp />
       <Hero />
       <Features />
@@ -26,6 +26,6 @@ export default function Home() {
       <Pricing />
       <Blog />
       <Contact />
-    </>
+    </main>
   )
 }

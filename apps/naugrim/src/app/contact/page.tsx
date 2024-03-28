@@ -1,6 +1,6 @@
 import { Breadcrumb, Contact } from '@aule/ui'
 
-const ContactPage = () => {
+export default function ContactPage() {
   return (
     <>
       <Breadcrumb
@@ -12,5 +12,3 @@ const ContactPage = () => {
     </>
   )
 }
-
-export default ContactPage
