@@ -1,6 +1,8 @@
+'use client'
+
+import { AboutSectionOne, AboutSectionTwo } from '@/components'
+
 import {
-  AboutSectionOne,
-  AboutSectionTwo,
   Blog,
   Brands,
   ScrollUp,

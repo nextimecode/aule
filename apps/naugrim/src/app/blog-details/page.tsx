@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { TagButton, SharePost } from '@aule/ui'
+import { TagButton, SharePost } from '@/components'
 
 export default function BlogDetailsPage() {
   return (

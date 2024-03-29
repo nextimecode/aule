@@ -1,8 +1,7 @@
 import { Metadata } from 'next'
 
+import { Button } from '@/components'
 import GithubProfile from '@/components/GithubProfile'
-
-import { Button } from '@aule/ui'
 
 import { api } from '@/data/api'
 import { HomeProps } from '@/data/types/home'

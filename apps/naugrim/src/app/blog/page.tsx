@@ -1,5 +1,5 @@
-import { blogData, SingleBlog, Breadcrumb } from '@aule/ui'
-import type { BlogProps } from '@aule/ui'
+import { Breadcrumb, blogData, SingleBlog } from '@/components'
+import type { BlogProps } from '@/components'
 
 export default function Blog() {
   return (

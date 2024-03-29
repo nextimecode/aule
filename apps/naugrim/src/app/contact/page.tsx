@@ -1,4 +1,4 @@
-import { Breadcrumb, Contact } from '@aule/ui'
+import { Breadcrumb, Contact } from '@/components'
 
 export default function ContactPage() {
   return (

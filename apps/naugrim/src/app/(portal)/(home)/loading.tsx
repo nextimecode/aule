@@ -1,4 +1,4 @@
-import { Skeleton } from '@aule/ui'
+import { Skeleton } from '@/components'
 
 export default function HomeLoading() {
   return (

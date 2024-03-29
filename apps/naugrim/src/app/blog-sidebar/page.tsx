@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { RelatedPost, SharePost, TagButton, NewsLatterBox } from '@aule/ui'
+import { RelatedPost, SharePost, TagButton, NewsLatterBox } from '@/components'
 
 export default function BlogSidebarPage() {
   return (

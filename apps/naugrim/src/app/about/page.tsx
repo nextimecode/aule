@@ -1,4 +1,4 @@
-import { AboutSectionOne, AboutSectionTwo, Breadcrumb } from '@aule/ui'
+import { Breadcrumb, AboutSectionOne, AboutSectionTwo } from '@/components'
 
 export default function AboutPage() {
   return (
