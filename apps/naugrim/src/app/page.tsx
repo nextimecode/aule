@@ -1,8 +1,8 @@
 'use client'
 
-import { AboutSectionOne, AboutSectionTwo } from '@/components'
-
 import {
+  AboutSectionOne,
+  AboutSectionTwo,
   Blog,
   Brands,
   ScrollUp,
@@ -12,7 +12,7 @@ import {
   Pricing,
   Testimonials,
   Video
-} from '@aule/ui'
+} from '@/components'
 
 export default function Home() {
   return (

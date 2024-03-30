@@ -1,5 +1,6 @@
 import { Breadcrumb, blogData, SingleBlog } from '@/components'
-import type { BlogProps } from '@/components'
+
+import type { BlogProps } from '@/types'
 
 export default function Blog() {
   return (

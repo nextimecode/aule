@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
 
-import { Button } from '@aule/ui'
+import { Button } from '@/components'
 
 import { api } from '@/data/api'
 import { HomeProps } from '@/data/types/home'
