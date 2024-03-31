@@ -45,6 +45,22 @@ async function getPages() {
           id
           title
           content
+        },
+        testimonials {
+          id
+          content
+          person {
+            id
+            name
+            photo {
+              height
+              width
+              url
+              id
+            }
+            role
+            star
+          }
         }
       }`
     })
@@ -64,7 +80,7 @@ export default async function Home() {
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
+      <Testimonials testimonials={data.testimonials} />
       <Pricing />
       <Blog />
       <Contact />

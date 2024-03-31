@@ -1,7 +1,7 @@
 import { SectionTitle } from '../Common/SectionTitle'
 import { SingleFeature } from './SingleFeature'
 
-export interface FeatureProps {
+export interface Feature {
   id: number
   icon: JSX.Element
   title: string
@@ -9,7 +9,7 @@ export interface FeatureProps {
 }
 
 export interface FeaturesProps {
-  features: FeatureProps[]
+  features: Feature[]
   title?: string
   subTitle?: string
 }
@@ -30,7 +30,7 @@ export const Features = ({
           <SectionTitle title={title} paragraph={subTitle} center />
           {features && (
             <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-              {features.map((feature: FeatureProps) => (
+              {features.map((feature: Feature) => (
                 <SingleFeature key={feature.id} feature={feature} />
               ))}
             </div>

@@ -1,8 +1,7 @@
-export type TestimonialProps = {
+import { Person } from '@/types/Person'
+
+export interface Testimonial {
   id: number
-  name: string
-  designation: string
   content: string
-  image: string
-  star: number
+  person: Person
 }
