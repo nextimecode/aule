@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import type { Brand } from '@/types/brand'
+import type { Brand } from '@/data/types/brand'
 
 export const brandsData: Brand[] = [
   {

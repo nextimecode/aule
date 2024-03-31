@@ -1,4 +1,4 @@
-import { Person } from '@/types/Person'
+import { Person } from '@/data/types/Person'
 
 export interface Testimonial {
   id: number

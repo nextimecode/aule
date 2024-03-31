@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import type { Button, Image } from '@/types'
+import type { Button, Image } from '@/data/types'
 
 interface HeroProps {
   id: string

@@ -12,11 +12,10 @@ import {
   Video
 } from '@/components'
 
+import { env } from '@/env'
+
 async function getPages() {
-  const endpoint = process.env.NEXT_HYGRAPH_ENDPOINT
-  if (!endpoint) {
-    throw new Error('NEXT_HYGRAPH_ENDPOINT is not defined')
-  }
+  const endpoint = env.NEXT_PUBLIC_HYGRAPH_ENDPOINT
   const response = await fetch(endpoint, {
     method: 'POST',
     headers: {
