@@ -54,9 +54,6 @@ importers:
         specifier: ^4.5.2
         version: 4.5.2(@types/react@18.2.73)(react@18.2.0)
     devDependencies:
-      '@aule/ui':
-        specifier: workspace:^
-        version: link:libs/ui
       '@changesets/cli':
         specifier: ^2.27.1
         version: 2.27.1
@@ -193,11 +190,7 @@ importers:
         specifier: 5.4.3
         version: 5.4.3
 
-  apps/angainor: {}
-
   apps/naugrim: {}
-
-  libs/ui: {}
 
 packages:
 
