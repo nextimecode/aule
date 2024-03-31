@@ -1,6 +1,6 @@
-import { FeatureProps } from '@/components/Features'
+import type { Feature } from '@/data/types/Features'
 
-export const SingleFeature = ({ feature }: { feature: FeatureProps }) => {
+export const SingleFeature = ({ feature }: { feature: Feature }) => {
   const { icon, title, content } = feature
   return (
     <div className="w-full">

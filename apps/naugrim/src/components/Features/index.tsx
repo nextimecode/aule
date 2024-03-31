@@ -1,25 +1,13 @@
+import { FeaturesProps, Feature } from '@/data/types/Features'
+
 import { SectionTitle } from '../Common/SectionTitle'
 import { SingleFeature } from './SingleFeature'
 
-export interface Feature {
-  id: number
-  icon: JSX.Element
-  title: string
-  content: string
-}
-
-export interface FeaturesProps {
-  features: Feature[]
-  title?: string
-  subTitle?: string
-}
-
 export const Features = ({
   features,
-  title = 'Default Title',
-  subTitle = 'Default Sub Title'
+  title = 'Assessoria Gratuita em Viagens',
+  subTitle = 'Navegue pelo mundo dos ares com a confiança e o suporte da nossa assessoria especializada. Transformamos cada etapa da sua viagem em uma experiência descomplicada e memorável.'
 }: FeaturesProps) => {
-  console.log(features)
   return (
     <>
       <section

@@ -1,6 +1,6 @@
-import type { FeatureProps } from '@/types/feature'
+import { Feature } from '@/data/types/Features'
 
-export const featuresData: FeatureProps[] = [
+export const featuresData: Feature[] = [
   {
     id: 1,
     icon: (

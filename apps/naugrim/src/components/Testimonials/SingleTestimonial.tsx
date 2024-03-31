@@ -15,8 +15,6 @@ export const SingleTestimonial = ({
 }) => {
   const { content, person } = testimonial
 
-  console.log(testimonial)
-
   const ratingIcons = []
   for (let index = 0; index < person.star; index++) {
     ratingIcons.push(
