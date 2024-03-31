@@ -26,8 +26,6 @@
     "start": "turbo run start",
     "typecheck": "turbo run typecheck --parallel",
     "update": "pnpm update --latest",
-    "angainor:build": "turbo run build --filter angainor",
-    "angainor:dev": "turbo run dev --filter angainor",
     "naugrim:build": "turbo run build --filter naugrim",
     "naugrim:dev": "turbo run dev --filter naugrim",
     "tumladen:build": "turbo run build --filter tumladen",
