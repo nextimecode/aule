@@ -40,6 +40,11 @@ async function getPages() {
           }
           heading
           subheading
+        },
+        features {
+          id
+          title
+          content
         }
       }`
     })
@@ -49,13 +54,12 @@ async function getPages() {
 }
 
 export default async function Home() {
-  const { hero } = await getPages()
-  console.log(hero)
+  const data = await getPages()
   return (
     <main>
       <ScrollUp />
-      <Hero {...hero} />
-      <Features />
+      <Hero {...data.hero} />
+      {data.features && <Features features={data.features} />}
       <Video />
       <Brands />
       <AboutSectionOne />
