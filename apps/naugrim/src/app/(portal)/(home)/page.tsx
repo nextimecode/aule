@@ -3,13 +3,13 @@ import { Metadata } from 'next'
 import {
   AboutSectionOne,
   AboutSectionTwo,
-  Blog,
+  // Blog,
   Brands,
   ScrollUp,
-  Contact,
+  // Contact,
   Features,
   Hero,
-  Pricing,
+  // Pricing,
   Testimonials,
   Video
 } from '@/components'
@@ -86,10 +86,14 @@ export default async function Home() {
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials testimonials={data.testimonials} />
-      <Pricing />
-      <Blog />
-      <Contact />
+      <Testimonials
+        testimonials={data.testimonials}
+        title={'Depoimentos de Viajantes'}
+        subTitle={'Nossos clientes compartilham suas experiências'}
+      />
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
+      {/* <Contact /> */}
     </main>
   )
 }

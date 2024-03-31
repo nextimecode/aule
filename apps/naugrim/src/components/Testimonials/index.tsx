@@ -11,14 +11,13 @@ export interface TestimonialProps {
 
 export const Testimonials = ({
   testimonials,
-  title = 'Default Title',
-  subTitle = 'Default Subtitle'
+  title,
+  subTitle
 }: TestimonialProps) => {
   return (
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle title={title} paragraph={subTitle} center />
-
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonials?.map((testimonial: Testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
