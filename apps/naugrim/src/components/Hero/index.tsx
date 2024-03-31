@@ -1,22 +1,17 @@
 import Link from 'next/link'
 
+import type { Button, Image } from '@/types'
+
 interface HeroProps {
+  id: string
+  image: Image
+  slug: string
+  buttons: Button[]
   heading: string
   subheading: string
-  primaryLink: string
-  secondaryLink: string
-  primaryButtonText: string
-  secondaryButtonText: string
 }
 
-export const Hero = ({
-  heading = 'Heading',
-  subheading = 'Subheading',
-  primaryLink = '#',
-  secondaryLink = '#',
-  primaryButtonText = 'primaryButtonText',
-  secondaryButtonText = 'secondaryButtonText'
-}: HeroProps) => {
+export const Hero = ({ heading, subheading, buttons }: HeroProps) => {
   return (
     <>
       <section
@@ -38,16 +33,16 @@ export const Hero = ({
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href={primaryLink}
+                    href={buttons[0].href}
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    {primaryButtonText}
+                    {buttons[0].label}
                   </Link>
                   <Link
-                    href={secondaryLink}
+                    href={buttons[1].href}
                     className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
-                    {secondaryButtonText}
+                    {buttons[1].label}
                   </Link>
                 </div>
               </div>
