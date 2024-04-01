@@ -5,7 +5,7 @@ export const Breadcrumb = ({
   description
 }: {
   pageName: string
-  description: string
+  description?: string
 }) => {
   return (
     <>

@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 import {
-  AboutSectionOne,
-  AboutSectionTwo,
+  // AboutSectionOne,
+  // AboutSectionTwo,
   // Blog,
   Brands,
   ScrollUp,
@@ -51,6 +51,7 @@ async function getHomeData(): Promise<HomeProps> {
           id
           title
           content
+          icon
         },
         testimonials {
           id
@@ -84,8 +85,8 @@ export default async function Home() {
       {data.features && <Features features={data.features} />}
       <Video />
       <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
+      {/* <AboutSectionOne />
+      <AboutSectionTwo /> */}
       <Testimonials
         testimonials={data.testimonials}
         title={'Depoimentos de Viajantes'}
