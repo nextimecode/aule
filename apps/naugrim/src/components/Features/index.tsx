@@ -1,10 +1,13 @@
-import type { FeatureProps } from '@/types/feature'
+import { FeaturesProps, Feature } from '@/data/types/Features'
 
 import { SectionTitle } from '../Common/SectionTitle'
-import { featuresData } from './featuresData'
 import { SingleFeature } from './SingleFeature'
 
-export const Features = () => {
+export const Features = ({
+  features,
+  title = 'Assessoria Gratuita em Viagens',
+  subTitle = 'Navegue pelo mundo dos ares com a confiança e o suporte da nossa assessoria especializada. Transformamos cada etapa da sua viagem em uma experiência descomplicada e memorável.'
+}: FeaturesProps) => {
   return (
     <>
       <section
@@ -12,17 +15,14 @@ export const Features = () => {
         className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
         <div className="container">
-          <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-            center
-          />
-
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature: FeatureProps) => (
-              <SingleFeature key={feature.id} feature={feature} />
-            ))}
-          </div>
+          <SectionTitle title={title} paragraph={subTitle} center />
+          {features && (
+            <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+              {features.map((feature: Feature) => (
+                <SingleFeature key={feature.id} feature={feature} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
     </>

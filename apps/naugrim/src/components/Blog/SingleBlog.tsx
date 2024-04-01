@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import type { BlogProps } from '@/types/blog'
+import type { BlogProps } from '@/data/types/blog'
 
 export const SingleBlog = ({ blog }: { blog: BlogProps }) => {
   const { title, image, paragraph, author, tags, publishDate } = blog

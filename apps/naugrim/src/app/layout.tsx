@@ -1,11 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-// import '@aule/ui/dist/index.css'
 import './global.css'
-
-import { Header, Footer, ScrollToTop } from '@/components'
-
-import '../../../../node_modules/react-modal-video/css/modal-video.css'
 
 import { Providers } from './providers'
 
@@ -16,8 +11,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | aule',
-    default: 'aule'
+    template: '%s | rohan',
+    default: 'rohan'
   },
   description: ''
 }
@@ -27,14 +22,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html suppressHydrationWarning className={inter.variable} lang="pt-BR">
+    <html className={inter.variable} lang="pt-BR">
       <body className="dark:bg-black">
-        <Providers>
-          <Header />
-          {children}
-          <Footer />
-          <ScrollToTop />
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

@@ -1,4 +1,4 @@
-import type { BlogProps } from '@/types/blog'
+import type { BlogProps } from '@/data/types/blog'
 
 export const blogData: BlogProps[] = [
   {

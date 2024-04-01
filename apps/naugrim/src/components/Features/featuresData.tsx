@@ -1,6 +1,6 @@
-import type { FeatureProps } from '@/types/feature'
+import { Feature } from '@/data/types/Features'
 
-export const featuresData: FeatureProps[] = [
+export const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
@@ -13,7 +13,7 @@ export const featuresData: FeatureProps[] = [
       </svg>
     ),
     title: 'Crafted for Startups',
-    paragraph:
+    content:
       'Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.'
   },
   {
@@ -28,7 +28,7 @@ export const featuresData: FeatureProps[] = [
       </svg>
     ),
     title: 'High-quality Design',
-    paragraph:
+    content:
       'Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.'
   },
   {
@@ -43,7 +43,7 @@ export const featuresData: FeatureProps[] = [
       </svg>
     ),
     title: 'Next.js 13 (Latest)',
-    paragraph:
+    content:
       'Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.'
   },
   {
@@ -58,7 +58,7 @@ export const featuresData: FeatureProps[] = [
       </svg>
     ),
     title: 'Tailwind CSS',
-    paragraph:
+    content:
       'Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.'
   },
   {
@@ -73,7 +73,7 @@ export const featuresData: FeatureProps[] = [
       </svg>
     ),
     title: 'Fully Customizable',
-    paragraph:
+    content:
       'Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.'
   },
   {
@@ -88,7 +88,7 @@ export const featuresData: FeatureProps[] = [
       </svg>
     ),
     title: 'Free and Open-Source',
-    paragraph:
+    content:
       'Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.'
   }
 ]

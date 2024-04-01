@@ -1,7 +1,7 @@
-import type { FeatureProps } from '@/types/feature'
+import type { Feature } from '@/data/types/Features'
 
-export const SingleFeature = ({ feature }: { feature: FeatureProps }) => {
-  const { icon, title, paragraph } = feature
+export const SingleFeature = ({ feature }: { feature: Feature }) => {
+  const { icon, title, content } = feature
   return (
     <div className="w-full">
       <div className="wow fadeInUp" data-wow-delay=".15s">
@@ -12,7 +12,7 @@ export const SingleFeature = ({ feature }: { feature: FeatureProps }) => {
           {title}
         </h3>
         <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
-          {paragraph}
+          {content}
         </p>
       </div>
     </div>

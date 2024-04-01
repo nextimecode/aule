@@ -1,37 +1,31 @@
 import Image from 'next/image'
 
-import type { Brand } from '@/types/brand'
+import type { Brand } from '@/data/types/brand'
 
 export const brandsData: Brand[] = [
   {
     id: 1,
-    name: 'UIdeck',
-    href: 'https://uideck.com',
-    image: '/images/brands/uideck.svg'
+    name: 'Gol',
+    href: 'https://www.voegol.com.br/',
+    image: '/images/brands/logo-gol.svg'
   },
   {
     id: 2,
-    name: 'Tailgrids',
-    href: 'https://tailgrids.com',
-    image: '/images/brands/tailgrids.svg'
+    name: 'Latam',
+    href: 'https://www.latamairlines.com/',
+    image: '/images/brands/latam.svg'
   },
   {
     id: 3,
-    name: 'Lineicons',
-    href: 'https://lineicons.com',
-    image: '/images/brands/lineicons.svg'
+    name: 'Azul',
+    href: 'https://www.voeazul.com.br/br/pt/home',
+    image: '/images/brands/voe-azul-logo.svg'
   },
   {
     id: 4,
-    name: 'GrayGrids',
-    href: 'https://graygrids.com',
-    image: '/images/brands/graygrids.svg'
-  },
-  {
-    id: 5,
-    name: 'TailAdmin',
-    href: 'https://tailadmin.com',
-    image: '/images/brands/tailadmin.svg'
+    name: 'Tap',
+    href: 'https://www.flytap.com/pt-br/',
+    image: '/images/brands/TAPLightLogo_102022.svg'
   }
 ]
 

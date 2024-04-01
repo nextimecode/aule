@@ -1,3 +1,5 @@
 export interface HomeProps {
-  message: string
+  hero: HeroProps
+  features: FeaturesProps
+  testimonials: TestimonialProps
 }

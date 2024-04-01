@@ -26,8 +26,6 @@
     "start": "turbo run start",
     "typecheck": "turbo run typecheck --parallel",
     "update": "pnpm update --latest",
-    "angainor:build": "turbo run build --filter angainor",
-    "angainor:dev": "turbo run dev --filter angainor",
     "naugrim:build": "turbo run build --filter naugrim",
     "naugrim:dev": "turbo run dev --filter naugrim",
     "tumladen:build": "turbo run build --filter tumladen",
@@ -58,7 +56,6 @@
     "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "@aule/ui": "workspace:^",
     "@changesets/cli": "^2.27.1",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
