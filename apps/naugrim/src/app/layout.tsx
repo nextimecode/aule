@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: '%s | Gestor Flights',
     default: 'Gestor Flight'
   },
-  description: ''
+  description: 'Assessoria especializada em voos integrada a gestão de milhas'
 }
 export default function RootLayout({
   children
