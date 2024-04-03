@@ -11,8 +11,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | rohan',
-    default: 'rohan'
+    template: '%s | Gestor Flights',
+    default: 'Gestor Flight'
   },
   description: ''
 }
