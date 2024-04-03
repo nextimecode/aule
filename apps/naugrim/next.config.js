@@ -2,12 +2,7 @@
 const nextConfig = {
   images: {
     dangerouslyAllowSVG: true,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'media.graphcms.com'
-      }
-    ]
+    domains: ['github.com', 'media.graphassets.com']
   }
 }
 
