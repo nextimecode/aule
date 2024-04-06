@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './global.css'
 
-import { PrelineScript } from '@/components'
+import PrelineScript from '../components/PrelineScript'
 
 import { Providers } from './providers'
 
@@ -27,8 +27,8 @@ export default function RootLayout({
     <html className={inter.variable} lang="pt-BR">
       <body className="dark:bg-black">
         <Providers>{children}</Providers>
-        <PrelineScript />
       </body>
+      <PrelineScript />
     </html>
   )
 }
