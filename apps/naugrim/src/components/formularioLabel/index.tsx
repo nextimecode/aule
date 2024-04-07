@@ -7,7 +7,10 @@ type Props = {
 
 const FormularioLabel = ({ label, inputName }: Props) => {
   return (
-    <label htmlFor={inputName} className="uppercase font-bold">
+    <label
+      htmlFor={inputName}
+      className="block text-sm font-medium text-dark dark:text-white"
+    >
       {label}
     </label>
   )

@@ -11,8 +11,7 @@ import {
   Hero,
   // Pricing,
   Testimonials,
-  Video,
-  FlightSearchPanel
+  Video
 } from '@/components'
 
 import { HomeProps } from '@/data/types/home'
@@ -83,7 +82,6 @@ export default async function Home() {
     <main>
       <ScrollUp />
       <Hero {...data.hero} />
-      <FlightSearchPanel />
       {data.features && <Features features={data.features} />}
       <Video />
       <Brands />

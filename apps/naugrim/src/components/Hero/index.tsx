@@ -1,6 +1,6 @@
-import Link from 'next/link'
-
 import type { Button, Image } from '@/data/types'
+
+import { FlightSearchPanel } from '../FlightSearchPanel'
 
 interface HeroProps {
   id: string
@@ -11,12 +11,12 @@ interface HeroProps {
   subheading: string
 }
 
-export const Hero = ({ heading, subheading, buttons }: HeroProps) => {
+export const Hero = ({ heading, subheading }: HeroProps) => {
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="bg-primary/10 relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -31,20 +31,7 @@ export const Hero = ({ heading, subheading, buttons }: HeroProps) => {
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   {subheading}
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href={buttons[0].href}
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    {buttons[0].label}
-                  </Link>
-                  <Link
-                    href={buttons[1].href}
-                    className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
-                  >
-                    {buttons[1].label}
-                  </Link>
-                </div>
+                <FlightSearchPanel />
               </div>
             </div>
           </div>
