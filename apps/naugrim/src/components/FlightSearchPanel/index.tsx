@@ -281,7 +281,7 @@ export const FlightSearchPanel = () => {
           disableClearable
           options={airports.map(a => `${a.city} (${a.IATA}), ${a.country}`)}
           onChange={(_, newValue) => {
-            setFormData({ ...formData, origem: newValue || '' })
+            setFormData({ ...formData, destino: newValue || '' })
           }}
           renderInput={params => (
             <TextField
