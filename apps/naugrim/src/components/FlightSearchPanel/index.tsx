@@ -155,7 +155,11 @@ export const FlightSearchPanel = () => {
 
   const btnBuscarPassagens = (
     <button
-      className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
+      className={`rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp ${
+        !formReady
+          ? 'bg-opacity-50 cursor-not-allowed hover:bg-opacity-50 hover:shadow-none'
+          : ''
+      }`}
       id="btn-buscar-passagem"
       disabled={!formReady}
       onClick={e => {
@@ -241,6 +245,9 @@ export const FlightSearchPanel = () => {
           freeSolo
           disableClearable
           options={airports.map(a => `(${a.IATA}) ${a.city}, ${a.country}`)}
+          onChange={(_, newValue) => {
+            setFormData({ ...formData, origem: newValue || '' })
+          }}
           renderInput={params => (
             <TextField
               {...params}
@@ -273,6 +280,9 @@ export const FlightSearchPanel = () => {
           freeSolo
           disableClearable
           options={airports.map(a => `${a.city} (${a.IATA}), ${a.country}`)}
+          onChange={(_, newValue) => {
+            setFormData({ ...formData, origem: newValue || '' })
+          }}
           renderInput={params => (
             <TextField
               {...params}
