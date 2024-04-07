@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './global.css'
 
+import PrelineScript from '../components/PrelineScript'
+
 import { Providers } from './providers'
 
 const inter = Inter({
@@ -26,6 +28,7 @@ export default function RootLayout({
       <body className="dark:bg-black">
         <Providers>{children}</Providers>
       </body>
+      <PrelineScript />
     </html>
   )
 }
