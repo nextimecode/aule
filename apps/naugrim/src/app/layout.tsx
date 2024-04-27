@@ -1,3 +1,5 @@
+import { ReactNode } from 'react'
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './global.css'
@@ -18,11 +20,7 @@ export const metadata: Metadata = {
   },
   description: 'Assessoria especializada em voos integrada a gestão de milhas'
 }
-export default function RootLayout({
-  children
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html className={inter.variable} lang="pt-BR">
       <body className="dark:bg-black">

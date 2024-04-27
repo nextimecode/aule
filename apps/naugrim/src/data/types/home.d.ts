@@ -1,6 +1,10 @@
+import type { FeaturesProps } from './Features'
+import type { Testimonial } from './Testimonial'
+
 export interface HomeProps {
-  hero: HeroProps
+  // eslint-disable-next-line no-undef
+  hero: Hero
   features: FeaturesProps
-  testimonials: TestimonialProps
+  testimonials: Testimonial
   message?: string
 }

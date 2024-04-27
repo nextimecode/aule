@@ -3,7 +3,7 @@
  */
 module.exports = {
   content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
     '../../node_modules/preline/dist/*.js'
   ],
   darkMode: 'class',

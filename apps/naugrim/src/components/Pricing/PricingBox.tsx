@@ -1,9 +1,11 @@
+import { ReactNode } from 'react'
+
 export const PricingBox = (props: {
   price: string
   duration: string
   packageName: string
   subtitle: string
-  children: React.ReactNode
+  children: ReactNode
 }) => {
   const { price, duration, packageName, subtitle, children } = props
 
