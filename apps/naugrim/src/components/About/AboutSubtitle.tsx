@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { SectionTitle } from '@/components'
 
-export const AboutSubtitle = async ({
+export const AboutSubtitle = ({
   content,
   navigationLabel
 }: {
