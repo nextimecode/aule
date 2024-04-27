@@ -1,8 +1,13 @@
-import { FeaturesProps, Feature } from '@/data/types/Features'
+import { Feature } from '@/data/types/Features'
 
 import { SectionTitle } from '../Common/SectionTitle'
 import { SingleFeature } from './SingleFeature'
 
+interface FeaturesProps {
+  features: Feature[]
+  title?: string
+  subTitle?: string
+}
 export const Features = ({
   features,
   title = 'Assessoria Gratuita em Viagens',

@@ -14,11 +14,8 @@ import {
   Video
 } from '@/components'
 
+import type { HeroProps, TestimonialProps, Feature } from '@/data/types'
 import { env } from '@/env'
-
-import { Feature } from '../../../data/types/Features'
-import type { HeroProps } from '../../../data/types/Hero'
-import { Testimonial } from '../../../data/types/testimonial'
 
 export const metadata: Metadata = {
   title: 'Home'
@@ -27,7 +24,7 @@ export const metadata: Metadata = {
 interface HomeProps {
   hero: HeroProps
   features: Feature[]
-  testimonials: Testimonial[]
+  testimonials: TestimonialProps[]
 }
 
 async function getHomeData(): Promise<HomeProps> {
