@@ -1,6 +1,6 @@
-import type { Menu } from '@/data/types/menu'
+import type { MenuProps } from '@/data/types/MenuProps'
 
-export const menuData: Menu[] = [
+export const menuData: MenuProps[] = [
   {
     id: 1,
     title: 'Home',
