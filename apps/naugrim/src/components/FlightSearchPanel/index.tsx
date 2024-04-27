@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/no-nested-ternary */
 'use client'
 import React, { useEffect, useState } from 'react'
 import DatePicker from 'react-datepicker'
@@ -87,23 +88,27 @@ export const FlightSearchPanel = () => {
   ) => {
     event.preventDefault()
     switch (field) {
-      case 'adultos':
+      case 'adultos': {
         if (formData.adultos > 1) {
           setFormData({ ...formData, adultos: formData.adultos - 1 })
         }
         break
-      case 'criancas':
+      }
+      case 'criancas': {
         if (formData.criancas > 0) {
           setFormData({ ...formData, criancas: formData.criancas - 1 })
         }
         break
-      case 'bebes':
+      }
+      case 'bebes': {
         if (formData.bebes > 0) {
           setFormData({ ...formData, bebes: formData.bebes - 1 })
         }
         break
-      default:
+      }
+      default: {
         break
+      }
     }
   }
 
@@ -113,17 +118,21 @@ export const FlightSearchPanel = () => {
   ) => {
     event.preventDefault()
     switch (field) {
-      case 'adultos':
+      case 'adultos': {
         setFormData({ ...formData, adultos: formData.adultos + 1 })
         break
-      case 'criancas':
+      }
+      case 'criancas': {
         setFormData({ ...formData, criancas: formData.criancas + 1 })
         break
-      case 'bebes':
+      }
+      case 'bebes': {
         setFormData({ ...formData, bebes: formData.bebes + 1 })
         break
-      default:
+      }
+      default: {
         break
+      }
     }
   }
 
@@ -156,9 +165,9 @@ export const FlightSearchPanel = () => {
   const btnBuscarPassagens = (
     <button
       className={`rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp ${
-        !formReady
-          ? 'bg-opacity-50 cursor-not-allowed hover:bg-opacity-50 hover:shadow-none'
-          : ''
+        formReady
+          ? ''
+          : 'bg-opacity-50 cursor-not-allowed hover:bg-opacity-50 hover:shadow-none'
       }`}
       id="btn-buscar-passagem"
       disabled={!formReady}

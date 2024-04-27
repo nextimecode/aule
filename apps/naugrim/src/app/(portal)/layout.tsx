@@ -1,14 +1,12 @@
+import { ReactNode } from 'react'
+
 import Image from 'next/image'
 import Link from 'next/link'
 
 import { Footer, ScrollToTop } from '@/components'
 import { Header } from '@/components/Header'
 
-export default function PortalLayout({
-  children
-}: {
-  children: React.ReactNode
-}) {
+export default function PortalLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <Header />

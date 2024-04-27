@@ -1,4 +1,4 @@
-import type { Testimonial } from '@/data/types/testimonial'
+import type { Testimonial } from '@/data/types/TestimonialProps'
 
 import { SectionTitle } from '../Common/SectionTitle'
 import { SingleTestimonial } from './SingleTestimonial'

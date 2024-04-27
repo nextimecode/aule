@@ -8,6 +8,6 @@
     "clean": "rm -rf .turbo .next dist node_modules pnpm-lock.yaml",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint --fix"
   }
 }

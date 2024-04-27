@@ -91,8 +91,8 @@ export const airports = [
   },
   { name: 'Rabah Bitat ', city: 'Annaba', country: 'Algeria', IATA: 'AAE' },
   {
-    name: 'B\u00e9char Boudghene Ben Ali Lotfi ',
-    city: 'B\u00e9char',
+    name: 'B\u00E9char Boudghene Ben Ali Lotfi ',
+    city: 'B\u00E9char',
     country: 'Algeria',
     IATA: 'CBH'
   },
@@ -129,7 +129,7 @@ export const airports = [
   { name: 'El Bayadh ', city: 'El Bayadh', country: 'Algeria', IATA: 'EBH' },
   { name: 'El Golea ', city: 'El Golea', country: 'Algeria', IATA: 'ELG' },
   {
-    name: 'Noum\u00e9rat - Moufdi Zakaria ',
+    name: 'Noum\u00E9rat - Moufdi Zakaria ',
     city: 'Ghardaia',
     country: 'Algeria',
     IATA: 'GHA'
@@ -175,7 +175,7 @@ export const airports = [
     IATA: 'TMR'
   },
   {
-    name: 'Cheikh Larbi T\u00e9bessi ',
+    name: 'Cheikh Larbi T\u00E9bessi ',
     city: 'Tebessa',
     country: 'Algeria',
     IATA: 'TEE'
@@ -197,7 +197,7 @@ export const airports = [
     IATA: 'TGR'
   },
   {
-    name: 'In Am\u00e9nas ',
+    name: 'In Am\u00E9nas ',
     city: 'Zarzaitine',
     country: 'Algeria',
     IATA: 'IAM'
@@ -405,13 +405,13 @@ export const airports = [
     IATA: 'GHU'
   },
   {
-    name: 'Cataratas Del Iguaz\u00fa Intl ',
+    name: 'Cataratas Del Iguaz\u00FA Intl ',
     city: 'Iguazu Falls',
     country: 'Argentina',
     IATA: 'IGR'
   },
   {
-    name: 'Cabo F.A.A. H. R. Bord\u00f3n ',
+    name: 'Cabo F.A.A. H. R. Bord\u00F3n ',
     city: 'Ingeniero Jacobacci',
     country: 'Argentina',
     IATA: 'IGB'
@@ -438,13 +438,13 @@ export const airports = [
   },
   { name: 'Las Heras ', city: 'Las Heras', country: 'Argentina', IATA: 'LHS' },
   {
-    name: 'Comodoro D.R. Salom\u00f3n ',
+    name: 'Comodoro D.R. Salom\u00F3n ',
     city: 'Malargue',
     country: 'Argentina',
     IATA: 'LGS'
   },
   {
-    name: '\u00c1stor Piazzola Intl ',
+    name: '\u00C1stor Piazzola Intl ',
     city: 'Mar Del Plata',
     country: 'Argentina',
     IATA: 'MDQ'
@@ -469,7 +469,7 @@ export const airports = [
     IATA: 'NQN'
   },
   { name: 'Olavarria ', city: 'Olavarria', country: 'Argentina', IATA: 'OVR' },
-  { name: 'Or\u00e1n ', city: 'Oran', country: 'Argentina', IATA: 'ORA' },
+  { name: 'Or\u00E1n ', city: 'Oran', country: 'Argentina', IATA: 'ORA' },
   {
     name: 'General Urquiza ',
     city: 'Parana',
@@ -543,7 +543,7 @@ export const airports = [
     IATA: 'RCU'
   },
   {
-    name: 'Piloto Civil N. Fern\u00e1ndez ',
+    name: 'Piloto Civil N. Fern\u00E1ndez ',
     city: 'Rio Gallegos',
     country: 'Argentina',
     IATA: 'RGL'
@@ -555,7 +555,7 @@ export const airports = [
     IATA: 'RGA'
   },
   {
-    name: 'Termas de R\u00edo Hondo international ',
+    name: 'Termas de R\u00EDo Hondo international ',
     city: 'Rio Hondo',
     country: 'Argentina',
     IATA: 'RHD'
@@ -573,7 +573,7 @@ export const airports = [
     IATA: 'SLA'
   },
   {
-    name: 'Antoine de Saint Exup\u00e9ry ',
+    name: 'Antoine de Saint Exup\u00E9ry ',
     city: 'San Antonio Oeste',
     country: 'Argentina',
     IATA: 'OES'
@@ -640,7 +640,7 @@ export const airports = [
     IATA: 'SST'
   },
   {
-    name: 'Vicecomodoro Angel D. La Paz Aragon\u00e9s ',
+    name: 'Vicecomodoro Angel D. La Paz Aragon\u00E9s ',
     city: 'Santiago Del Estero',
     country: 'Argentina',
     IATA: 'SDE'
@@ -658,7 +658,7 @@ export const airports = [
     IATA: 'NCJ'
   },
   {
-    name: 'H\u00e9roes De Malvinas ',
+    name: 'H\u00E9roes De Malvinas ',
     city: 'Tandil',
     country: 'Argentina',
     IATA: 'TDL'
@@ -1625,7 +1625,7 @@ export const airports = [
   { name: 'Innsbruck ', city: 'Innsbruck', country: 'Austria', IATA: 'INN' },
   { name: 'Klagenfurt ', city: 'Klagenfurt', country: 'Austria', IATA: 'KLU' },
   {
-    name: 'Linz H\u00f6rsching ',
+    name: 'Linz H\u00F6rsching ',
     city: 'Linz',
     country: 'Austria',
     IATA: 'LNZ'
@@ -1868,7 +1868,7 @@ export const airports = [
     country: 'Belgium',
     IATA: 'KJK'
   },
-  { name: 'Li\u00e8ge ', city: 'Liege', country: 'Belgium', IATA: 'LGG' },
+  { name: 'Li\u00E8ge ', city: 'Liege', country: 'Belgium', IATA: 'LGG' },
   {
     name: 'Ostend-Bruges Intl ',
     city: 'Ostend',
@@ -1903,7 +1903,7 @@ export const airports = [
   { name: 'Bermejo ', city: 'Bermejo', country: 'Bolivia', IATA: 'BJO' },
   { name: 'Chimore ', city: 'Chapacura', country: 'Bolivia', IATA: 'CCA' },
   {
-    name: 'Capit\u00e1n An\u00edbal Arab ',
+    name: 'Capit\u00E1n An\u00EDbal Arab ',
     city: 'Cobija',
     country: 'Bolivia',
     IATA: 'CIJ'
@@ -1915,8 +1915,8 @@ export const airports = [
     IATA: 'CBB'
   },
   {
-    name: 'Capit\u00e1n de Av. Emilio Beltr\u00e1n ',
-    city: 'Guayaramer\u00edn',
+    name: 'Capit\u00E1n de Av. Emilio Beltr\u00E1n ',
+    city: 'Guayaramer\u00EDn',
     country: 'Bolivia',
     IATA: 'GYA'
   },
@@ -1935,7 +1935,7 @@ export const airports = [
     IATA: 'PUR'
   },
   {
-    name: 'Capit\u00e1n Av. Salvador Ogaya G. airport',
+    name: 'Capit\u00E1n Av. Salvador Ogaya G. airport',
     city: 'Puerto Suarez',
     country: 'Bolivia',
     IATA: 'PSZ'
@@ -1948,13 +1948,13 @@ export const airports = [
   },
   { name: 'Reyes ', city: 'Reyes', country: 'Bolivia', IATA: 'REY' },
   {
-    name: 'Capit\u00e1n Av. Selin Zeitun Lopez ',
+    name: 'Capit\u00E1n Av. Selin Zeitun Lopez ',
     city: 'Riberalta',
     country: 'Bolivia',
     IATA: 'RIB'
   },
   {
-    name: 'Capit\u00e1n Av. German Quiroga G. ',
+    name: 'Capit\u00E1n Av. German Quiroga G. ',
     city: 'San Borja',
     country: 'Bolivia',
     IATA: 'SRJ'
@@ -2003,7 +2003,7 @@ export const airports = [
   },
   { name: 'Uyuni ', city: 'Uyuni', country: 'Bolivia', IATA: 'UYU' },
   {
-    name: 'Teniente Coronel Rafael Pab\u00f3n ',
+    name: 'Teniente Coronel Rafael Pab\u00F3n ',
     city: 'Villa Montes',
     country: 'Bolivia',
     IATA: 'VLM'
@@ -2080,13 +2080,13 @@ export const airports = [
   { name: 'Altamira ', city: 'Altamira', country: 'Brazil', IATA: 'ATM' },
   { name: 'Santa Maria ', city: 'Aracaju', country: 'Brazil', IATA: 'AJU' },
   {
-    name: 'Ara\u00e7atuba ',
+    name: 'Ara\u00E7atuba ',
     city: 'Aracatuba',
     country: 'Brazil',
     IATA: 'ARU'
   },
   {
-    name: 'Aragua\u00edna ',
+    name: 'Aragua\u00EDna ',
     city: 'Araguaina',
     country: 'Brazil',
     IATA: 'AUX'
@@ -2094,7 +2094,7 @@ export const airports = [
   { name: 'Arapiraca ', city: 'Arapiraca', country: 'Brazil', IATA: 'APQ' },
   { name: 'Araraquara ', city: 'Araracuara', country: 'Brazil', IATA: 'AQA' },
   { name: 'Romeu Zema ', city: 'Araxa', country: 'Brazil', IATA: 'AAX' },
-  { name: 'Aripuan\u00e3 ', city: 'Aripuana', country: 'Brazil', IATA: 'AIR' },
+  { name: 'Aripuan\u00E3 ', city: 'Aripuana', country: 'Brazil', IATA: 'AIR' },
   {
     name: 'Comandante Gustavo Kraemer ',
     city: 'Bage',
@@ -2103,7 +2103,7 @@ export const airports = [
   },
   { name: 'Barcelos ', city: 'Barcelos', country: 'Brazil', IATA: 'BAZ' },
   {
-    name: 'Barra do Gar\u00e7as ',
+    name: 'Barra do Gar\u00E7as ',
     city: 'Barra Do Garcas',
     country: 'Brazil',
     IATA: 'BPG'
@@ -2114,7 +2114,7 @@ export const airports = [
   { name: 'Bauru - Arealva ', city: 'Bauru', country: 'Brazil', IATA: 'JTC' },
   { name: 'Bauru (TODOS)', city: 'Bauru', country: 'Brazil', IATA: 'TODOS' },
   {
-    name: 'Val de Cans/J\u00falio Cezar Ribeiro Intl ',
+    name: 'Val de Cans/J\u00FAlio Cezar Ribeiro Intl ',
     city: 'Belem',
     country: 'Brazil',
     IATA: 'BEL'
@@ -2173,17 +2173,17 @@ export const airports = [
   { name: 'Breves ', city: 'Breves', country: 'Brazil', IATA: 'BVS' },
   { name: 'Umberto Modiano ', city: 'Buzios', country: 'Brazil', IATA: 'BZC' },
   { name: 'Cabo Frio ', city: 'Cabo Frio', country: 'Brazil', IATA: 'CFB' },
-  { name: 'Ca\u00e7ador ', city: 'Cacador', country: 'Brazil', IATA: 'CFC' },
-  { name: 'C\u00e1ceres ', city: 'Caceres', country: 'Brazil', IATA: 'CCX' },
+  { name: 'Ca\u00E7ador ', city: 'Cacador', country: 'Brazil', IATA: 'CFC' },
+  { name: 'C\u00E1ceres ', city: 'Caceres', country: 'Brazil', IATA: 'CCX' },
   { name: 'Cacoal ', city: 'Cacoal', country: 'Brazil', IATA: 'OAL' },
   {
-    name: 'Nelson Ribeiro Guimar\u00e3es ',
+    name: 'Nelson Ribeiro Guimar\u00E3es ',
     city: 'Caldas Novas',
     country: 'Brazil',
     IATA: 'CLV'
   },
   {
-    name: 'Presidente Jo\u00e3o Suassuna ',
+    name: 'Presidente Jo\u00E3o Suassuna ',
     city: 'Campina Grande',
     country: 'Brazil',
     IATA: 'CPV'
@@ -2233,20 +2233,20 @@ export const airports = [
   },
   { name: 'Coari ', city: 'Coari', country: 'Brazil', IATA: 'CIZ' },
   {
-    name: 'Concei\u00e7\u00e3o do Araguaia ',
+    name: 'Concei\u00E7\u00E3o do Araguaia ',
     city: 'Conceicao Do Araguaia',
     country: 'Brazil',
     IATA: 'CDJ'
   },
   {
-    name: 'Conc\u00f3rdia ',
+    name: 'Conc\u00F3rdia ',
     city: 'Concordia',
     country: 'Brazil',
     IATA: 'CCI'
   },
   { name: 'Confresa ', city: 'Confresa', country: 'Brazil', IATA: 'CFO' },
   {
-    name: 'Corumb\u00e1 Intl ',
+    name: 'Corumb\u00E1 Intl ',
     city: 'Corumba',
     country: 'Brazil',
     IATA: 'CMG'
@@ -2258,7 +2258,7 @@ export const airports = [
     IATA: 'CQS'
   },
   {
-    name: 'Diom\u00edcio Freitas ',
+    name: 'Diom\u00EDcio Freitas ',
     city: 'Criciuma',
     country: 'Brazil',
     IATA: 'CCM'
@@ -2287,7 +2287,7 @@ export const airports = [
     IATA: 'DIQ'
   },
   { name: 'Dourados ', city: 'Dourados', country: 'Brazil', IATA: 'DOU' },
-  { name: 'Eirunep\u00e9 ', city: 'Eirunepe', country: 'Brazil', IATA: 'ERN' },
+  { name: 'Eirunep\u00E9 ', city: 'Eirunepe', country: 'Brazil', IATA: 'ERN' },
   { name: 'Erechim ', city: 'Erechim', country: 'Brazil', IATA: 'ERM' },
   {
     name: 'Fernando de Noronha ',
@@ -2297,7 +2297,7 @@ export const airports = [
   },
   { name: 'Cangapara ', city: 'Floriano', country: 'Brazil', IATA: 'FLB' },
   {
-    name: 'Herc\u00edlio Luz Intl ',
+    name: 'Herc\u00EDlio Luz Intl ',
     city: 'Florianopolis',
     country: 'Brazil',
     IATA: 'FLN'
@@ -2322,7 +2322,7 @@ export const airports = [
     IATA: 'FRC'
   },
   {
-    name: 'Francisco Beltr\u00e3o ',
+    name: 'Francisco Beltr\u00E3o ',
     city: 'Francisco Beltrao',
     country: 'Brazil',
     IATA: 'FBE'
@@ -2335,7 +2335,7 @@ export const airports = [
     IATA: 'GVR'
   },
   {
-    name: 'Guajar\u00e1-Mirim ',
+    name: 'Guajar\u00E1-Mirim ',
     city: 'Guajara-mirim',
     country: 'Brazil',
     IATA: 'GJM'
@@ -2349,13 +2349,13 @@ export const airports = [
     IATA: 'GPB'
   },
   {
-    name: 'Guaratinguet\u00e1 ',
+    name: 'Guaratinguet\u00E1 ',
     city: 'Guaratingueta',
     country: 'Brazil',
     IATA: 'GUJ'
   },
   { name: 'Gurupi ', city: 'Gurupi', country: 'Brazil', IATA: 'GRP' },
-  { name: 'Humait\u00e1 ', city: 'Humaita', country: 'Brazil', IATA: 'HUW' },
+  { name: 'Humait\u00E1 ', city: 'Humaita', country: 'Brazil', IATA: 'HUW' },
   { name: 'Iguatu ', city: 'Iguatu', country: 'Brazil', IATA: 'QIG' },
   {
     name: 'Bahia - Jorge Amado ',
@@ -2392,8 +2392,8 @@ export const airports = [
     IATA: 'JJG'
   },
   {
-    name: 'Ji-Paran\u00e1 ',
-    city: 'Ji-Paran\u00e1',
+    name: 'Ji-Paran\u00E1 ',
+    city: 'Ji-Paran\u00E1',
     country: 'Brazil',
     IATA: 'JPR'
   },
@@ -2411,7 +2411,7 @@ export const airports = [
     IATA: 'JOI'
   },
   {
-    name: 'In\u00e1cio Lu\u00eds do Nascimento ',
+    name: 'In\u00E1cio Lu\u00EDs do Nascimento ',
     city: 'Juara',
     country: 'Brazil',
     IATA: 'JUA'
@@ -2422,7 +2422,7 @@ export const airports = [
     country: 'Brazil',
     IATA: 'JDO'
   },
-  { name: 'Ju\u00edna ', city: 'Juina', country: 'Brazil', IATA: 'JIA' },
+  { name: 'Ju\u00EDna ', city: 'Juina', country: 'Brazil', IATA: 'JIA' },
   {
     name: 'Francisco de Assis ',
     city: 'Juiz De Fora',
@@ -2442,22 +2442,22 @@ export const airports = [
     IATA: 'TODOS'
   },
   { name: 'Juruena ', city: 'Juruena', country: 'Brazil', IATA: 'JRN' },
-  { name: 'L\u00e1brea ', city: 'Labrea', country: 'Brazil', IATA: 'LBR' },
+  { name: 'L\u00E1brea ', city: 'Labrea', country: 'Brazil', IATA: 'LBR' },
   { name: 'Lages ', city: 'Lajes', country: 'Brazil', IATA: 'LAJ' },
   {
-    name: 'Coronel Hor\u00e1cio de Mattos ',
-    city: 'Len\u00e7\u00f3is',
+    name: 'Coronel Hor\u00E1cio de Mattos ',
+    city: 'Len\u00E7\u00F3is',
     country: 'Brazil',
     IATA: 'LEC'
   },
   { name: 'Lins ', city: 'Lins', country: 'Brazil', IATA: 'LIP' },
   {
-    name: 'Governador Jos\u00e9 Richa ',
+    name: 'Governador Jos\u00E9 Richa ',
     city: 'Londrina',
     country: 'Brazil',
     IATA: 'LDB'
   },
-  { name: 'Maca\u00e9 ', city: 'Maca\u00e9', country: 'Brazil', IATA: 'MEA' },
+  { name: 'Maca\u00E9 ', city: 'Maca\u00E9', country: 'Brazil', IATA: 'MEA' },
   {
     name: 'Alberto Alcolumbre ',
     city: 'Macapa',
@@ -2478,37 +2478,37 @@ export const airports = [
   },
   { name: 'Ponta Pelada ', city: 'Manaus', country: 'Brazil', IATA: 'PLL' },
   { name: 'Manaus (TODOS)', city: 'Manaus', country: 'Brazil', IATA: 'TODOS' },
-  { name: 'Manicor\u00e9 ', city: 'Manicore', country: 'Brazil', IATA: 'MNX' },
+  { name: 'Manicor\u00E9 ', city: 'Manicore', country: 'Brazil', IATA: 'MNX' },
   {
-    name: 'Frank Miloye Milenkowichi\u2013Mar\u00edlia State ',
-    city: 'Mar\u00edlia',
+    name: 'Frank Miloye Milenkowichi\u2013Mar\u00EDlia State ',
+    city: 'Mar\u00EDlia',
     country: 'Brazil',
     IATA: 'MII'
   },
   {
-    name: 'Jo\u00e3o Correa da Rocha ',
+    name: 'Jo\u00E3o Correa da Rocha ',
     city: 'Maraba',
     country: 'Brazil',
     IATA: 'MAB'
   },
   {
-    name: 'Regional de Maring\u00e1 - S\u00edlvio Nane Junior ',
+    name: 'Regional de Maring\u00E1 - S\u00EDlvio Nane Junior ',
     city: 'Maringa',
     country: 'Brazil',
     IATA: 'MGF'
   },
-  { name: 'Mau\u00e9s ', city: 'Maues', country: 'Brazil', IATA: 'MBZ' },
-  { name: 'Mina\u00e7u ', city: 'Minacu', country: 'Brazil', IATA: 'MQH' },
+  { name: 'Mau\u00E9s ', city: 'Maues', country: 'Brazil', IATA: 'MBZ' },
+  { name: 'Mina\u00E7u ', city: 'Minacu', country: 'Brazil', IATA: 'MQH' },
   { name: 'Dix-Sept Rosado ', city: 'Mocord', country: 'Brazil', IATA: 'MVF' },
   {
-    name: 'M\u00e1rio Ribeiro ',
+    name: 'M\u00E1rio Ribeiro ',
     city: 'Montes Claros',
     country: 'Brazil',
     IATA: 'MOC'
   },
   { name: 'Mucuri ', city: 'Mucuri', country: 'Brazil', IATA: 'MVS' },
   {
-    name: 'Governador Alu\u00edzio Alves Intl ',
+    name: 'Governador Alu\u00EDzio Alves Intl ',
     city: 'Natal',
     country: 'Brazil',
     IATA: 'NAT'
@@ -2521,7 +2521,7 @@ export const airports = [
   },
   { name: 'Aeroclube ', city: 'Nova Iguacu', country: 'Brazil', IATA: 'QNV' },
   {
-    name: 'Novo Aripuan\u00e3 ',
+    name: 'Novo Aripuan\u00E3 ',
     city: 'Novo Aripuana',
     country: 'Brazil',
     IATA: 'NVP'
@@ -2535,19 +2535,19 @@ export const airports = [
   { name: 'Oiapoque ', city: 'Oioiapoque', country: 'Brazil', IATA: 'OYK' },
   { name: 'Trombetas ', city: 'Oriximina', country: 'Brazil', IATA: 'TMT' },
   {
-    name: 'Oriximin\u00e1 ',
+    name: 'Oriximin\u00E1 ',
     city: 'Oriximina',
     country: 'Brazil',
     IATA: 'ORX'
   },
   {
-    name: 'Oriximin\u00e1 (TODOS)',
+    name: 'Oriximin\u00E1 (TODOS)',
     city: 'Oriximina',
     country: 'Brazil',
     IATA: 'TODOS'
   },
   {
-    name: 'Ouril\u00e2ndia do Norte ',
+    name: 'Ouril\u00E2ndia do Norte ',
     city: 'Ourilandia do Norte',
     country: 'Brazil',
     IATA: 'OIA'
@@ -2559,14 +2559,14 @@ export const airports = [
     IATA: 'PMW'
   },
   {
-    name: 'Caraj\u00e1s ',
+    name: 'Caraj\u00E1s ',
     city: 'Parauapebas',
     country: 'Brazil',
     IATA: 'CKS'
   },
   { name: 'Parintins ', city: 'Parintins', country: 'Brazil', IATA: 'PIN' },
   {
-    name: 'Prefeito Doutor Jo\u00e3o Silva Filho ',
+    name: 'Prefeito Doutor Jo\u00E3o Silva Filho ',
     city: 'Parnaiba',
     country: 'Brazil',
     IATA: 'PHB'
@@ -2585,7 +2585,7 @@ export const airports = [
     IATA: 'PAV'
   },
   {
-    name: 'Jo\u00e3o Sim\u00f5es Lopes Neto Intl ',
+    name: 'Jo\u00E3o Sim\u00F5es Lopes Neto Intl ',
     city: 'Pelotas',
     country: 'Brazil',
     IATA: 'PET'
@@ -2610,7 +2610,7 @@ export const airports = [
     IATA: 'QPS'
   },
   {
-    name: 'Po\u00e7os de Caldas - Embaixador Walther Moreira Salles ',
+    name: 'Po\u00E7os de Caldas - Embaixador Walther Moreira Salles ',
     city: 'Pocos De Caldas',
     country: 'Brazil',
     IATA: 'POO'
@@ -2622,7 +2622,7 @@ export const airports = [
     IATA: 'PGZ'
   },
   {
-    name: 'Ponta Por\u00e3 ',
+    name: 'Ponta Por\u00E3 ',
     city: 'Ponta Pora',
     country: 'Brazil',
     IATA: 'PMG'
@@ -2670,7 +2670,7 @@ export const airports = [
     IATA: 'REC'
   },
   {
-    name: 'Reden\u00e7\u00e3o ',
+    name: 'Reden\u00E7\u00E3o ',
     city: 'Redencao',
     country: 'Brazil',
     IATA: 'RDC'
@@ -2683,13 +2683,13 @@ export const airports = [
     IATA: 'RAO'
   },
   {
-    name: 'Pl\u00e1cido de Castro ',
+    name: 'Pl\u00E1cido de Castro ',
     city: 'Rio Branco',
     country: 'Brazil',
     IATA: 'RBR'
   },
   {
-    name: 'Rio Gale\u00e3o \u2013 Tom Jobim Intl ',
+    name: 'Rio Gale\u00E3o \u2013 Tom Jobim Intl ',
     city: 'Rio De Janeiro',
     country: 'Brazil',
     IATA: 'GIG'
@@ -2719,7 +2719,7 @@ export const airports = [
     IATA: 'ROO'
   },
   {
-    name: 'Deputado Luiz Eduardo Magalh\u00e3es Intl ',
+    name: 'Deputado Luiz Eduardo Magalh\u00E3es Intl ',
     city: 'Salvador',
     country: 'Brazil',
     IATA: 'SSA'
@@ -2751,37 +2751,37 @@ export const airports = [
     IATA: 'STM'
   },
   {
-    name: 'Santo \u00c2ngelo ',
+    name: 'Santo \u00C2ngelo ',
     city: 'Santo Angelo',
     country: 'Brazil',
     IATA: 'GEL'
   },
   {
-    name: 'Base A\u00e9rea de Santos ',
+    name: 'Base A\u00E9rea de Santos ',
     city: 'Santos',
     country: 'Brazil',
     IATA: 'SSZ'
   },
   {
-    name: 'M\u00e1rio Pereira Lopes\u2013S\u00e3o Carlos ',
+    name: 'M\u00E1rio Pereira Lopes\u2013S\u00E3o Carlos ',
     city: 'Sao Carlos',
     country: 'Brazil',
     IATA: 'QSC'
   },
   {
-    name: 'S\u00e3o F\u00e9lix do Araguaia ',
+    name: 'S\u00E3o F\u00E9lix do Araguaia ',
     city: 'Sao Felix do Araguaia',
     country: 'Brazil',
     IATA: 'SXO'
   },
   {
-    name: 'S\u00e3o F\u00e9lix do Xingu ',
+    name: 'S\u00E3o F\u00E9lix do Xingu ',
     city: 'Sao Felix do Xingu',
     country: 'Brazil',
     IATA: 'SXX'
   },
   {
-    name: 'S\u00e3o Gabriel da Cachoeira ',
+    name: 'S\u00E3o Gabriel da Cachoeira ',
     city: 'Sao Gabriel',
     country: 'Brazil',
     IATA: 'SJL'
@@ -2805,7 +2805,7 @@ export const airports = [
     IATA: 'SLZ'
   },
   {
-    name: 'S\u00e3o Miguel do Oeste ',
+    name: 'S\u00E3o Miguel do Oeste ',
     city: 'Sao Miguel do Oeste',
     country: 'Brazil',
     IATA: 'SQX'
@@ -2817,7 +2817,7 @@ export const airports = [
     IATA: 'OLC'
   },
   {
-    name: 'Guarulhos - Governador Andr\u00e9 Franco Montoro Intl ',
+    name: 'Guarulhos - Governador Andr\u00E9 Franco Montoro Intl ',
     city: 'Sao Paulo',
     country: 'Brazil',
     IATA: 'GRU'
@@ -2830,7 +2830,7 @@ export const airports = [
     IATA: 'TODOS'
   },
   {
-    name: 'Presidente Jo\u00e3o Batista Figueiredo ',
+    name: 'Presidente Jo\u00E3o Batista Figueiredo ',
     city: 'Sinop',
     country: 'Brazil',
     IATA: 'OPS'
@@ -2845,19 +2845,19 @@ export const airports = [
   { name: 'Soure ', city: 'Soure', country: 'Brazil', IATA: 'SFK' },
   { name: 'Tabatinga ', city: 'Tabatinga', country: 'Brazil', IATA: 'TBT' },
   {
-    name: 'Tangar\u00e1 da Serra ',
+    name: 'Tangar\u00E1 da Serra ',
     city: 'Tangara da Serra',
     country: 'Brazil',
     IATA: 'TGQ'
   },
-  { name: 'Tarauac\u00e1 ', city: 'Tarauaca', country: 'Brazil', IATA: 'TRQ' },
+  { name: 'Tarauac\u00E1 ', city: 'Tarauaca', country: 'Brazil', IATA: 'TRQ' },
   {
-    name: 'Base de Avia\u00e7\u00e3o de Taubat\u00e9 ',
-    city: 'Taubat\u00e9',
+    name: 'Base de Avia\u00E7\u00E3o de Taubat\u00E9 ',
+    city: 'Taubat\u00E9',
     country: 'Brazil',
     IATA: 'QHP'
   },
-  { name: 'Tef\u00e9 ', city: 'Tefe', country: 'Brazil', IATA: 'TFF' },
+  { name: 'Tef\u00E9 ', city: 'Tefe', country: 'Brazil', IATA: 'TFF' },
   {
     name: '9 de Maio - Teixeira de Freitas ',
     city: 'Teixeira de Freitas',
@@ -2865,7 +2865,7 @@ export const airports = [
     IATA: 'TXF'
   },
   {
-    name: 'Tel\u00eamaco Borba ',
+    name: 'Tel\u00EAmaco Borba ',
     city: 'Telemaco Borba',
     country: 'Brazil',
     IATA: 'TEC'
@@ -2877,41 +2877,41 @@ export const airports = [
     IATA: 'TFL'
   },
   {
-    name: 'Senador Petr\u00f4nio Portela ',
+    name: 'Senador Petr\u00F4nio Portela ',
     city: 'Teresina',
     country: 'Brazil',
     IATA: 'THE'
   },
   { name: 'Toledo ', city: 'Toledo', country: 'Brazil', IATA: 'TOW' },
   {
-    name: 'Pl\u00ednio Alarcom ',
+    name: 'Pl\u00EDnio Alarcom ',
     city: 'Tres Lagoas',
     country: 'Brazil',
     IATA: 'TJL'
   },
-  { name: 'Tucuru\u00ed ', city: 'Tucurui', country: 'Brazil', IATA: 'TUR' },
+  { name: 'Tucuru\u00ED ', city: 'Tucurui', country: 'Brazil', IATA: 'TUR' },
   { name: 'Ubatuba ', city: 'Ubatuba', country: 'Brazil', IATA: 'UBT' },
   {
-    name: 'M\u00e1rio de Almeida Franco ',
+    name: 'M\u00E1rio de Almeida Franco ',
     city: 'Uberaba',
     country: 'Brazil',
     IATA: 'UBA'
   },
   {
-    name: 'Ten. Cel. Aviador C\u00e9sar Bombonato ',
+    name: 'Ten. Cel. Aviador C\u00E9sar Bombonato ',
     city: 'Uberlandia',
     country: 'Brazil',
     IATA: 'UDI'
   },
   { name: 'Umuarama ', city: 'Umuarama', country: 'Brazil', IATA: 'UMU' },
   {
-    name: 'Hotel Transam\u00e9rica ',
+    name: 'Hotel Transam\u00E9rica ',
     city: 'Una',
     country: 'Brazil',
     IATA: 'UNA'
   },
   { name: 'Rubem Berta ', city: 'Uruguaiana', country: 'Brazil', IATA: 'URG' },
-  { name: 'Valen\u00e7a ', city: 'Valenca', country: 'Brazil', IATA: 'VAL' },
+  { name: 'Valen\u00E7a ', city: 'Valenca', country: 'Brazil', IATA: 'VAL' },
   {
     name: 'Major Brigadeiro Trompowsky ',
     city: 'Varginha',
@@ -2919,21 +2919,21 @@ export const airports = [
     IATA: 'VAG'
   },
   {
-    name: 'Vila Bela da Sant\u00edssima Trindade ',
+    name: 'Vila Bela da Sant\u00EDssima Trindade ',
     city: 'Vila Bela da Santissima Trindade',
     country: 'Brazil',
     IATA: 'MTG'
   },
   { name: 'Vila Rica ', city: 'Vila Rica', country: 'Brazil', IATA: 'VLP' },
   {
-    name: 'Brigadeiro Camar\u00e3o ',
+    name: 'Brigadeiro Camar\u00E3o ',
     city: 'Vilhena',
     country: 'Brazil',
     IATA: 'BVH'
   },
   {
-    name: 'Vit\u00f3ria da Conquista ',
-    city: 'Vit\u00f3ria Da Conquista',
+    name: 'Vit\u00F3ria da Conquista ',
+    city: 'Vit\u00F3ria Da Conquista',
     country: 'Brazil',
     IATA: 'VDC'
   },
@@ -3101,21 +3101,21 @@ export const airports = [
   { name: 'Garoua Intl ', city: 'Garoua', country: 'Cameroon', IATA: 'GOU' },
   { name: 'Salak ', city: 'Maroua', country: 'Cameroon', IATA: 'MVR' },
   {
-    name: "N'Gaound\u00e9r\u00e9 ",
+    name: "N'Gaound\u00E9r\u00E9 ",
     city: "N'gaoundere",
     country: 'Cameroon',
     IATA: 'NGE'
   },
   { name: 'Tiko ', city: 'Tiko', country: 'Cameroon', IATA: 'TKC' },
-  { name: 'Yaound\u00e9 ', city: 'Yaounde', country: 'Cameroon', IATA: 'YAO' },
+  { name: 'Yaound\u00E9 ', city: 'Yaounde', country: 'Cameroon', IATA: 'YAO' },
   {
-    name: 'Yaound\u00e9 Nsimalen Intl ',
+    name: 'Yaound\u00E9 Nsimalen Intl ',
     city: 'Yaounde',
     country: 'Cameroon',
     IATA: 'NSI'
   },
   {
-    name: 'Yaound\u00e9 (TODOS)',
+    name: 'Yaound\u00E9 (TODOS)',
     city: 'Yaounde',
     country: 'Cameroon',
     IATA: 'TODOS'
@@ -3362,7 +3362,7 @@ export const airports = [
     country: 'Canada',
     IATA: 'TODOS'
   },
-  { name: 'D\u00e9line ', city: 'Deline', country: 'Canada', IATA: 'YWJ' },
+  { name: 'D\u00E9line ', city: 'Deline', country: 'Canada', IATA: 'YWJ' },
   {
     name: 'Digby / Annapolis Regional ',
     city: 'Digby',
@@ -3371,7 +3371,7 @@ export const airports = [
   },
   {
     name: 'Dolbeau St Felicien ',
-    city: 'Dolbeau-St-F\u00e9licien',
+    city: 'Dolbeau-St-F\u00E9licien',
     country: 'Canada',
     IATA: 'YDO'
   },
@@ -3475,7 +3475,7 @@ export const airports = [
   { name: 'Fredericton ', city: 'Fredericton', country: 'Canada', IATA: 'YFC' },
   {
     name: 'Rae Lakes ',
-    city: 'Gam\u00e8t\u00ec',
+    city: 'Gam\u00E8t\u00EC',
     country: 'Canada',
     IATA: 'YRA'
   },
@@ -3487,7 +3487,7 @@ export const airports = [
     IATA: 'YGG'
   },
   {
-    name: 'Gasp\u00e9 (Michel-Pouliot) ',
+    name: 'Gasp\u00E9 (Michel-Pouliot) ',
     city: 'Gaspe',
     country: 'Canada',
     IATA: 'YGP'
@@ -3567,7 +3567,7 @@ export const airports = [
     IATA: 'YHY'
   },
   {
-    name: 'Hearst Ren\u00e9 Fontaine Municipal ',
+    name: 'Hearst Ren\u00E9 Fontaine Municipal ',
     city: 'Hearst',
     country: 'Canada',
     IATA: 'YHF'
@@ -3597,7 +3597,7 @@ export const airports = [
   { name: 'Igloolik ', city: 'Igloolik', country: 'Canada', IATA: 'YGT' },
   { name: 'Ignace Municipal ', city: 'Ignace', country: 'Canada', IATA: 'ZUC' },
   {
-    name: '\u00celes-de-la-Madeleine ',
+    name: '\u00CEles-de-la-Madeleine ',
     city: 'Iles De La Madeleine',
     country: 'Canada',
     IATA: 'YGR'
@@ -3676,7 +3676,7 @@ export const airports = [
     IATA: 'YGW'
   },
   {
-    name: 'La Grande Rivi\u00e8re ',
+    name: 'La Grande Rivi\u00E8re ',
     city: 'La Grande Riviere',
     country: 'Canada',
     IATA: 'YGL'
@@ -3685,8 +3685,8 @@ export const airports = [
   { name: 'La Romaine ', city: 'La Romaine', country: 'Canada', IATA: 'ZGS' },
   { name: 'La Ronge ', city: 'La Ronge', country: 'Canada', IATA: 'YVC' },
   {
-    name: 'La Tabati\u00e8re ',
-    city: 'La Tabati\u00e8re',
+    name: 'La Tabati\u00E8re ',
+    city: 'La Tabati\u00E8re',
     country: 'Canada',
     IATA: 'ZLT'
   },
@@ -3771,7 +3771,7 @@ export const airports = [
   },
   { name: 'Mont Joli ', city: 'Mont Joli', country: 'Canada', IATA: 'YYY' },
   {
-    name: 'Montr\u00e9al / Saint-Hubert ',
+    name: 'Montr\u00E9al / Saint-Hubert ',
     city: 'Montreal',
     country: 'Canada',
     IATA: 'YHU'
@@ -4033,7 +4033,7 @@ export const airports = [
   { name: 'Rigolet ', city: 'Rigolet', country: 'Canada', IATA: 'YRG' },
   { name: 'Rimouski ', city: 'Rimouski', country: 'Canada', IATA: 'YXK' },
   {
-    name: 'Rivi\u00e8re-du-Loup ',
+    name: 'Rivi\u00E8re-du-Loup ',
     city: 'Riviere Du Loup',
     country: 'Canada',
     IATA: 'YRI'
@@ -4101,7 +4101,7 @@ export const airports = [
     IATA: 'YKL'
   },
   {
-    name: 'Sept-\u00celes ',
+    name: 'Sept-\u00CEles ',
     city: 'Sept-iles',
     country: 'Canada',
     IATA: 'YZV'
@@ -4200,8 +4200,8 @@ export const airports = [
     IATA: 'YQY'
   },
   {
-    name: 'T\u00eate-\u00e0-la-Baleine ',
-    city: 'T\u00eate-\u00e0-la-Baleine',
+    name: 'T\u00EAte-\u00E0-la-Baleine ',
+    city: 'T\u00EAte-\u00E0-la-Baleine',
     country: 'Canada',
     IATA: 'ZTB'
   },
@@ -4274,7 +4274,7 @@ export const airports = [
   { name: 'Trail ', city: 'Trail', country: 'Canada', IATA: 'YZZ' },
   { name: 'CFB Trenton', city: 'Trenton', country: 'Canada', IATA: 'YTR' },
   {
-    name: 'Trois-Rivi\u00e8res ',
+    name: 'Trois-Rivi\u00E8res ',
     city: 'Trois Rivieres',
     country: 'Canada',
     IATA: 'YRQ'
@@ -4329,14 +4329,14 @@ export const airports = [
   { name: 'Wawa ', city: 'Wawa', country: 'Canada', IATA: 'YXZ' },
   { name: 'Webequie ', city: 'Webequie', country: 'Canada', IATA: 'YWP' },
   {
-    name: 'Wekwe\u00e8t\u00ec ',
+    name: 'Wekwe\u00E8t\u00EC ',
     city: 'Wekweeti',
     country: 'Canada',
     IATA: 'YFJ'
   },
   { name: 'Wemindji ', city: 'Wemindji', country: 'Canada', IATA: 'YNC' },
   { name: 'Whale Cove ', city: 'Whale Cove', country: 'Canada', IATA: 'YXN' },
-  { name: 'What\u00ec ', city: 'What\u00ec', country: 'Canada', IATA: 'YLE' },
+  { name: 'What\u00EC ', city: 'What\u00EC', country: 'Canada', IATA: 'YLE' },
   {
     name: 'Whistler/Green Lake Water Aerodrome',
     city: 'Whistler',
@@ -4404,7 +4404,7 @@ export const airports = [
     IATA: 'YQV'
   },
   {
-    name: 'Am\u00edlcar Cabral Intl ',
+    name: 'Am\u00EDlcar Cabral Intl ',
     city: 'Amilcar Cabral',
     country: 'Cape Verde',
     IATA: 'SID'
@@ -4412,13 +4412,13 @@ export const airports = [
   { name: 'Rabil ', city: 'Boa Vista', country: 'Cape Verde', IATA: 'BVC' },
   { name: 'Maio ', city: 'Maio', country: 'Cape Verde', IATA: 'MMO' },
   {
-    name: 'Pregui\u00e7a ',
+    name: 'Pregui\u00E7a ',
     city: 'Sao Nocolau Island',
     country: 'Cape Verde',
     IATA: 'SNE'
   },
   {
-    name: 'S\u00e3o Pedro ',
+    name: 'S\u00E3o Pedro ',
     city: 'Sao Vicente Island',
     country: 'Cape Verde',
     IATA: 'VXE'
@@ -4448,7 +4448,7 @@ export const airports = [
     IATA: 'BGF'
   },
   {
-    name: 'Berb\u00e9rati ',
+    name: 'Berb\u00E9rati ',
     city: 'Berberati',
     country: 'Central African Republic',
     IATA: 'BBT'
@@ -4460,7 +4460,7 @@ export const airports = [
   { name: "N'Djamena Intl ", city: "N'djamena", country: 'Chad', IATA: 'NDJ' },
   { name: 'Sarh ', city: 'Sarh', country: 'Chad', IATA: 'SRH' },
   {
-    name: 'Andr\u00e9s Sabella G\u00e1lvez Intl ',
+    name: 'Andr\u00E9s Sabella G\u00E1lvez Intl ',
     city: 'Antofagasta',
     country: 'Chile',
     IATA: 'ANF'
@@ -4470,15 +4470,15 @@ export const airports = [
   { name: 'El Loa ', city: 'Calama', country: 'Chile', IATA: 'CJC' },
   { name: 'Mocopulli ', city: 'Castro', country: 'Chile', IATA: 'MHC' },
   {
-    name: 'Cha\u00f1aral ',
-    city: 'Cha\u00f1aral',
+    name: 'Cha\u00F1aral ',
+    city: 'Cha\u00F1aral',
     country: 'Chile',
     IATA: 'CNR'
   },
-  { name: 'Chait\u00e9n ', city: 'Chaiten', country: 'Chile', IATA: 'WCH' },
+  { name: 'Chait\u00E9n ', city: 'Chaiten', country: 'Chile', IATA: 'WCH' },
   { name: 'Chile Chico ', city: 'Chile Chico', country: 'Chile', IATA: 'CCH' },
   {
-    name: 'Gral. Bernardo O\u00b4Higgins ',
+    name: 'Gral. Bernardo O\u00B4Higgins ',
     city: 'Chillan',
     country: 'Chile',
     IATA: 'YAI'
@@ -4493,22 +4493,22 @@ export const airports = [
   { name: 'Teniente Vidal ', city: 'Coyhaique', country: 'Chile', IATA: 'GXQ' },
   { name: 'Mataveri ', city: 'Easter Island', country: 'Chile', IATA: 'IPC' },
   {
-    name: 'Ricardo Garc\u00eda Posada ',
+    name: 'Ricardo Garc\u00EDa Posada ',
     city: 'El Salvador',
     country: 'Chile',
     IATA: 'ESR'
   },
-  { name: 'Futaleuf\u00fa ', city: 'Futaleufu', country: 'Chile', IATA: 'FFU' },
+  { name: 'Futaleuf\u00FA ', city: 'Futaleufu', country: 'Chile', IATA: 'FFU' },
   { name: 'Diego Aracena ', city: 'Iquique', country: 'Chile', IATA: 'IQQ' },
   { name: 'La Florida ', city: 'La Serena', country: 'Chile', IATA: 'LSC' },
   {
-    name: 'Mar\u00eda Dolores ',
+    name: 'Mar\u00EDa Dolores ',
     city: 'Los Angeles',
     country: 'Chile',
     IATA: 'LSQ'
   },
   {
-    name: 'Ca\u00f1al Bajo Carlos - Hott Siebert ',
+    name: 'Ca\u00F1al Bajo Carlos - Hott Siebert ',
     city: 'Osorno',
     country: 'Chile',
     IATA: 'ZOS'
@@ -4519,7 +4519,7 @@ export const airports = [
     country: 'Chile',
     IATA: 'WPR'
   },
-  { name: 'Puc\u00f3n ', city: 'Pucon', country: 'Chile', IATA: 'ZPC' },
+  { name: 'Puc\u00F3n ', city: 'Pucon', country: 'Chile', IATA: 'ZPC' },
   { name: 'El Tepual ', city: 'Puerto Montt', country: 'Chile', IATA: 'PMC' },
   {
     name: 'Tte. Julio Gallardo ',
@@ -4528,13 +4528,13 @@ export const airports = [
     IATA: 'PNT'
   },
   {
-    name: 'Guardiamarina Za\u00f1artu ',
+    name: 'Guardiamarina Za\u00F1artu ',
     city: 'Puerto Williams',
     country: 'Chile',
     IATA: 'WPU'
   },
   {
-    name: 'Pdte. Carlos Iba\u00f1ez del Campo ',
+    name: 'Pdte. Carlos Iba\u00F1ez del Campo ',
     city: 'Punta Arenas',
     country: 'Chile',
     IATA: 'PUQ'
@@ -4546,7 +4546,7 @@ export const airports = [
     IATA: 'QRC'
   },
   {
-    name: 'Comodoro Arturo Merino Ben\u00edtez Intl ',
+    name: 'Comodoro Arturo Merino Ben\u00EDtez Intl ',
     city: 'Santiago',
     country: 'Chile',
     IATA: 'SCL'
@@ -4554,14 +4554,14 @@ export const airports = [
   { name: 'Panguilemo ', city: 'Talca', country: 'Chile', IATA: 'TLX' },
   { name: 'Las Breas ', city: 'Taltal', country: 'Chile', IATA: 'TTC' },
   { name: 'Maquehue ', city: 'Temuco', country: 'Chile', IATA: 'PZS' },
-  { name: 'La Araucan\u00eda ', city: 'Temuco', country: 'Chile', IATA: 'ZCO' },
+  { name: 'La Araucan\u00EDa ', city: 'Temuco', country: 'Chile', IATA: 'ZCO' },
   { name: 'Temuco (TODOS)', city: 'Temuco', country: 'Chile', IATA: 'TODOS' },
   { name: 'Barriles ', city: 'Tocopilla', country: 'Chile', IATA: 'TOQ' },
   { name: 'Pichoy ', city: 'Valdivia', country: 'Chile', IATA: 'ZAL' },
   { name: 'Vallenar ', city: 'Vallenar', country: 'Chile', IATA: 'VLR' },
   { name: 'Victoria ', city: 'Victoria', country: 'Chile', IATA: 'ZIC' },
   {
-    name: 'Vi\u00f1a del mar ',
+    name: 'Vi\u00F1a del mar ',
     city: 'Vina del Mar',
     country: 'Chile',
     IATA: 'KNA'
@@ -4869,7 +4869,7 @@ export const airports = [
   { name: 'Luoyang ', city: 'Luoyang', country: 'China', IATA: 'LYA' },
   { name: 'Mangshi ', city: 'Luxi', country: 'China', IATA: 'LUM' },
   { name: 'Luzhou ', city: 'Luzhou', country: 'China', IATA: 'LZO' },
-  { name: 'L\u00fcliang ', city: 'Lvliang', country: 'China', IATA: 'LLV' },
+  { name: 'L\u00FCliang ', city: 'Lvliang', country: 'China', IATA: 'LLV' },
   {
     name: 'Manzhouli Xijiao ',
     city: 'Manzhouli',
@@ -5033,7 +5033,7 @@ export const airports = [
   { name: 'Turpan Jiaohe ', city: 'Turpan', country: 'China', IATA: 'TLQ' },
   { name: 'Ulanhot ', city: 'Ulanhot', country: 'China', IATA: 'HLH' },
   {
-    name: '\u00dcr\u00fcmqi Diwopu Intl ',
+    name: '\u00DCr\u00FCmqi Diwopu Intl ',
     city: 'Urumqi',
     country: 'China',
     IATA: 'URC'
@@ -5176,7 +5176,7 @@ export const airports = [
     IATA: 'CCK'
   },
   {
-    name: 'Alcides Fern\u00e1ndez ',
+    name: 'Alcides Fern\u00E1ndez ',
     city: 'Acandi',
     country: 'Colombia',
     IATA: 'ACD'
@@ -5191,13 +5191,13 @@ export const airports = [
   { name: 'Santiago Perez ', city: 'Arauca', country: 'Colombia', IATA: 'AUC' },
   { name: 'El Eden ', city: 'Armenia', country: 'Colombia', IATA: 'AXM' },
   {
-    name: 'Jos\u00e9 Celestino Mutis ',
+    name: 'Jos\u00E9 Celestino Mutis ',
     city: 'Bahia Solano',
     country: 'Colombia',
     IATA: 'BSC'
   },
   {
-    name: 'Yarigu\u00edes ',
+    name: 'Yarigu\u00EDes ',
     city: 'Barrancabermeja',
     country: 'Colombia',
     IATA: 'EJA'
@@ -5211,7 +5211,7 @@ export const airports = [
   { name: 'El Dorado Intl ', city: 'Bogota', country: 'Colombia', IATA: 'BOG' },
   { name: 'Palonegro ', city: 'Bucaramanga', country: 'Colombia', IATA: 'BGA' },
   {
-    name: 'Gerardo Tobar L\u00f3pez ',
+    name: 'Gerardo Tobar L\u00F3pez ',
     city: 'Buenaventura',
     country: 'Colombia',
     IATA: 'BUN'
@@ -5223,7 +5223,7 @@ export const airports = [
     IATA: 'CLO'
   },
   {
-    name: 'Capurgan\u00e1 ',
+    name: 'Capurgan\u00E1 ',
     city: 'Capurgana',
     country: 'Colombia',
     IATA: 'CPB'
@@ -5235,7 +5235,7 @@ export const airports = [
     IATA: 'APO'
   },
   {
-    name: 'Rafael Nu\u00f1ez Intl ',
+    name: 'Rafael Nu\u00F1ez Intl ',
     city: 'Cartagena',
     country: 'Colombia',
     IATA: 'CTG'
@@ -5245,8 +5245,8 @@ export const airports = [
   { name: 'Mandinga ', city: 'Condoto', country: 'Colombia', IATA: 'COG' },
   { name: 'Las Brujas ', city: 'Corozal', country: 'Colombia', IATA: 'CZU' },
   {
-    name: 'Cove\u00f1as ',
-    city: 'Cove\u00f1as',
+    name: 'Cove\u00F1as ',
+    city: 'Cove\u00F1as',
     country: 'Colombia',
     IATA: 'CVE'
   },
@@ -5282,7 +5282,7 @@ export const airports = [
   { name: 'Jorge Isaac ', city: 'La Mina', country: 'Colombia', IATA: 'MCJ' },
   { name: 'La Pedrera ', city: 'La Pedrera', country: 'Colombia', IATA: 'LPD' },
   {
-    name: 'Alfredo V\u00e1squez Cobo Intl ',
+    name: 'Alfredo V\u00E1squez Cobo Intl ',
     city: 'Leticia',
     country: 'Colombia',
     IATA: 'LET'
@@ -5306,7 +5306,7 @@ export const airports = [
   { name: 'Benito Salas ', city: 'Neiva', country: 'Colombia', IATA: 'NVA' },
   {
     name: 'Reyes Murillo ',
-    city: 'Nuqu\u00ed',
+    city: 'Nuqu\u00ED',
     country: 'Colombia',
     IATA: 'NQU'
   },
@@ -5320,14 +5320,14 @@ export const airports = [
     IATA: 'PZA'
   },
   {
-    name: 'Mateca\u00f1a Intl ',
+    name: 'Mateca\u00F1a Intl ',
     city: 'Pereira',
     country: 'Colombia',
     IATA: 'PEI'
   },
   { name: 'Pitalito ', city: 'Pitalito', country: 'Colombia', IATA: 'PTX' },
   {
-    name: 'Guillermo Le\u00f3n Valencia ',
+    name: 'Guillermo Le\u00F3n Valencia ',
     city: 'Popayan',
     country: 'Colombia',
     IATA: 'PPN'
@@ -5352,17 +5352,17 @@ export const airports = [
   },
   {
     name: 'Obando ',
-    city: 'Puerto In\u00edrida',
+    city: 'Puerto In\u00EDrida',
     country: 'Colombia',
     IATA: 'PDA'
   },
   {
     name: 'Caucaya ',
-    city: 'Puerto Legu\u00edzamo',
+    city: 'Puerto Legu\u00EDzamo',
     country: 'Colombia',
     IATA: 'LQM'
   },
-  { name: 'El Cara\u00f1o ', city: 'Quibdo', country: 'Colombia', IATA: 'UIB' },
+  { name: 'El Cara\u00F1o ', city: 'Quibdo', country: 'Colombia', IATA: 'UIB' },
   {
     name: 'Almirante Padilla ',
     city: 'Rio Hacha',
@@ -5370,7 +5370,7 @@ export const airports = [
     IATA: 'RCH'
   },
   {
-    name: 'Jose Maria C\u00f3rdova Intl ',
+    name: 'Jose Maria C\u00F3rdova Intl ',
     city: 'Rio Negro',
     country: 'Colombia',
     IATA: 'MDE'
@@ -5394,7 +5394,7 @@ export const airports = [
     IATA: 'SVI'
   },
   {
-    name: 'Sim\u00f3n Bol\u00edvar Intl ',
+    name: 'Sim\u00F3n Bol\u00EDvar Intl ',
     city: 'Santa Marta',
     country: 'Colombia',
     IATA: 'SMR'
@@ -5419,20 +5419,20 @@ export const airports = [
     IATA: 'TQS'
   },
   {
-    name: 'Heriberto G\u00edl Mart\u00ednez ',
+    name: 'Heriberto G\u00EDl Mart\u00EDnez ',
     city: 'Tulua',
     country: 'Colombia',
     IATA: 'ULQ'
   },
   { name: 'La Florida ', city: 'Tumaco', country: 'Colombia', IATA: 'TCO' },
   {
-    name: 'Alfonso L\u00f3pez Pumarejo ',
+    name: 'Alfonso L\u00F3pez Pumarejo ',
     city: 'Valledupar',
     country: 'Colombia',
     IATA: 'VUP'
   },
   {
-    name: 'Villa Garz\u00f3n ',
+    name: 'Villa Garz\u00F3n ',
     city: 'Villa Garzon',
     country: 'Colombia',
     IATA: 'VGZ'
@@ -5446,7 +5446,7 @@ export const airports = [
   { name: 'El Yopal ', city: 'Yopal', country: 'Colombia', IATA: 'EYP' },
   { name: 'Ouani ', city: 'Anjouan', country: 'Comoros', IATA: 'AJN' },
   {
-    name: 'Moh\u00e9li Bandar Es Eslam ',
+    name: 'Moh\u00E9li Bandar Es Eslam ',
     city: 'Moheli',
     country: 'Comoros',
     IATA: 'NWA'
@@ -5784,7 +5784,7 @@ export const airports = [
     IATA: 'ABJ'
   },
   {
-    name: 'Bouak\u00e9 ',
+    name: 'Bouak\u00E9 ',
     city: 'Bouake',
     country: "Cote d'Ivoire",
     IATA: 'BYK'
@@ -5850,7 +5850,7 @@ export const airports = [
     IATA: 'CMW'
   },
   {
-    name: 'Vilo Acu\u00f1a Intl ',
+    name: 'Vilo Acu\u00F1a Intl ',
     city: 'Cayo Largo del Sur',
     country: 'Cuba',
     IATA: 'CYO'
@@ -5888,7 +5888,7 @@ export const airports = [
     IATA: 'GAO'
   },
   {
-    name: 'Jos\u00e9 Mart\u00ed Intl ',
+    name: 'Jos\u00E9 Mart\u00ED Intl ',
     city: 'Havana',
     country: 'Cuba',
     IATA: 'HAV'
@@ -5924,7 +5924,7 @@ export const airports = [
   },
   {
     name: 'San Nicolas De Bari ',
-    city: 'San Nicol\u00e1s',
+    city: 'San Nicol\u00E1s',
     country: 'Cuba',
     IATA: 'QSN'
   },
@@ -5957,7 +5957,7 @@ export const airports = [
   { name: 'RAF Akrotiri', city: 'Akrotiri', country: 'Cyprus', IATA: 'AKT' },
   {
     name: 'Lefkoniko ',
-    city: 'Ge\u00e7itkale',
+    city: 'Ge\u00E7itkale',
     country: 'Cyprus',
     IATA: 'GEC'
   },
@@ -5983,7 +5983,7 @@ export const airports = [
     IATA: 'UHE'
   },
   {
-    name: 'Ostrava Leos Jan\u00e1\u010dek ',
+    name: 'Ostrava Leos Jan\u00E1\u010Dek ',
     city: 'Ostrava',
     country: 'Czech Republic',
     IATA: 'OSR'
@@ -5995,7 +5995,7 @@ export const airports = [
     IATA: 'PED'
   },
   {
-    name: 'V\u00e1clav Havel  Prague',
+    name: 'V\u00E1clav Havel  Prague',
     city: 'Prague',
     country: 'Czech Republic',
     IATA: 'PRG'
@@ -6035,7 +6035,7 @@ export const airports = [
   },
   { name: 'Esbjerg ', city: 'Esbjerg', country: 'Denmark', IATA: 'EBJ' },
   { name: 'Karup ', city: 'Karup', country: 'Denmark', IATA: 'KRP' },
-  { name: 'L\u00e6s\u00f8 ', city: 'Laeso', country: 'Denmark', IATA: 'BYR' },
+  { name: 'L\u00E6s\u00F8 ', city: 'Laeso', country: 'Denmark', IATA: 'BYR' },
   {
     name: 'Lolland Falster Maribo ',
     city: 'Maribo',
@@ -6053,7 +6053,7 @@ export const airports = [
     IATA: 'SKS'
   },
   {
-    name: 'S\u00f8nderborg ',
+    name: 'S\u00F8nderborg ',
     city: 'Soenderborg',
     country: 'Denmark',
     IATA: 'SGD'
@@ -6088,7 +6088,7 @@ export const airports = [
     IATA: 'CBJ'
   },
   {
-    name: 'Constanza - Expedici\u00f3n 14 de Junio National ',
+    name: 'Constanza - Expedici\u00F3n 14 de Junio National ',
     city: 'Constanza',
     country: 'Dominican Republic',
     IATA: 'COZ'
@@ -6118,7 +6118,7 @@ export const airports = [
     IATA: 'PUJ'
   },
   {
-    name: 'Saman\u00e1 El Catey Intl ',
+    name: 'Saman\u00E1 El Catey Intl ',
     city: 'Samana',
     country: 'Dominican Republic',
     IATA: 'AZS'
@@ -6130,7 +6130,7 @@ export const airports = [
     IATA: 'STI'
   },
   {
-    name: 'Las Am\u00e9ricas Intl ',
+    name: 'Las Am\u00E9ricas Intl ',
     city: 'Santo Domingo',
     country: 'Dominican Republic',
     IATA: 'SDQ'
@@ -6155,7 +6155,7 @@ export const airports = [
     IATA: 'DIL'
   },
   { name: 'Suai ', city: 'Suai', country: 'East Timor', IATA: 'UAI' },
-  { name: 'Chacho\u00e1n ', city: 'Ambato', country: 'Ecuador', IATA: 'ATF' },
+  { name: 'Chacho\u00E1n ', city: 'Ambato', country: 'Ecuador', IATA: 'ATF' },
   {
     name: 'Francisco De Orellana ',
     city: 'Coca',
@@ -6171,7 +6171,7 @@ export const airports = [
   },
   { name: 'Seymour ', city: 'Galapagos', country: 'Ecuador', IATA: 'GPS' },
   {
-    name: 'Jos\u00e9 Joaqu\u00edn de Olmedo Intl ',
+    name: 'Jos\u00E9 Joaqu\u00EDn de Olmedo Intl ',
     city: 'Guayaquil',
     country: 'Ecuador',
     IATA: 'GYE'
@@ -6233,8 +6233,8 @@ export const airports = [
     IATA: 'SNC'
   },
   {
-    name: 'San Crist\u00f3bal ',
-    city: 'San Crist\u00f3bal',
+    name: 'San Crist\u00F3bal ',
+    city: 'San Crist\u00F3bal',
     country: 'Ecuador',
     IATA: 'SCY'
   },
@@ -6317,7 +6317,7 @@ export const airports = [
   },
   { name: 'Taba Intl ', city: 'Taba', country: 'Egypt', IATA: 'TCP' },
   {
-    name: 'Monse\u00f1or \u00d3scar Arnulfo Romero Intl ',
+    name: 'Monse\u00F1or \u00D3scar Arnulfo Romero Intl ',
     city: 'San Salvador',
     country: 'El Salvador',
     IATA: 'SAL'
@@ -6330,7 +6330,7 @@ export const airports = [
     IATA: 'SSG'
   },
   {
-    name: 'Annob\u00f3n ',
+    name: 'Annob\u00F3n ',
     city: 'San Antonio de Pale',
     country: 'Equatorial Guinea',
     IATA: 'NBN'
@@ -6338,9 +6338,9 @@ export const airports = [
   { name: 'Asmara Intl ', city: 'Asmara', country: 'Eritrea', IATA: 'ASM' },
   { name: 'Assab Intl ', city: 'Assab', country: 'Eritrea', IATA: 'ASA' },
   { name: 'Massawa Intl ', city: 'Massawa', country: 'Eritrea', IATA: 'MSW' },
-  { name: 'K\u00e4rdla ', city: 'Kardla', country: 'Estonia', IATA: 'KDL' },
+  { name: 'K\u00E4rdla ', city: 'Kardla', country: 'Estonia', IATA: 'KDL' },
   { name: 'Kuressaare ', city: 'Kuressaare', country: 'Estonia', IATA: 'URE' },
-  { name: 'P\u00e4rnu ', city: 'Parnu', country: 'Estonia', IATA: 'EPU' },
+  { name: 'P\u00E4rnu ', city: 'Parnu', country: 'Estonia', IATA: 'EPU' },
   {
     name: 'Lennart Meri Tallinn ',
     city: 'Tallinn-ulemiste International',
@@ -6489,7 +6489,7 @@ export const airports = [
     IATA: 'TODOS'
   },
   {
-    name: 'Hyvink\u00e4\u00e4 Airfield',
+    name: 'Hyvink\u00E4\u00E4 Airfield',
     city: 'Hyvinkaa',
     country: 'Finland',
     IATA: 'HYV'
@@ -6502,7 +6502,7 @@ export const airports = [
   { name: 'Kauhava ', city: 'Kauhava', country: 'Finland', IATA: 'KAU' },
   { name: 'Kemi-Tornio ', city: 'Kemi', country: 'Finland', IATA: 'KEM' },
   { name: 'Kitee ', city: 'Kitee', country: 'Finland', IATA: 'KTQ' },
-  { name: 'Kittil\u00e4 ', city: 'Kittila', country: 'Finland', IATA: 'KTT' },
+  { name: 'Kittil\u00E4 ', city: 'Kittila', country: 'Finland', IATA: 'KTT' },
   {
     name: 'Kokkola-Pietarsaari ',
     city: 'Kruunupyy',
@@ -6524,8 +6524,8 @@ export const airports = [
   { name: 'Rovaniemi ', city: 'Rovaniemi', country: 'Finland', IATA: 'RVN' },
   { name: 'Savonlinna ', city: 'Savonlinna', country: 'Finland', IATA: 'SVL' },
   {
-    name: 'Sein\u00e4joki ',
-    city: 'Sein\u00e4joki / Ilmajoki',
+    name: 'Sein\u00E4joki ',
+    city: 'Sein\u00E4joki / Ilmajoki',
     country: 'Finland',
     IATA: 'SJY'
   },
@@ -6553,21 +6553,21 @@ export const airports = [
     IATA: 'YLI'
   },
   {
-    name: "\u00cele d'Yeu ",
-    city: "\u00cele d'Yeu",
+    name: "\u00CEle d'Yeu ",
+    city: "\u00CEle d'Yeu",
     country: 'France',
     IATA: 'IDY'
   },
   { name: 'Abbeville', city: 'Abbeville', country: 'France', IATA: 'XAB' },
   { name: 'Agen-La Garenne ', city: 'Agen', country: 'France', IATA: 'AGF' },
   {
-    name: 'Ajaccio-Napol\u00e9on Bonaparte ',
+    name: 'Ajaccio-Napol\u00E9on Bonaparte ',
     city: 'Ajaccio',
     country: 'France',
     IATA: 'AJA'
   },
   {
-    name: 'M\u00e9ribel Altiport',
+    name: 'M\u00E9ribel Altiport',
     city: 'Ajaccio',
     country: 'France',
     IATA: 'MFX'
@@ -6580,19 +6580,19 @@ export const airports = [
   },
   { name: 'Albert-Bray ', city: 'Albert', country: 'France', IATA: 'BYF' },
   {
-    name: 'Albi-Le S\u00e9questre ',
+    name: 'Albi-Le S\u00E9questre ',
     city: 'Albi',
     country: 'France',
     IATA: 'LBI'
   },
   {
     name: 'Angers-Loire ',
-    city: 'Angers/Marc\u00e9',
+    city: 'Angers/Marc\u00E9',
     country: 'France',
     IATA: 'ANE'
   },
   {
-    name: 'Angoul\u00eame-Brie-Champniers ',
+    name: 'Angoul\u00EAme-Brie-Champniers ',
     city: 'Angouleme',
     country: 'France',
     IATA: 'ANG'
@@ -6605,7 +6605,7 @@ export const airports = [
   },
   { name: 'Annemasse ', city: 'Annemasse', country: 'France', IATA: 'QNJ' },
   {
-    name: 'Aubenas-Ard\u00e8che M\u00e9ridional ',
+    name: 'Aubenas-Ard\u00E8che M\u00E9ridional ',
     city: 'Aubenas-vals-lanas',
     country: 'France',
     IATA: 'OBS'
@@ -6620,20 +6620,20 @@ export const airports = [
   { name: 'Avignon-Caumont ', city: 'Avignon', country: 'France', IATA: 'AVN' },
   { name: 'Bastia-Poretta ', city: 'Bastia', country: 'France', IATA: 'BIA' },
   {
-    name: 'Paris Beauvais Till\u00e9 ',
+    name: 'Paris Beauvais Till\u00E9 ',
     city: 'Beauvais',
     country: 'France',
     IATA: 'BVA'
   },
   { name: 'Fontaine ', city: 'Belfort', country: 'France', IATA: 'BOR' },
   {
-    name: 'Bergerac-Roumani\u00e8re ',
+    name: 'Bergerac-Roumani\u00E8re ',
     city: 'Bergerac',
     country: 'France',
     IATA: 'EGC'
   },
   {
-    name: 'B\u00e9ziers-Vias ',
+    name: 'B\u00E9ziers-Vias ',
     city: 'Beziers',
     country: 'France',
     IATA: 'BZR'
@@ -6645,7 +6645,7 @@ export const airports = [
     IATA: 'BIQ'
   },
   {
-    name: 'Bordeaux-M\u00e9rignac ',
+    name: 'Bordeaux-M\u00E9rignac ',
     city: 'Bordeaux',
     country: 'France',
     IATA: 'BOD'
@@ -6666,25 +6666,25 @@ export const airports = [
   { name: 'Carcassonne ', city: 'Carcassonne', country: 'France', IATA: 'CCF' },
   { name: 'Castres-Mazamet ', city: 'Castres', country: 'France', IATA: 'DCM' },
   {
-    name: 'Ch\u00e2lons-Vatry ',
+    name: 'Ch\u00E2lons-Vatry ',
     city: 'Chalons',
     country: 'France',
     IATA: 'XCR'
   },
   {
-    name: 'Chamb\u00e9ry-Savoie ',
+    name: 'Chamb\u00E9ry-Savoie ',
     city: 'Chambery',
     country: 'France',
     IATA: 'CMF'
   },
   {
-    name: 'Charleville-M\u00e9zi\u00e8res ',
+    name: 'Charleville-M\u00E9zi\u00E8res ',
     city: 'Charleville',
     country: 'France',
     IATA: 'XCZ'
   },
   {
-    name: 'Ch\u00e2teauroux-D\u00e9ols Marcel Dassault ',
+    name: 'Ch\u00E2teauroux-D\u00E9ols Marcel Dassault ',
     city: 'Chateauroux',
     country: 'France',
     IATA: 'CHR'
@@ -6708,7 +6708,7 @@ export const airports = [
     IATA: 'CFE'
   },
   {
-    name: 'Cognac-Ch\u00e2teaubernard (BA 709) Air Base',
+    name: 'Cognac-Ch\u00E2teaubernard (BA 709) Air Base',
     city: 'Cognac',
     country: 'France',
     IATA: 'CNG'
@@ -6731,29 +6731,29 @@ export const airports = [
   },
   { name: 'Dole-Tavaux ', city: 'Dole', country: 'France', IATA: 'DLE' },
   {
-    name: '\u00c9pinal-Mirecourt ',
+    name: '\u00C9pinal-Mirecourt ',
     city: 'Epinal',
     country: 'France',
     IATA: 'EPL'
   },
   {
-    name: '\u00c9vreux-Fauville (BA 105) Air Base',
+    name: '\u00C9vreux-Fauville (BA 105) Air Base',
     city: 'Evreux',
     country: 'France',
     IATA: 'EVX'
   },
   { name: 'Figari Sud-Corse ', city: 'Figari', country: 'France', IATA: 'FSC' },
-  { name: 'Fr\u00e9jus ', city: 'Frejus', country: 'France', IATA: 'FRJ' },
+  { name: 'Fr\u00E9jus ', city: 'Frejus', country: 'France', IATA: 'FRJ' },
   { name: 'Granville ', city: 'Granville', country: 'France', IATA: 'GFR' },
   {
-    name: 'Grenoble-Is\u00e8re ',
+    name: 'Grenoble-Is\u00E8re ',
     city: 'Grenoble',
     country: 'France',
     IATA: 'GNB'
   },
   { name: 'Gustaf III ', city: 'Gustavia', country: 'France', IATA: 'SBH' },
   {
-    name: 'Toulon-Hy\u00e8res ',
+    name: 'Toulon-Hy\u00E8res ',
     city: 'Hyeres',
     country: 'France',
     IATA: 'TLN'
@@ -6765,13 +6765,13 @@ export const airports = [
     IATA: 'LBY'
   },
   {
-    name: 'La M\u00f4le ',
-    city: 'La M\u00f4le',
+    name: 'La M\u00F4le ',
+    city: 'La M\u00F4le',
     country: 'France',
     IATA: 'LTT'
   },
   {
-    name: 'La Rochelle-\u00cele de R\u00e9 ',
+    name: 'La Rochelle-\u00CEle de R\u00E9 ',
     city: 'La Rochelle',
     country: 'France',
     IATA: 'LRH'
@@ -6789,7 +6789,7 @@ export const airports = [
     IATA: 'LDV'
   },
   {
-    name: 'Lannion-C\u00f4te de Granit ',
+    name: 'Lannion-C\u00F4te de Granit ',
     city: 'Lannion',
     country: 'France',
     IATA: 'LAI'
@@ -6810,7 +6810,7 @@ export const airports = [
   { name: 'Le Mans-Arnage ', city: 'Le Mans', country: 'France', IATA: 'LME' },
   { name: 'Le Puy-Loudes ', city: 'Le Puy', country: 'France', IATA: 'LPY' },
   {
-    name: "Le Touquet-C\u00f4te d'Opale ",
+    name: "Le Touquet-C\u00F4te d'Opale ",
     city: 'Le Tourquet',
     country: 'France',
     IATA: 'LTQ'
@@ -6824,7 +6824,7 @@ export const airports = [
     IATA: 'LRT'
   },
   {
-    name: 'Lyon Saint-Exup\u00e9ry ',
+    name: 'Lyon Saint-Exup\u00E9ry ',
     city: 'Lyon',
     country: 'France',
     IATA: 'LYS'
@@ -6838,7 +6838,7 @@ export const airports = [
     IATA: 'MRS'
   },
   {
-    name: 'Maubeuge-\u00c9lesmes ',
+    name: 'Maubeuge-\u00C9lesmes ',
     city: 'Maubeuge',
     country: 'France',
     IATA: 'XME'
@@ -6870,13 +6870,13 @@ export const airports = [
   { name: 'Metz (TODOS)', city: 'Metz', country: 'France', IATA: 'TODOS' },
   { name: 'Montauban ', city: 'Montauban', country: 'France', IATA: 'XMW' },
   {
-    name: 'Montlu\u00e7on-Gu\u00e9ret ',
+    name: 'Montlu\u00E7on-Gu\u00E9ret ',
     city: 'Montlucon-gueret',
     country: 'France',
     IATA: 'MCU'
   },
   {
-    name: 'Montpellier-M\u00e9diterran\u00e9e ',
+    name: 'Montpellier-M\u00E9diterran\u00E9e ',
     city: 'Montpellier',
     country: 'France',
     IATA: 'MPL'
@@ -6907,18 +6907,18 @@ export const airports = [
     IATA: 'NVS'
   },
   {
-    name: "Nice-C\u00f4te d'Azur ",
+    name: "Nice-C\u00F4te d'Azur ",
     city: 'Nice',
     country: 'France',
     IATA: 'NCE'
   },
   {
-    name: 'N\u00eemes-Arles-Camargue ',
+    name: 'N\u00EEmes-Arles-Camargue ',
     city: 'Nimes',
     country: 'France',
     IATA: 'FNI'
   },
-  { name: 'Niort-Souch\u00e9 ', city: 'Niort', country: 'France', IATA: 'NIT' },
+  { name: 'Niort-Souch\u00E9 ', city: 'Niort', country: 'France', IATA: 'NIT' },
   {
     name: 'Orange-Caritat (BA 115) Air Base',
     city: 'Orange',
@@ -6926,7 +6926,7 @@ export const airports = [
     IATA: 'XOG'
   },
   {
-    name: 'Orl\u00e9ans-Bricy (BA 123) Air Base',
+    name: 'Orl\u00E9ans-Bricy (BA 123) Air Base',
     city: 'Orleans',
     country: 'France',
     IATA: 'ORE'
@@ -6941,19 +6941,19 @@ export const airports = [
   { name: 'Paris-Orly ', city: 'Paris', country: 'France', IATA: 'ORY' },
   { name: 'Paris (TODOS)', city: 'Paris', country: 'France', IATA: 'TODOS' },
   {
-    name: 'Pau Pyr\u00e9n\u00e9es ',
+    name: 'Pau Pyr\u00E9n\u00E9es ',
     city: 'Pau',
     country: 'France',
     IATA: 'PUF'
   },
   {
-    name: 'P\u00e9rigueux-Bassillac ',
+    name: 'P\u00E9rigueux-Bassillac ',
     city: 'Perigueux',
     country: 'France',
     IATA: 'PGX'
   },
   {
-    name: 'Perpignan-Rivesaltes (Llaban\u00e8re) ',
+    name: 'Perpignan-Rivesaltes (Llaban\u00E8re) ',
     city: 'Perpignan',
     country: 'France',
     IATA: 'PGF'
@@ -6993,7 +6993,7 @@ export const airports = [
   },
   { name: 'Rodez-Marcillac ', city: 'Rodez', country: 'France', IATA: 'RDZ' },
   { name: 'Rouen ', city: 'Rouen', country: 'France', IATA: 'URO' },
-  { name: 'Royan-M\u00e9dis ', city: 'Royan', country: 'France', IATA: 'RYN' },
+  { name: 'Royan-M\u00E9dis ', city: 'Royan', country: 'France', IATA: 'RYN' },
   {
     name: 'Solenzara (BA 126) Air Base',
     city: 'Solenzara',
@@ -7014,14 +7014,14 @@ export const airports = [
   },
   { name: 'Saint-Yan ', city: 'St.-yan', country: 'France', IATA: 'SYT' },
   {
-    name: 'Saint-\u00c9tienne-Bouth\u00e9on ',
+    name: 'Saint-\u00C9tienne-Bouth\u00E9on ',
     city: 'St-Etienne',
     country: 'France',
     IATA: 'EBU'
   },
   { name: 'Strasbourg ', city: 'Strasbourg', country: 'France', IATA: 'SXB' },
   {
-    name: 'Tarbes-Lourdes-Pyr\u00e9n\u00e9es ',
+    name: 'Tarbes-Lourdes-Pyr\u00E9n\u00E9es ',
     city: 'Tarbes',
     country: 'France',
     IATA: 'LDE'
@@ -7057,10 +7057,10 @@ export const airports = [
     IATA: 'XVS'
   },
   { name: 'Vannes-Meucon ', city: 'Vannes', country: 'France', IATA: 'VNE' },
-  { name: 'Meg\u00e8ve ', city: 'Verdun', country: 'France', IATA: 'MVV' },
+  { name: 'Meg\u00E8ve ', city: 'Verdun', country: 'France', IATA: 'MVV' },
   { name: 'Vichy-Charmeil ', city: 'Vichy', country: 'France', IATA: 'VHY' },
   {
-    name: 'Villacoublay-V\u00e9lizy (BA 107) Air Base',
+    name: 'Villacoublay-V\u00E9lizy (BA 107) Air Base',
     city: 'Villacoublay',
     country: 'France',
     IATA: 'VIY'
@@ -7089,7 +7089,7 @@ export const airports = [
     country: 'French Guiana',
     IATA: 'LDX'
   },
-  { name: 'Sa\u00fal ', city: 'Saul', country: 'French Guiana', IATA: 'XAU' },
+  { name: 'Sa\u00FAl ', city: 'Saul', country: 'French Guiana', IATA: 'XAU' },
   {
     name: "Saint-Georges-de-l'Oyapock ",
     city: 'St.-georges Oyapock',
@@ -7324,7 +7324,7 @@ export const airports = [
   { name: 'Sukhumi Dranda ', city: 'Sukhumi', country: 'Georgia', IATA: 'SUI' },
   { name: 'Tbilisi Intl ', city: 'Tbilisi', country: 'Georgia', IATA: 'TBS' },
   {
-    name: 'Aachen-Merzbr\u00fcck ',
+    name: 'Aachen-Merzbr\u00FCck ',
     city: 'Aachen',
     country: 'Germany',
     IATA: 'AAH'
@@ -7337,8 +7337,8 @@ export const airports = [
   },
   { name: 'Augsburg ', city: 'Augsburg', country: 'Germany', IATA: 'AGB' },
   {
-    name: 'Heide-B\u00fcsum ',
-    city: 'B\u00fcsum',
+    name: 'Heide-B\u00FCsum ',
+    city: 'B\u00FCsum',
     country: 'Germany',
     IATA: 'HEI'
   },
@@ -7346,7 +7346,7 @@ export const airports = [
   { name: 'Barth ', city: 'Barth', country: 'Germany', IATA: 'BBH' },
   { name: 'Bayreuth ', city: 'Bayreuth', country: 'Germany', IATA: 'BYU' },
   {
-    name: 'Berlin-Sch\u00f6nefeld ',
+    name: 'Berlin-Sch\u00F6nefeld ',
     city: 'Berlin',
     country: 'Germany',
     IATA: 'SXF'
@@ -7399,7 +7399,7 @@ export const airports = [
   { name: 'Dortmund ', city: 'Dortmund', country: 'Germany', IATA: 'DTM' },
   { name: 'Dresden ', city: 'Dresden', country: 'Germany', IATA: 'DRS' },
   {
-    name: 'D\u00fcsseldorf ',
+    name: 'D\u00FCsseldorf ',
     city: 'Duesseldorf',
     country: 'Germany',
     IATA: 'DUS'
@@ -7420,7 +7420,7 @@ export const airports = [
   { name: 'Erfurt ', city: 'Erfurt', country: 'Germany', IATA: 'ERF' },
   { name: 'Essen Mulheim ', city: 'Essen', country: 'Germany', IATA: 'ESS' },
   {
-    name: 'Flensburg-Sch\u00e4ferhaus ',
+    name: 'Flensburg-Sch\u00E4ferhaus ',
     city: 'Flensburg',
     country: 'Germany',
     IATA: 'FLF'
@@ -7439,7 +7439,7 @@ export const airports = [
   },
   { name: 'Fritzlar ', city: 'Fritzlar', country: 'Germany', IATA: 'FRZ' },
   {
-    name: 'F\u00fcrstenfeldbruck Air Base',
+    name: 'F\u00FCrstenfeldbruck Air Base',
     city: 'Fuerstenfeldbruck',
     country: 'Germany',
     IATA: 'FEL'
@@ -7457,7 +7457,7 @@ export const airports = [
     IATA: 'GHF'
   },
   {
-    name: 'G\u00fctersloh Air Base',
+    name: 'G\u00FCtersloh Air Base',
     city: 'Guetersloh',
     country: 'Germany',
     IATA: 'GUT'
@@ -7484,7 +7484,7 @@ export const airports = [
   },
   { name: 'Hannover ', city: 'Hannover', country: 'Germany', IATA: 'HAJ' },
   {
-    name: 'Helgoland-D\u00fcne ',
+    name: 'Helgoland-D\u00FCne ',
     city: 'Helgoland',
     country: 'Germany',
     IATA: 'HGL'
@@ -7523,14 +7523,14 @@ export const airports = [
     country: 'Germany',
     IATA: 'KZG'
   },
-  { name: 'K\u00f6then ', city: 'Koethen', country: 'Germany', IATA: 'KOQ' },
+  { name: 'K\u00F6then ', city: 'Koethen', country: 'Germany', IATA: 'KOQ' },
   { name: 'Rostock-Laage ', city: 'Laage', country: 'Germany', IATA: 'RLG' },
   { name: 'Lahr ', city: 'Lahr', country: 'Germany', IATA: 'LHA' },
   { name: 'Langeoog ', city: 'Langeoog', country: 'Germany', IATA: 'LGO' },
   { name: 'Leipzig/Halle ', city: 'Leipzig', country: 'Germany', IATA: 'LEJ' },
   { name: 'Hunt Field', city: 'Lindau', country: 'Germany', IATA: 'LND' },
   {
-    name: 'L\u00fcbeck Blankensee ',
+    name: 'L\u00FCbeck Blankensee ',
     city: 'Luebeck',
     country: 'Germany',
     IATA: 'LBC'
@@ -7549,14 +7549,14 @@ export const airports = [
     IATA: 'FMM'
   },
   {
-    name: 'M\u00f6nchengladbach ',
+    name: 'M\u00F6nchengladbach ',
     city: 'Moenchengladbach',
     country: 'Germany',
     IATA: 'MGL'
   },
   { name: 'Munich ', city: 'Munich', country: 'Germany', IATA: 'MUC' },
   {
-    name: 'M\u00fcnster Osnabr\u00fcck ',
+    name: 'M\u00FCnster Osnabr\u00FCck ',
     city: 'Munster',
     country: 'Germany',
     IATA: 'FMO'
@@ -7568,7 +7568,7 @@ export const airports = [
     IATA: 'FNB'
   },
   {
-    name: 'Neum\u00fcnster ',
+    name: 'Neum\u00FCnster ',
     city: 'Neumuenster',
     country: 'Germany',
     IATA: 'EUM'
@@ -7606,7 +7606,7 @@ export const airports = [
     IATA: 'SZW'
   },
   {
-    name: 'Peenem\u00fcnde ',
+    name: 'Peenem\u00FCnde ',
     city: 'Peenemunde',
     country: 'Germany',
     IATA: 'PEF'
@@ -7618,20 +7618,20 @@ export const airports = [
     IATA: 'RMS'
   },
   {
-    name: 'Rechlin-L\u00e4rz ',
+    name: 'Rechlin-L\u00E4rz ',
     city: 'Rechlin-laerz',
     country: 'Germany',
     IATA: 'REB'
   },
   {
-    name: 'Riesa-G\u00f6hlis ',
+    name: 'Riesa-G\u00F6hlis ',
     city: 'Riesa',
     country: 'Germany',
     IATA: 'IES'
   },
-  { name: 'R\u00fcgen ', city: 'Ruegen', country: 'Germany', IATA: 'GTI' },
+  { name: 'R\u00FCgen ', city: 'Ruegen', country: 'Germany', IATA: 'GTI' },
   {
-    name: 'Saarbr\u00fccken ',
+    name: 'Saarbr\u00FCcken ',
     city: 'Saarbruecken',
     country: 'Germany',
     IATA: 'SCN'
@@ -7655,7 +7655,7 @@ export const airports = [
     IATA: 'WBG'
   },
   {
-    name: 'Sch\u00f6nhagen ',
+    name: 'Sch\u00F6nhagen ',
     city: 'Schoenhagen',
     country: 'Germany',
     IATA: 'QXH'
@@ -7690,7 +7690,7 @@ export const airports = [
     IATA: 'WVN'
   },
   {
-    name: 'Zweibr\u00fccken ',
+    name: 'Zweibr\u00FCcken ',
     city: 'Zweibruecken',
     country: 'Germany',
     IATA: 'ZQW'
@@ -7961,7 +7961,7 @@ export const airports = [
     IATA: 'GBJ'
   },
   {
-    name: 'La D\u00e9sirade ',
+    name: 'La D\u00E9sirade ',
     city: 'Grande Anse',
     country: 'Guadeloupe',
     IATA: 'DSD'
@@ -7973,20 +7973,20 @@ export const airports = [
     IATA: 'LSS'
   },
   {
-    name: 'Pointe-\u00e0-Pitre Le Raizet',
+    name: 'Pointe-\u00E0-Pitre Le Raizet',
     city: 'Pointe-a-pitre',
     country: 'Guadeloupe',
     IATA: 'PTP'
   },
   {
-    name: "L'Esp\u00e9rance ",
+    name: "L'Esp\u00E9rance ",
     city: 'St. Martin',
     country: 'Guadeloupe',
     IATA: 'SFG'
   },
   {
-    name: 'St-Fran\u00e7ois ',
-    city: 'St-Fran\u00e7ois',
+    name: 'St-Fran\u00E7ois ',
+    city: 'St-Fran\u00E7ois',
     country: 'Guadeloupe',
     IATA: 'SFC'
   },
@@ -8040,7 +8040,7 @@ export const airports = [
     IATA: 'RUV'
   },
   {
-    name: 'San Jos\u00e9 ',
+    name: 'San Jos\u00E9 ',
     city: 'San Jose',
     country: 'Guatemala',
     IATA: 'GSJ'
@@ -8059,7 +8059,7 @@ export const airports = [
   { name: 'Kissidougou ', city: 'Kissidougou', country: 'Guinea', IATA: 'KSI' },
   { name: 'Tata ', city: 'Labe', country: 'Guinea', IATA: 'LEK' },
   {
-    name: 'Nz\u00e9r\u00e9kor\u00e9 ',
+    name: 'Nz\u00E9r\u00E9kor\u00E9 ',
     city: 'Nzerekore',
     country: 'Guinea',
     IATA: 'NZE'
@@ -8108,7 +8108,7 @@ export const airports = [
   { name: 'Les Cayes ', city: 'Cayes', country: 'Haiti', IATA: 'CYA' },
   { name: 'Jacmel ', city: 'Jacmel', country: 'Haiti', IATA: 'JAK' },
   {
-    name: 'J\u00e9r\u00e9mie ',
+    name: 'J\u00E9r\u00E9mie ',
     city: 'Jeremie',
     country: 'Haiti',
     IATA: 'JEE'
@@ -8153,13 +8153,13 @@ export const airports = [
     IATA: 'RTB'
   },
   {
-    name: 'Ram\u00f3n Villeda Morales Intl ',
+    name: 'Ram\u00F3n Villeda Morales Intl ',
     city: 'San Pedro Sula',
     country: 'Honduras',
     IATA: 'SAP'
   },
   {
-    name: 'Toncont\u00edn Intl ',
+    name: 'Toncont\u00EDn Intl ',
     city: 'Tegucigalpa',
     country: 'Honduras',
     IATA: 'TGU'
@@ -8193,84 +8193,84 @@ export const airports = [
   },
   { name: 'Debrecen Intl ', city: 'Debrecen', country: 'Hungary', IATA: 'DEB' },
   {
-    name: 'P\u00e9cs-Pog\u00e1ny ',
-    city: 'P\u00e9cs-Pog\u00e1ny',
+    name: 'P\u00E9cs-Pog\u00E1ny ',
+    city: 'P\u00E9cs-Pog\u00E1ny',
     country: 'Hungary',
     IATA: 'PEV'
   },
   {
-    name: 'S\u00e1rmell\u00e9k Intl ',
-    city: 'S\u00e1rmell\u00e9k',
+    name: 'S\u00E1rmell\u00E9k Intl ',
+    city: 'S\u00E1rmell\u00E9k',
     country: 'Hungary',
     IATA: 'SOB'
   },
   { name: 'Akureyri ', city: 'Akureyri', country: 'Iceland', IATA: 'AEY' },
   { name: 'Bildudalur ', city: 'Bildudalur', country: 'Iceland', IATA: 'BIU' },
   {
-    name: 'Egilssta\u00f0ir ',
+    name: 'Egilssta\u00F0ir ',
     city: 'Egilsstadir',
     country: 'Iceland',
     IATA: 'EGS'
   },
-  { name: 'Gj\u00f6gur ', city: 'Gjogur', country: 'Iceland', IATA: 'GJR' },
+  { name: 'Gj\u00F6gur ', city: 'Gjogur', country: 'Iceland', IATA: 'GJR' },
   {
-    name: 'Gr\u00edmsey ',
-    city: 'Gr\u00edmsey',
+    name: 'Gr\u00EDmsey ',
+    city: 'Gr\u00EDmsey',
     country: 'Iceland',
     IATA: 'GRY'
   },
   {
-    name: 'Grundarfj\u00f6r\u00f0ur ',
+    name: 'Grundarfj\u00F6r\u00F0ur ',
     city: 'Grundarfjordur',
     country: 'Iceland',
     IATA: 'GUU'
   },
   {
-    name: 'Hornafj\u00f6r\u00f0ur ',
+    name: 'Hornafj\u00F6r\u00F0ur ',
     city: 'Hofn',
     country: 'Iceland',
     IATA: 'HFN'
   },
   {
-    name: 'H\u00fasav\u00edk ',
+    name: 'H\u00FAsav\u00EDk ',
     city: 'Husavik',
     country: 'Iceland',
     IATA: 'HZK'
   },
   {
-    name: '\u00cdsafj\u00f6r\u00f0ur ',
+    name: '\u00CDsafj\u00F6r\u00F0ur ',
     city: 'Isafjordur',
     country: 'Iceland',
     IATA: 'IFJ'
   },
   { name: 'Keflavik Intl ', city: 'Keflavik', country: 'Iceland', IATA: 'KEF' },
   {
-    name: 'Reykjahl\u00ed\u00f0 ',
+    name: 'Reykjahl\u00ED\u00F0 ',
     city: 'Myvatn',
     country: 'Iceland',
     IATA: 'MVA'
   },
   {
-    name: 'Nor\u00f0fj\u00f6r\u00f0ur ',
+    name: 'Nor\u00F0fj\u00F6r\u00F0ur ',
     city: 'Nordfjordur',
     country: 'Iceland',
     IATA: 'NOR'
   },
   {
-    name: 'Patreksfj\u00f6r\u00f0ur ',
+    name: 'Patreksfj\u00F6r\u00F0ur ',
     city: 'Patreksfjordur',
     country: 'Iceland',
     IATA: 'PFJ'
   },
   { name: 'Reykjavik ', city: 'Reykjavik', country: 'Iceland', IATA: 'RKV' },
   {
-    name: 'Sau\u00f0\u00e1rkr\u00f3kur ',
+    name: 'Sau\u00F0\u00E1rkr\u00F3kur ',
     city: 'Saudarkrokur',
     country: 'Iceland',
     IATA: 'SAK'
   },
   {
-    name: 'Siglufj\u00f6r\u00f0ur ',
+    name: 'Siglufj\u00F6r\u00F0ur ',
     city: 'Siglufjordur',
     country: 'Iceland',
     IATA: 'SIJ'
@@ -8283,8 +8283,8 @@ export const airports = [
     IATA: 'VEY'
   },
   {
-    name: 'Vopnafj\u00f6r\u00f0ur ',
-    city: 'Vopnafj\u00f6r\u00f0ur',
+    name: 'Vopnafj\u00F6r\u00F0ur ',
+    city: 'Vopnafj\u00F6r\u00F0ur',
     country: 'Iceland',
     IATA: 'VPN'
   },
@@ -9349,7 +9349,7 @@ export const airports = [
   },
   { name: 'Peretola ', city: 'Florence', country: 'Italy', IATA: 'FLR' },
   { name: 'Foggia Gino Lisa ', city: 'Foggia', country: 'Italy', IATA: 'FOG' },
-  { name: 'Forl\u00ec ', city: 'Forli', country: 'Italy', IATA: 'FRL' },
+  { name: 'Forl\u00EC ', city: 'Forli', country: 'Italy', IATA: 'FRL' },
   {
     name: 'Genoa Cristoforo Colombo ',
     city: 'Genoa',
@@ -9461,7 +9461,7 @@ export const airports = [
     IATA: 'NSY'
   },
   { name: 'Turin ', city: 'Torino', country: 'Italy', IATA: 'TRN' },
-  { name: 'Tortol\u00ec ', city: 'Tortoli', country: 'Italy', IATA: 'TTB' },
+  { name: 'Tortol\u00EC ', city: 'Tortoli', country: 'Italy', IATA: 'TTB' },
   {
     name: 'Vincenzo Florio  Trapani-Birgi',
     city: 'Trapani',
@@ -9558,14 +9558,14 @@ export const airports = [
   { name: 'Kikai ', city: 'Kikai', country: 'Japan', IATA: 'KKX' },
   { name: 'Kitadaito ', city: 'Kitadaito', country: 'Japan', IATA: 'KTD' },
   {
-    name: 'Kitaky\u016bsh\u016b ',
+    name: 'Kitaky\u016Bsh\u016B ',
     city: 'Kitakyushu',
     country: 'Japan',
     IATA: 'KKJ'
   },
   { name: 'Kobe ', city: 'Kobe', country: 'Japan', IATA: 'UKB' },
   {
-    name: 'K\u014dchi Ry\u014dma ',
+    name: 'K\u014Dchi Ry\u014Dma ',
     city: 'Kochi',
     country: 'Japan',
     IATA: 'KCZ'
@@ -9963,7 +9963,7 @@ export const airports = [
   },
   { name: 'Palanga Intl ', city: 'Palanga', country: 'Lithuania', IATA: 'PLQ' },
   {
-    name: 'Panev\u0117\u017eys Air Base',
+    name: 'Panev\u0117\u017Eys Air Base',
     city: 'Panevezys',
     country: 'Lithuania',
     IATA: 'PNV'
@@ -10096,8 +10096,8 @@ export const airports = [
   { name: 'Morondava ', city: 'Morondava', country: 'Madagascar', IATA: 'MOQ' },
   { name: 'Fascene ', city: 'Nosy-be', country: 'Madagascar', IATA: 'NOS' },
   {
-    name: 'Port Berg\u00e9 ',
-    city: 'Port Berg\u00e9',
+    name: 'Port Berg\u00E9 ',
+    city: 'Port Berg\u00E9',
     country: 'Madagascar',
     IATA: 'WPB'
   },
@@ -10117,7 +10117,7 @@ export const airports = [
   },
   { name: 'Toamasina ', city: 'Toamasina', country: 'Madagascar', IATA: 'TMM' },
   {
-    name: 'T\u00f4lanaro ',
+    name: 'T\u00F4lanaro ',
     city: 'Tolagnaro',
     country: 'Madagascar',
     IATA: 'FTU'
@@ -10287,7 +10287,7 @@ export const airports = [
   { name: 'Kooddoo ', city: 'Kooddoo', country: 'Maldives', IATA: 'GKK' },
   { name: 'Kadhdhoo ', city: 'Laamu Atoll', country: 'Maldives', IATA: 'KDO' },
   { name: 'Villa ', city: 'Maamigili', country: 'Maldives', IATA: 'VAM' },
-  { name: 'Mal\u00e9 Intl ', city: 'Male', country: 'Maldives', IATA: 'MLE' },
+  { name: 'Mal\u00E9 Intl ', city: 'Male', country: 'Maldives', IATA: 'MLE' },
   {
     name: 'Thimarafushi ',
     city: 'Thimarafushi',
@@ -10345,7 +10345,7 @@ export const airports = [
     IATA: 'UTK'
   },
   {
-    name: 'Martinique Aim\u00e9 C\u00e9saire Intl ',
+    name: 'Martinique Aim\u00E9 C\u00E9saire Intl ',
     city: 'Fort-de-france',
     country: 'Martinique',
     IATA: 'FDF'
@@ -10357,9 +10357,9 @@ export const airports = [
     IATA: 'AEO'
   },
   { name: 'Atar Intl ', city: 'Atar', country: 'Mauritania', IATA: 'ATR' },
-  { name: 'Ka\u00e9di ', city: 'Kaedi', country: 'Mauritania', IATA: 'KED' },
+  { name: 'Ka\u00E9di ', city: 'Kaedi', country: 'Mauritania', IATA: 'KED' },
   { name: 'Kiffa ', city: 'Kiffa', country: 'Mauritania', IATA: 'KFA' },
-  { name: 'N\u00e9ma ', city: 'Nema', country: 'Mauritania', IATA: 'EMN' },
+  { name: 'N\u00E9ma ', city: 'Nema', country: 'Mauritania', IATA: 'EMN' },
   {
     name: 'Nouadhibou Intl ',
     city: 'Nouadhibou',
@@ -10373,7 +10373,7 @@ export const airports = [
     IATA: 'NKC'
   },
   {
-    name: 'S\u00e9libaby ',
+    name: 'S\u00E9libaby ',
     city: 'Selibabi',
     country: 'Mauritania',
     IATA: 'SEY'
@@ -10405,18 +10405,18 @@ export const airports = [
     IATA: 'ACA'
   },
   {
-    name: 'Jes\u00fas Ter\u00e1n Paredo Intl ',
+    name: 'Jes\u00FAs Ter\u00E1n Paredo Intl ',
     city: 'Aguascalientes',
     country: 'Mexico',
     IATA: 'AGU'
   },
   {
-    name: 'Ingeniero Alberto Acu\u00f1a Ongay Intl ',
+    name: 'Ingeniero Alberto Acu\u00F1a Ongay Intl ',
     city: 'Campeche',
     country: 'Mexico',
     IATA: 'CPE'
   },
-  { name: 'Canc\u00fan Intl ', city: 'Cancun', country: 'Mexico', IATA: 'CUN' },
+  { name: 'Canc\u00FAn Intl ', city: 'Cancun', country: 'Mexico', IATA: 'CUN' },
   {
     name: 'Captain Rogelio Castillo National ',
     city: 'Celaya',
@@ -10437,14 +10437,14 @@ export const airports = [
     IATA: 'CUU'
   },
   {
-    name: 'Ciudad Acu\u00f1a New Intl ',
+    name: 'Ciudad Acu\u00F1a New Intl ',
     city: 'Ciudad Acuna',
     country: 'Mexico',
     IATA: 'ACN'
   },
   {
-    name: 'Ciudad Constituci\u00f3n ',
-    city: 'Ciudad Constituci\u00f3n',
+    name: 'Ciudad Constituci\u00F3n ',
+    city: 'Ciudad Constituci\u00F3n',
     country: 'Mexico',
     IATA: 'CUA'
   },
@@ -10455,13 +10455,13 @@ export const airports = [
     IATA: 'CME'
   },
   {
-    name: 'Abraham Gonz\u00e1lez Intl ',
+    name: 'Abraham Gonz\u00E1lez Intl ',
     city: 'Ciudad Juarez',
     country: 'Mexico',
     IATA: 'CJS'
   },
   {
-    name: 'Ciudad Obreg\u00f3n Intl ',
+    name: 'Ciudad Obreg\u00F3n Intl ',
     city: 'Ciudad Obregon',
     country: 'Mexico',
     IATA: 'CEN'
@@ -10492,7 +10492,7 @@ export const airports = [
     IATA: 'CUL'
   },
   {
-    name: 'Del Baj\u00edo Intl ',
+    name: 'Del Baj\u00EDo Intl ',
     city: 'Del Bajio',
     country: 'Mexico',
     IATA: 'BJX'
@@ -10511,7 +10511,7 @@ export const airports = [
     IATA: 'GDL'
   },
   {
-    name: 'General Jos\u00e9 Mar\u00eda Y\u00e1\u00f1ez Intl ',
+    name: 'General Jos\u00E9 Mar\u00EDa Y\u00E1\u00F1ez Intl ',
     city: 'Guaymas',
     country: 'Mexico',
     IATA: 'GYM'
@@ -10529,7 +10529,7 @@ export const airports = [
     IATA: 'HMO'
   },
   {
-    name: 'Bah\u00edas de Huatulco Intl ',
+    name: 'Bah\u00EDas de Huatulco Intl ',
     city: 'Huatulco',
     country: 'Mexico',
     IATA: 'HUX'
@@ -10543,13 +10543,13 @@ export const airports = [
   { name: 'Ixtepec ', city: 'Iztepec', country: 'Mexico', IATA: 'IZT' },
   { name: 'El Lencero ', city: 'Jalapa', country: 'Mexico', IATA: 'JAL' },
   {
-    name: 'Manuel M\u00e1rquez de Le\u00f3n Intl ',
+    name: 'Manuel M\u00E1rquez de Le\u00F3n Intl ',
     city: 'La Paz',
     country: 'Mexico',
     IATA: 'LAP'
   },
   {
-    name: 'L\u00e1zaro C\u00e1rdenas ',
+    name: 'L\u00E1zaro C\u00E1rdenas ',
     city: 'Lazard Cardenas',
     country: 'Mexico',
     IATA: 'LZC'
@@ -10586,7 +10586,7 @@ export const airports = [
     IATA: 'MID'
   },
   {
-    name: 'General Rodolfo S\u00e1nchez Taboada Intl ',
+    name: 'General Rodolfo S\u00E1nchez Taboada Intl ',
     city: 'Mexicali',
     country: 'Mexico',
     IATA: 'MXL'
@@ -10598,7 +10598,7 @@ export const airports = [
     IATA: 'MEX'
   },
   {
-    name: 'Minatitl\u00e1n/Coatzacoalcos National ',
+    name: 'Minatitl\u00E1n/Coatzacoalcos National ',
     city: 'Minatitlan',
     country: 'Mexico',
     IATA: 'MTT'
@@ -10636,13 +10636,13 @@ export const airports = [
     IATA: 'NCG'
   },
   {
-    name: 'Quetzalc\u00f3atl Intl ',
+    name: 'Quetzalc\u00F3atl Intl ',
     city: 'Nuevo Laredo',
     country: 'Mexico',
     IATA: 'NLD'
   },
   {
-    name: 'Xoxocotl\u00e1n Intl ',
+    name: 'Xoxocotl\u00E1n Intl ',
     city: 'Oaxaca',
     country: 'Mexico',
     IATA: 'OAX'
@@ -10655,13 +10655,13 @@ export const airports = [
     IATA: 'PDS'
   },
   {
-    name: 'El Taj\u00edn National ',
+    name: 'El Taj\u00EDn National ',
     city: 'Poza Rico',
     country: 'Mexico',
     IATA: 'PAZ'
   },
   {
-    name: 'Hermanos Serd\u00e1n Intl ',
+    name: 'Hermanos Serd\u00E1n Intl ',
     city: 'Puebla',
     country: 'Mexico',
     IATA: 'PBC'
@@ -10673,19 +10673,19 @@ export const airports = [
     IATA: 'PXM'
   },
   {
-    name: 'Licenciado Gustavo D\u00edaz Ordaz Intl ',
+    name: 'Licenciado Gustavo D\u00EDaz Ordaz Intl ',
     city: 'Puerto Vallarta',
     country: 'Mexico',
     IATA: 'PVR'
   },
   {
-    name: 'Mar de Cort\u00e9s Intl ',
+    name: 'Mar de Cort\u00E9s Intl ',
     city: 'Punta Penasco',
     country: 'Mexico',
     IATA: 'PPE'
   },
   {
-    name: 'Quer\u00e9taro Intercontinental ',
+    name: 'Quer\u00E9taro Intercontinental ',
     city: 'Queretaro',
     country: 'Mexico',
     IATA: 'QRO'
@@ -10747,7 +10747,7 @@ export const airports = [
     IATA: 'TPQ'
   },
   {
-    name: 'General Abelardo L. Rodr\u00edguez Intl ',
+    name: 'General Abelardo L. Rodr\u00EDguez Intl ',
     city: 'Tijuana',
     country: 'Mexico',
     IATA: 'TIJ'
@@ -10783,7 +10783,7 @@ export const airports = [
     IATA: 'VER'
   },
   {
-    name: 'Carlos Rovirosa P\u00e9rez Intl ',
+    name: 'Carlos Rovirosa P\u00E9rez Intl ',
     city: 'Villahermosa',
     country: 'Mexico',
     IATA: 'VSA'
@@ -10817,13 +10817,13 @@ export const airports = [
     IATA: 'MDY'
   },
   {
-    name: 'Chi\u015fin\u0103u Intl ',
+    name: 'Chi\u015Fin\u0103u Intl ',
     city: 'Chisinau',
     country: 'Moldova',
     IATA: 'KIV'
   },
   {
-    name: 'B\u0103l\u021bi Intl ',
+    name: 'B\u0103l\u021Bi Intl ',
     city: 'Saltsy',
     country: 'Moldova',
     IATA: 'BZY'
@@ -10845,7 +10845,7 @@ export const airports = [
     IATA: 'DLZ'
   },
   { name: 'Khovd ', city: 'Khovd', country: 'Mongolia', IATA: 'HVD' },
-  { name: 'M\u00f6r\u00f6n ', city: 'Muren', country: 'Mongolia', IATA: 'MXV' },
+  { name: 'M\u00F6r\u00F6n ', city: 'Muren', country: 'Mongolia', IATA: 'MXV' },
   { name: 'Ulgii Mongolei ', city: 'Olgii', country: 'Mongolia', IATA: 'ULG' },
   { name: 'Ulaangom ', city: 'Ulaangom', country: 'Mongolia', IATA: 'ULO' },
   {
@@ -10897,13 +10897,13 @@ export const airports = [
     IATA: 'ERH'
   },
   { name: 'Mogador ', city: 'Essadouira', country: 'Morocco', IATA: 'ESU' },
-  { name: 'Sa\u00efss ', city: 'Fes', country: 'Morocco', IATA: 'FEZ' },
+  { name: 'Sa\u00EFss ', city: 'Fes', country: 'Morocco', IATA: 'FEZ' },
   { name: 'Kenitra ', city: 'Kentira', country: 'Morocco', IATA: 'NNA' },
   { name: 'Menara ', city: 'Marrakech', country: 'Morocco', IATA: 'RAK' },
   { name: 'Bassatine ', city: 'Meknes', country: 'Morocco', IATA: 'MEK' },
   { name: 'Ouarzazate ', city: 'Ouarzazate', country: 'Morocco', IATA: 'OZZ' },
   { name: 'Angads ', city: 'Oujda', country: 'Morocco', IATA: 'OUD' },
-  { name: 'Rabat-Sal\u00e9 ', city: 'Rabat', country: 'Morocco', IATA: 'RBA' },
+  { name: 'Rabat-Sal\u00E9 ', city: 'Rabat', country: 'Morocco', IATA: 'RBA' },
   { name: 'Tan Tan ', city: 'Tan Tan', country: 'Morocco', IATA: 'TTA' },
   { name: 'Ibn Batouta ', city: 'Tanger', country: 'Morocco', IATA: 'TNG' },
   { name: "Saniat R'mel ", city: 'Tetouan', country: 'Morocco', IATA: 'TTU' },
@@ -10917,7 +10917,7 @@ export const airports = [
   { name: 'Lumbo ', city: 'Lumbo', country: 'Mozambique', IATA: 'LFB' },
   { name: 'Maputo ', city: 'Maputo', country: 'Mozambique', IATA: 'MPM' },
   {
-    name: 'Moc\u00edmboa da Praia ',
+    name: 'Moc\u00EDmboa da Praia ',
     city: 'Mocimboa Da Praia',
     country: 'Mozambique',
     IATA: 'MZB'
@@ -11104,17 +11104,17 @@ export const airports = [
     IATA: 'WOE'
   },
   {
-    name: '\u00cele des Pins ',
-    city: '\u00cele des Pins',
+    name: '\u00CEle des Pins ',
+    city: '\u00CEle des Pins',
     country: 'New Caledonia',
     IATA: 'ILP'
   },
-  { name: 'Kon\u00e9 ', city: 'Kone', country: 'New Caledonia', IATA: 'KNQ' },
+  { name: 'Kon\u00E9 ', city: 'Kone', country: 'New Caledonia', IATA: 'KNQ' },
   { name: 'Koumac ', city: 'Koumac', country: 'New Caledonia', IATA: 'KOC' },
   { name: 'Lifou ', city: 'Lifou', country: 'New Caledonia', IATA: 'LIF' },
-  { name: 'Mar\u00e9 ', city: 'Mare', country: 'New Caledonia', IATA: 'MEE' },
+  { name: 'Mar\u00E9 ', city: 'Mare', country: 'New Caledonia', IATA: 'MEE' },
   {
-    name: 'Noum\u00e9a Magenta ',
+    name: 'Noum\u00E9a Magenta ',
     city: 'Noumea',
     country: 'New Caledonia',
     IATA: 'GEA'
@@ -11126,16 +11126,16 @@ export const airports = [
     IATA: 'NOU'
   },
   {
-    name: 'Noum\u00e9a (TODOS)',
+    name: 'Noum\u00E9a (TODOS)',
     city: 'Noumea',
     country: 'New Caledonia',
     IATA: 'TODOS'
   },
-  { name: 'Ouv\u00e9a ', city: 'Ouvea', country: 'New Caledonia', IATA: 'UVE' },
+  { name: 'Ouv\u00E9a ', city: 'Ouvea', country: 'New Caledonia', IATA: 'UVE' },
   { name: 'Tiga ', city: 'Tiga', country: 'New Caledonia', IATA: 'TGJ' },
   { name: 'Touho ', city: 'Touho', country: 'New Caledonia', IATA: 'TOU' },
   {
-    name: '\u00cele Art - Waala ',
+    name: '\u00CEle Art - Waala ',
     city: 'Waala',
     country: 'New Caledonia',
     IATA: 'BMY'
@@ -11454,28 +11454,28 @@ export const airports = [
     country: 'Northern Mariana Islands',
     IATA: 'TIQ'
   },
-  { name: '\u00c5lesund ', city: 'Alesund', country: 'Norway', IATA: 'AES' },
+  { name: '\u00C5lesund ', city: 'Alesund', country: 'Norway', IATA: 'AES' },
   { name: 'Alta ', city: 'Alta', country: 'Norway', IATA: 'ALF' },
-  { name: 'And\u00f8ya ', city: 'Andoya', country: 'Norway', IATA: 'ANX' },
+  { name: 'And\u00F8ya ', city: 'Andoya', country: 'Norway', IATA: 'ANX' },
   { name: 'Bardufoss ', city: 'Bardufoss', country: 'Norway', IATA: 'BDU' },
   {
-    name: 'B\u00e5tsfjord ',
+    name: 'B\u00E5tsfjord ',
     city: 'Batsfjord',
     country: 'Norway',
     IATA: 'BJF'
   },
   { name: 'Bergen  Flesland', city: 'Bergen', country: 'Norway', IATA: 'BGO' },
-  { name: 'Berlev\u00e5g ', city: 'Berlevag', country: 'Norway', IATA: 'BVG' },
-  { name: 'Bod\u00f8 ', city: 'Bodo', country: 'Norway', IATA: 'BOO' },
+  { name: 'Berlev\u00E5g ', city: 'Berlevag', country: 'Norway', IATA: 'BVG' },
+  { name: 'Bod\u00F8 ', city: 'Bodo', country: 'Norway', IATA: 'BOO' },
   {
-    name: 'Br\u00f8nn\u00f8ysund ',
+    name: 'Br\u00F8nn\u00F8ysund ',
     city: 'Bronnoysund',
     country: 'Norway',
     IATA: 'BNN'
   },
   { name: 'Leirin ', city: 'Fagernes', country: 'Norway', IATA: 'VDB' },
   { name: 'Lista ', city: 'Farsund', country: 'Norway', IATA: 'FAN' },
-  { name: 'Flor\u00f8 ', city: 'Floro', country: 'Norway', IATA: 'FRO' },
+  { name: 'Flor\u00F8 ', city: 'Floro', country: 'Norway', IATA: 'FRO' },
   { name: 'Geilo  Dagali', city: 'Geilo', country: 'Norway', IATA: 'DLD' },
   { name: 'Stafsberg ', city: 'Hamar', country: 'Norway', IATA: 'HMR' },
   { name: 'Hammerfest ', city: 'Hammerfest', country: 'Norway', IATA: 'HFT' },
@@ -11489,7 +11489,7 @@ export const airports = [
     IATA: 'QKX'
   },
   {
-    name: 'Kirkenes  (H\u00f8ybuktmoen)',
+    name: 'Kirkenes  (H\u00F8ybuktmoen)',
     city: 'Kirkenes',
     country: 'Norway',
     IATA: 'KKN'
@@ -11511,26 +11511,26 @@ export const airports = [
   { name: 'Mehamn ', city: 'Mehamn', country: 'Norway', IATA: 'MEH' },
   { name: 'Molde ', city: 'Molde', country: 'Norway', IATA: 'MOL' },
   {
-    name: 'Mosj\u00f8en  (Kj\u00e6rstad)',
+    name: 'Mosj\u00F8en  (Kj\u00E6rstad)',
     city: 'Mosjoen',
     country: 'Norway',
     IATA: 'MJF'
   },
   {
-    name: 'Namsos H\u00f8knes\u00f8ra ',
+    name: 'Namsos H\u00F8knes\u00F8ra ',
     city: 'Namsos',
     country: 'Norway',
     IATA: 'OSY'
   },
   { name: 'Narvik Framnes ', city: 'Narvik', country: 'Norway', IATA: 'NVK' },
   { name: 'Notodden ', city: 'Notodden', country: 'Norway', IATA: 'NTB' },
-  { name: '\u00d8rland ', city: 'Orland', country: 'Norway', IATA: 'OLA' },
+  { name: '\u00D8rland ', city: 'Orland', country: 'Norway', IATA: 'OLA' },
   { name: 'Oslo Lufthavn', city: 'Oslo', country: 'Norway', IATA: 'OSL' },
-  { name: 'R\u00f8st ', city: 'R\u00f8st', country: 'Norway', IATA: 'RET' },
-  { name: 'R\u00f8ros ', city: 'Roros', country: 'Norway', IATA: 'RRS' },
+  { name: 'R\u00F8st ', city: 'R\u00F8st', country: 'Norway', IATA: 'RET' },
+  { name: 'R\u00F8ros ', city: 'Roros', country: 'Norway', IATA: 'RRS' },
   { name: 'Sandane  (Anda)', city: 'Sandane', country: 'Norway', IATA: 'SDN' },
   {
-    name: 'Sandnessj\u00f8en  (Stokka)',
+    name: 'Sandnessj\u00F8en  (Stokka)',
     city: 'Sandnessjoen',
     country: 'Norway',
     IATA: 'SSJ'
@@ -11538,7 +11538,7 @@ export const airports = [
   { name: 'Skien ', city: 'Skien', country: 'Norway', IATA: 'SKE' },
   { name: 'Sogndal ', city: 'Sogndal', country: 'Norway', IATA: 'SOG' },
   {
-    name: 'S\u00f8rkjosen ',
+    name: 'S\u00F8rkjosen ',
     city: 'Sorkjosen',
     country: 'Norway',
     IATA: 'SOJ'
@@ -11557,24 +11557,24 @@ export const airports = [
   },
   { name: 'Stord ', city: 'Stord', country: 'Norway', IATA: 'SRP' },
   {
-    name: 'Svolv\u00e6r Helle ',
-    city: 'Svolv\u00e6r',
+    name: 'Svolv\u00E6r Helle ',
+    city: 'Svolv\u00E6r',
     country: 'Norway',
     IATA: 'SVJ'
   },
   {
-    name: 'Trondheim  V\u00e6rnes',
+    name: 'Trondheim  V\u00E6rnes',
     city: 'Trondheim',
     country: 'Norway',
     IATA: 'TRD'
   },
   {
-    name: 'V\u00e6r\u00f8y Heliport',
-    city: 'V\u00e6r\u00f8y',
+    name: 'V\u00E6r\u00F8y Heliport',
+    city: 'V\u00E6r\u00F8y',
     country: 'Norway',
     IATA: 'VRY'
   },
-  { name: 'Vads\u00f8 ', city: 'Vads\u00f8', country: 'Norway', IATA: 'VDS' },
+  { name: 'Vads\u00F8 ', city: 'Vads\u00F8', country: 'Norway', IATA: 'VDS' },
   { name: 'Rustaq ', city: "Al Masna'ah", country: 'Oman', IATA: 'MNH' },
   { name: 'Duqm Intl ', city: 'Duqm', country: 'Oman', IATA: 'DQM' },
   { name: 'Khasab Air Base', city: 'Khasab', country: 'Oman', IATA: 'KHS' },
@@ -11717,20 +11717,20 @@ export const airports = [
     IATA: 'BOC'
   },
   {
-    name: 'Cap Manuel Ni\u00f1o Intl ',
+    name: 'Cap Manuel Ni\u00F1o Intl ',
     city: 'Changuinola',
     country: 'Panama',
     IATA: 'CHX'
   },
   {
     name: 'Alonso Valderrama ',
-    city: 'Chitr\u00e9',
+    city: 'Chitr\u00E9',
     country: 'Panama',
     IATA: 'CTD'
   },
   {
     name: 'Enrique Adolfo Jimenez ',
-    city: 'Col\u00f3n',
+    city: 'Col\u00F3n',
     country: 'Panama',
     IATA: 'ONX'
   },
@@ -11746,7 +11746,7 @@ export const airports = [
     country: 'Panama',
     IATA: 'BLB'
   },
-  { name: 'Jaqu\u00e9 ', city: 'Jaqu\u00e9', country: 'Panama', IATA: 'JQE' },
+  { name: 'Jaqu\u00E9 ', city: 'Jaqu\u00E9', country: 'Panama', IATA: 'JQE' },
   {
     name: 'Captain Ramon Xatruch ',
     city: 'La Palma',
@@ -11908,13 +11908,13 @@ export const airports = [
     IATA: 'CIO'
   },
   {
-    name: 'Encarnaci\u00f3n ',
+    name: 'Encarnaci\u00F3n ',
     city: 'Encarnacion',
     country: 'Paraguay',
     IATA: 'ENO'
   },
   {
-    name: 'Dr. Luis Maria Arga\u00f1a Intl ',
+    name: 'Dr. Luis Maria Arga\u00F1a Intl ',
     city: 'Mariscal Estigarribia',
     country: 'Paraguay',
     IATA: 'ESG'
@@ -11945,7 +11945,7 @@ export const airports = [
     IATA: 'ATA'
   },
   {
-    name: 'Rodr\u00edguez Ball\u00f3n Intl ',
+    name: 'Rodr\u00EDguez Ball\u00F3n Intl ',
     city: 'Arequipa',
     country: 'Peru',
     IATA: 'AQP'
@@ -11983,7 +11983,7 @@ export const airports = [
   },
   {
     name: 'Alferez Fap David Figueroa Fernandini ',
-    city: 'Hu\u00e1nuco',
+    city: 'Hu\u00E1nuco',
     country: 'Peru',
     IATA: 'HUU'
   },
@@ -11995,7 +11995,7 @@ export const airports = [
     country: 'Peru',
     IATA: 'IQT'
   },
-  { name: 'Shumba ', city: 'Ja\u00e9n', country: 'Peru', IATA: 'JAE' },
+  { name: 'Shumba ', city: 'Ja\u00E9n', country: 'Peru', IATA: 'JAE' },
   { name: 'Francisco Carle ', city: 'Jauja', country: 'Peru', IATA: 'JAU' },
   { name: 'Juanjui ', city: 'Juanjui', country: 'Peru', IATA: 'JJI' },
   {
@@ -12005,20 +12005,20 @@ export const airports = [
     IATA: 'JUL'
   },
   {
-    name: 'Jorge Ch\u00e1vez Intl ',
+    name: 'Jorge Ch\u00E1vez Intl ',
     city: 'Lima',
     country: 'Peru',
     IATA: 'LIM'
   },
   { name: 'Maria Reiche Neuman ', city: 'Nazca', country: 'Peru', IATA: 'NZC' },
   {
-    name: 'Capit\u00e1n FAP Ren\u00e1n El\u00edas Olivera Intl ',
+    name: 'Capit\u00E1n FAP Ren\u00E1n El\u00EDas Olivera Intl ',
     city: 'Pisco',
     country: 'Peru',
     IATA: 'PIO'
   },
   {
-    name: 'Capit\u00e1n FAP Guillermo Concha Iberico Intl ',
+    name: 'Capit\u00E1n FAP Guillermo Concha Iberico Intl ',
     city: 'Piura',
     country: 'Peru',
     IATA: 'PIU'
@@ -12289,13 +12289,13 @@ export const airports = [
   },
   { name: 'Katowice Intl ', city: 'Katowice', country: 'Poland', IATA: 'KTW' },
   {
-    name: 'Krak\u00f3w John Paul II Intl ',
+    name: 'Krak\u00F3w John Paul II Intl ',
     city: 'Krakow',
     country: 'Poland',
     IATA: 'KRK'
   },
   {
-    name: '\u0141\u00f3d\u017a W\u0142adys\u0142aw Reymont ',
+    name: '\u0141\u00F3d\u017A W\u0142adys\u0142aw Reymont ',
     city: 'Lodz',
     country: 'Poland',
     IATA: 'LCJ'
@@ -12309,7 +12309,7 @@ export const airports = [
   },
   { name: 'Radom ', city: 'RADOM', country: 'Poland', IATA: 'RDO' },
   {
-    name: 'Rzesz\u00f3w-Jasionka ',
+    name: 'Rzesz\u00F3w-Jasionka ',
     city: 'Rzeszow',
     country: 'Poland',
     IATA: 'RZE'
@@ -12321,7 +12321,7 @@ export const airports = [
     IATA: 'OSP'
   },
   {
-    name: 'Szczecin-Goleni\u00f3w Solidarno\u015b\u0107 ',
+    name: 'Szczecin-Goleni\u00F3w Solidarno\u015B\u0107 ',
     city: 'Szczecin',
     country: 'Poland',
     IATA: 'SZZ'
@@ -12342,7 +12342,7 @@ export const airports = [
     IATA: 'WRO'
   },
   {
-    name: 'Zielona G\u00f3ra-Babimost ',
+    name: 'Zielona G\u00F3ra-Babimost ',
     city: 'Zielona Gora',
     country: 'Poland',
     IATA: 'IEG'
@@ -12366,7 +12366,7 @@ export const airports = [
     IATA: 'BGZ'
   },
   {
-    name: 'Bragan\u00e7a ',
+    name: 'Bragan\u00E7a ',
     city: 'Braganca',
     country: 'Portugal',
     IATA: 'BGC'
@@ -12403,13 +12403,13 @@ export const airports = [
   },
   { name: 'Pico ', city: 'Pico', country: 'Portugal', IATA: 'PIX' },
   {
-    name: 'Jo\u00e3o Paulo II ',
+    name: 'Jo\u00E3o Paulo II ',
     city: 'Ponta Delgada',
     country: 'Portugal',
     IATA: 'PDL'
   },
   {
-    name: 'Portim\u00e3o ',
+    name: 'Portim\u00E3o ',
     city: 'Portimao',
     country: 'Portugal',
     IATA: 'PRM'
@@ -12421,7 +12421,7 @@ export const airports = [
     IATA: 'PXO'
   },
   {
-    name: 'Francisco de S\u00e1 Carneiro ',
+    name: 'Francisco de S\u00E1 Carneiro ',
     city: 'Porto',
     country: 'Portugal',
     IATA: 'OPO'
@@ -12433,7 +12433,7 @@ export const airports = [
     IATA: 'SMA'
   },
   {
-    name: 'S\u00e3o Jorge ',
+    name: 'S\u00E3o Jorge ',
     city: 'Sao Jorge Island',
     country: 'Portugal',
     IATA: 'SJZ'
@@ -12458,7 +12458,7 @@ export const airports = [
     IATA: 'ARE'
   },
   {
-    name: 'Jos\u00e9 Aponte de la Torre ',
+    name: 'Jos\u00E9 Aponte de la Torre ',
     city: 'Ceiba',
     country: 'Puerto Rico',
     IATA: 'NRR'
@@ -12544,7 +12544,7 @@ export const airports = [
     IATA: 'TODOS'
   },
   {
-    name: 'Caransebe\u015f ',
+    name: 'Caransebe\u015F ',
     city: 'Caransebes',
     country: 'Romania',
     IATA: 'CSB'
@@ -12562,7 +12562,7 @@ export const airports = [
     IATA: 'CND'
   },
   { name: 'Craiova ', city: 'Craiova', country: 'Romania', IATA: 'CRA' },
-  { name: 'Ia\u015fi ', city: 'Iasi', country: 'Romania', IATA: 'IAS' },
+  { name: 'Ia\u015Fi ', city: 'Iasi', country: 'Romania', IATA: 'IAS' },
   { name: 'Oradea Intl ', city: 'Oradea', country: 'Romania', IATA: 'OMR' },
   { name: 'Satu Mare ', city: 'Satu Mare', country: 'Romania', IATA: 'SUJ' },
   { name: 'Sibiu Intl ', city: 'Sibiu', country: 'Romania', IATA: 'SBZ' },
@@ -12573,13 +12573,13 @@ export const airports = [
     IATA: 'SCV'
   },
   {
-    name: 'Timi\u015foara Traian Vuia ',
+    name: 'Timi\u015Foara Traian Vuia ',
     city: 'Timisoara',
     country: 'Romania',
     IATA: 'TSR'
   },
   {
-    name: 'Transilvania T\u00e2rgu Mure\u015f Intl ',
+    name: 'Transilvania T\u00E2rgu Mure\u015F Intl ',
     city: 'Tirgu Mures',
     country: 'Romania',
     IATA: 'TGM'
@@ -13064,7 +13064,7 @@ export const airports = [
     IATA: 'PCP'
   },
   {
-    name: 'S\u00e3o Tom\u00e9 Intl ',
+    name: 'S\u00E3o Tom\u00E9 Intl ',
     city: 'Sao Tome',
     country: 'Sao Tome and Principe',
     IATA: 'TMS'
@@ -13219,7 +13219,7 @@ export const airports = [
     IATA: 'CSK'
   },
   {
-    name: 'L\u00e9opold S\u00e9dar Senghor Intl ',
+    name: 'L\u00E9opold S\u00E9dar Senghor Intl ',
     city: 'Dakar',
     country: 'Senegal',
     IATA: 'DKR'
@@ -13231,7 +13231,7 @@ export const airports = [
     IATA: 'DSS'
   },
   { name: 'Kaolack ', city: 'Kaolack', country: 'Senegal', IATA: 'KLC' },
-  { name: 'K\u00e9dougou ', city: 'Kedougou', country: 'Senegal', IATA: 'KGG' },
+  { name: 'K\u00E9dougou ', city: 'Kedougou', country: 'Senegal', IATA: 'KGG' },
   { name: 'Kolda North ', city: 'Kolda', country: 'Senegal', IATA: 'KDA' },
   { name: 'Ouro Sogui ', city: 'Matam', country: 'Senegal', IATA: 'MAX' },
   { name: 'Saint Louis ', city: 'St. Louis', country: 'Senegal', IATA: 'XLS' },
@@ -13330,13 +13330,13 @@ export const airports = [
     IATA: 'TGA'
   },
   {
-    name: '\u017dilina ',
-    city: '\u017dilina',
+    name: '\u017Dilina ',
+    city: '\u017Dilina',
     country: 'Slovakia',
     IATA: 'ILZ'
   },
   {
-    name: 'M. R. \u0160tef\u00e1nik ',
+    name: 'M. R. \u0160tef\u00E1nik ',
     city: 'Bratislava',
     country: 'Slovakia',
     IATA: 'BTS'
@@ -13349,9 +13349,9 @@ export const airports = [
     IATA: 'PZY'
   },
   { name: 'Poprad-Tatry ', city: 'Poprad', country: 'Slovakia', IATA: 'TAT' },
-  { name: 'Slia\u010d ', city: 'Sliac', country: 'Slovakia', IATA: 'SLD' },
+  { name: 'Slia\u010D ', city: 'Sliac', country: 'Slovakia', IATA: 'SLD' },
   {
-    name: 'Ljubljana Jo\u017ee Pu\u010dnik ',
+    name: 'Ljubljana Jo\u017Ee Pu\u010Dnik ',
     city: 'Ljubljana',
     country: 'Slovenia',
     IATA: 'LJU'
@@ -13883,7 +13883,7 @@ export const airports = [
   },
   { name: 'Alicante Intl ', city: 'Alicante', country: 'Spain', IATA: 'ALC' },
   {
-    name: 'Almer\u00eda Intl ',
+    name: 'Almer\u00EDa Intl ',
     city: 'Almeria',
     country: 'Spain',
     IATA: 'LEI'
@@ -13895,8 +13895,8 @@ export const airports = [
   { name: 'Bilbao ', city: 'Bilbao', country: 'Spain', IATA: 'BIO' },
   { name: 'Burgos ', city: 'Burgos', country: 'Spain', IATA: 'RGS' },
   {
-    name: 'Castell\u00f3n-Costa Azahar ',
-    city: 'Castell\u00f3n de la Plana',
+    name: 'Castell\u00F3n-Costa Azahar ',
+    city: 'Castell\u00F3n de la Plana',
     country: 'Spain',
     IATA: 'CDT'
   },
@@ -13906,7 +13906,7 @@ export const airports = [
     country: 'Spain',
     IATA: 'CQM'
   },
-  { name: 'C\u00f3rdoba ', city: 'Cordoba', country: 'Spain', IATA: 'ODB' },
+  { name: 'C\u00F3rdoba ', city: 'Cordoba', country: 'Spain', IATA: 'ODB' },
   {
     name: 'Fuerteventura ',
     city: 'Fuerteventura',
@@ -13930,31 +13930,31 @@ export const airports = [
   { name: 'Huesca/Pirineos ', city: 'Huesca', country: 'Spain', IATA: 'HSK' },
   { name: 'Ibiza ', city: 'Ibiza', country: 'Spain', IATA: 'IBZ' },
   { name: 'Jerez ', city: 'Jerez', country: 'Spain', IATA: 'XRY' },
-  { name: 'A Coru\u00f1a ', city: 'La Coruna', country: 'Spain', IATA: 'LCG' },
+  { name: 'A Coru\u00F1a ', city: 'La Coruna', country: 'Spain', IATA: 'LCG' },
   { name: 'La Gomera ', city: 'La Gomera', country: 'Spain', IATA: 'GMZ' },
   { name: 'Leon ', city: 'Leon', country: 'Spain', IATA: 'LEN' },
   { name: 'Lleida-Alguaire ', city: 'Lleida', country: 'Spain', IATA: 'ILD' },
   {
-    name: 'Logro\u00f1o-Agoncillo ',
-    city: 'Logro\u00f1o-Agoncillo',
+    name: 'Logro\u00F1o-Agoncillo ',
+    city: 'Logro\u00F1o-Agoncillo',
     country: 'Spain',
     IATA: 'RJL'
   },
   {
-    name: 'Adolfo Su\u00e1rez Madrid\u2013Barajas ',
+    name: 'Adolfo Su\u00E1rez Madrid\u2013Barajas ',
     city: 'Madrid',
     country: 'Spain',
     IATA: 'MAD'
   },
-  { name: 'Torrej\u00f3n ', city: 'Madrid', country: 'Spain', IATA: 'TOJ' },
+  { name: 'Torrej\u00F3n ', city: 'Madrid', country: 'Spain', IATA: 'TOJ' },
   { name: 'Cuatro Vientos ', city: 'Madrid', country: 'Spain', IATA: 'ECV' },
   { name: 'Madrid (TODOS)', city: 'Madrid', country: 'Spain', IATA: 'TODOS' },
-  { name: 'M\u00e1laga ', city: 'Malaga', country: 'Spain', IATA: 'AGP' },
+  { name: 'M\u00E1laga ', city: 'Malaga', country: 'Spain', IATA: 'AGP' },
   { name: 'Melilla ', city: 'Melilla', country: 'Spain', IATA: 'MLN' },
   { name: 'Menorca ', city: 'Menorca', country: 'Spain', IATA: 'MAH' },
   { name: 'San Javier ', city: 'Murcia', country: 'Spain', IATA: 'MJV' },
   {
-    name: 'Regi\u00f3n de Murcia Intl ',
+    name: 'Regi\u00F3n de Murcia Intl ',
     city: 'Murcia',
     country: 'Spain',
     IATA: 'RMU'
@@ -14157,14 +14157,14 @@ export const airports = [
     IATA: 'TODOS'
   },
   {
-    name: '\u00c4ngelholm-Helsingborg ',
-    city: '\u00c4ngelholm',
+    name: '\u00C4ngelholm-Helsingborg ',
+    city: '\u00C4ngelholm',
     country: 'Sweden',
     IATA: 'AGH'
   },
   {
-    name: '\u00c5re \u00d6stersund ',
-    city: '\u00d6stersund',
+    name: '\u00C5re \u00D6stersund ',
+    city: '\u00D6stersund',
     country: 'Sweden',
     IATA: 'OSD'
   },
@@ -14172,13 +14172,13 @@ export const airports = [
   { name: 'Borlange ', city: 'Borlange', country: 'Sweden', IATA: 'BLE' },
   { name: 'Eskilstuna ', city: 'Eskilstuna', country: 'Sweden', IATA: 'EKT' },
   {
-    name: 'G\u00e4llivare ',
+    name: 'G\u00E4llivare ',
     city: 'Gallivare',
     country: 'Sweden',
     IATA: 'GEV'
   },
   {
-    name: 'G\u00e4vle Sandviken ',
+    name: 'G\u00E4vle Sandviken ',
     city: 'Gavle',
     country: 'Sweden',
     IATA: 'GVX'
@@ -14207,7 +14207,7 @@ export const airports = [
   { name: 'Hudiksvall ', city: 'Hudiksvall', country: 'Sweden', IATA: 'HUV' },
   { name: 'Hultsfred ', city: 'Hultsfred', country: 'Sweden', IATA: 'HLF' },
   {
-    name: 'J\u00f6nk\u00f6ping ',
+    name: 'J\u00F6nk\u00F6ping ',
     city: 'Joenkoeping',
     country: 'Sweden',
     IATA: 'JKG'
@@ -14217,7 +14217,7 @@ export const airports = [
   { name: 'Karlstad ', city: 'Karlstad', country: 'Sweden', IATA: 'KSD' },
   { name: 'Kiruna ', city: 'Kiruna', country: 'Sweden', IATA: 'KRN' },
   {
-    name: 'Kramfors Sollefte\u00e5 ',
+    name: 'Kramfors Sollefte\u00E5 ',
     city: 'Kramfors',
     country: 'Sweden',
     IATA: 'KRF'
@@ -14229,21 +14229,21 @@ export const airports = [
     IATA: 'KID'
   },
   {
-    name: 'Lidk\u00f6ping-Hovby ',
+    name: 'Lidk\u00F6ping-Hovby ',
     city: 'Lidkoping',
     country: 'Sweden',
     IATA: 'LDK'
   },
   {
-    name: 'Link\u00f6ping City ',
+    name: 'Link\u00F6ping City ',
     city: 'Linkoeping',
     country: 'Sweden',
     IATA: 'LPI'
   },
-  { name: 'Lule\u00e5 ', city: 'Lulea', country: 'Sweden', IATA: 'LLA' },
+  { name: 'Lule\u00E5 ', city: 'Lulea', country: 'Sweden', IATA: 'LLA' },
   { name: 'Lycksele ', city: 'Lycksele', country: 'Sweden', IATA: 'LYC' },
   {
-    name: 'Malm\u00f6 Sturup ',
+    name: 'Malm\u00F6 Sturup ',
     city: 'Malmoe',
     country: 'Sweden',
     IATA: 'MMX'
@@ -14251,14 +14251,14 @@ export const airports = [
   { name: 'Storuman ', city: 'Mohed', country: 'Sweden', IATA: 'SQO' },
   { name: 'Mora ', city: 'Mora', country: 'Sweden', IATA: 'MXX' },
   {
-    name: 'Norrk\u00f6ping ',
+    name: 'Norrk\u00F6ping ',
     city: 'Norrkoeping',
     country: 'Sweden',
     IATA: 'NRK'
   },
-  { name: '\u00d6rebro ', city: 'Orebro', country: 'Sweden', IATA: 'ORB' },
+  { name: '\u00D6rebro ', city: 'Orebro', country: 'Sweden', IATA: 'ORB' },
   {
-    name: '\u00d6rnsk\u00f6ldsvik ',
+    name: '\u00D6rnsk\u00F6ldsvik ',
     city: 'Ornskoldsvik',
     country: 'Sweden',
     IATA: 'OER'
@@ -14267,14 +14267,14 @@ export const airports = [
   { name: 'Pajala ', city: 'Pajala', country: 'Sweden', IATA: 'PJA' },
   { name: 'Ronneby ', city: 'Ronneby', country: 'Sweden', IATA: 'RNB' },
   {
-    name: 'Skellefte\u00e5 ',
+    name: 'Skellefte\u00E5 ',
     city: 'Skelleftea',
     country: 'Sweden',
     IATA: 'SFT'
   },
-  { name: 'Sk\u00f6vde ', city: 'Skovde', country: 'Sweden', IATA: 'KVB' },
+  { name: 'Sk\u00F6vde ', city: 'Skovde', country: 'Sweden', IATA: 'KVB' },
   {
-    name: 'S\u00f6derhamn ',
+    name: 'S\u00F6derhamn ',
     city: 'Soderhamn',
     country: 'Sweden',
     IATA: 'SOO'
@@ -14304,7 +14304,7 @@ export const airports = [
     IATA: 'TODOS'
   },
   {
-    name: 'Sundsvall-H\u00e4rn\u00f6sand ',
+    name: 'Sundsvall-H\u00E4rn\u00F6sand ',
     city: 'Sundsvall',
     country: 'Sweden',
     IATA: 'SDL'
@@ -14312,20 +14312,20 @@ export const airports = [
   { name: 'Sveg ', city: 'Sveg', country: 'Sweden', IATA: 'EVG' },
   { name: 'Torsby ', city: 'Torsby', country: 'Sweden', IATA: 'TYF' },
   {
-    name: 'Trollh\u00e4ttan-V\u00e4nersborg ',
+    name: 'Trollh\u00E4ttan-V\u00E4nersborg ',
     city: 'Trollhattan',
     country: 'Sweden',
     IATA: 'THN'
   },
-  { name: 'Ume\u00e5 ', city: 'Umea', country: 'Sweden', IATA: 'UME' },
+  { name: 'Ume\u00E5 ', city: 'Umea', country: 'Sweden', IATA: 'UME' },
   {
-    name: 'Stockholm V\u00e4ster\u00e5s ',
+    name: 'Stockholm V\u00E4ster\u00E5s ',
     city: 'Vasteras',
     country: 'Sweden',
     IATA: 'VST'
   },
   {
-    name: 'V\u00e4xj\u00f6 Kronoberg ',
+    name: 'V\u00E4xj\u00F6 Kronoberg ',
     city: 'Vaxjo',
     country: 'Sweden',
     IATA: 'VXO'
@@ -14360,7 +14360,7 @@ export const airports = [
     IATA: 'ZIN'
   },
   {
-    name: 'Lausanne-Bl\u00e9cherette ',
+    name: 'Lausanne-Bl\u00E9cherette ',
     city: 'Lausanne',
     country: 'Switzerland',
     IATA: 'QLS'
@@ -14375,7 +14375,7 @@ export const airports = [
   },
   { name: 'Samedan ', city: 'Samedan', country: 'Switzerland', IATA: 'SMV' },
   { name: 'Sion ', city: 'Sion', country: 'Switzerland', IATA: 'SIR' },
-  { name: 'Z\u00fcrich ', city: 'Zurich', country: 'Switzerland', IATA: 'ZRH' },
+  { name: 'Z\u00FCrich ', city: 'Zurich', country: 'Switzerland', IATA: 'ZRH' },
   { name: 'Aleppo Intl ', city: 'Aleppo', country: 'Syria', IATA: 'ALP' },
   { name: 'Damascus Intl ', city: 'Damascus', country: 'Syria', IATA: 'DAM' },
   {
@@ -14626,7 +14626,7 @@ export const airports = [
     IATA: 'UBP'
   },
   { name: 'Udon Thani ', city: 'Udon Thani', country: 'Thailand', IATA: 'UTH' },
-  { name: 'Lom\u00e9-Tokoin ', city: 'Lome', country: 'Togo', IATA: 'LFW' },
+  { name: 'Lom\u00E9-Tokoin ', city: 'Lome', country: 'Togo', IATA: 'LFW' },
   { name: 'Niamtougou Intl ', city: 'Niatougou', country: 'Togo', IATA: 'LRL' },
   { name: 'Kaufana ', city: 'Eua Island', country: 'Tonga', IATA: 'EUA' },
   { name: 'Lifuka Island ', city: 'Lifuka', country: 'Tonga', IATA: 'HPA' },
@@ -14664,7 +14664,7 @@ export const airports = [
     IATA: 'NBE'
   },
   {
-    name: 'Gab\u00e8s Matmata Intl ',
+    name: 'Gab\u00E8s Matmata Intl ',
     city: 'Gabes',
     country: 'Tunisia',
     IATA: 'GAE'
@@ -14696,8 +14696,8 @@ export const airports = [
     IATA: 'TUN'
   },
   {
-    name: 'Tekirda\u011f \u00c7orlu ',
-    city: '\u00c7orlu',
+    name: 'Tekirda\u011F \u00C7orlu ',
+    city: '\u00C7orlu',
     country: 'Turkey',
     IATA: 'TEQ'
   },
@@ -14711,10 +14711,10 @@ export const airports = [
   { name: 'Adana (TODOS)', city: 'Adana', country: 'Turkey', IATA: 'TODOS' },
   { name: 'Ad\u0131yaman ', city: 'Adiyaman', country: 'Turkey', IATA: 'ADF' },
   { name: 'Afyon ', city: 'Afyon', country: 'Turkey', IATA: 'AFY' },
-  { name: 'A\u011fr\u0131 ', city: 'Agri', country: 'Turkey', IATA: 'AJI' },
-  { name: 'Gazipa\u015fa ', city: 'Alanya', country: 'Turkey', IATA: 'GZP' },
+  { name: 'A\u011Fr\u0131 ', city: 'Agri', country: 'Turkey', IATA: 'AJI' },
+  { name: 'Gazipa\u015Fa ', city: 'Alanya', country: 'Turkey', IATA: 'GZP' },
   {
-    name: 'Esenbo\u011fa Intl ',
+    name: 'Esenbo\u011Fa Intl ',
     city: 'Ankara',
     country: 'Turkey',
     IATA: 'ESB'
@@ -14728,7 +14728,7 @@ export const airports = [
   { name: 'Ankara (TODOS)', city: 'Ankara', country: 'Turkey', IATA: 'TODOS' },
   { name: 'Antalya Intl ', city: 'Antalya', country: 'Turkey', IATA: 'AYT' },
   {
-    name: 'Bal\u0131kesir K\u00f6rfez ',
+    name: 'Bal\u0131kesir K\u00F6rfez ',
     city: 'Balikesir Korfez',
     country: 'Turkey',
     IATA: 'EDO'
@@ -14742,7 +14742,7 @@ export const airports = [
   { name: 'Band\u0131rma ', city: 'Bandirma', country: 'Turkey', IATA: 'BDM' },
   { name: 'Batman ', city: 'Batman', country: 'Turkey', IATA: 'BAL' },
   {
-    name: 'Bing\u00f6l \u00c7eltiksuyu ',
+    name: 'Bing\u00F6l \u00C7eltiksuyu ',
     city: 'Bingol',
     country: 'Turkey',
     IATA: 'BGG'
@@ -14757,25 +14757,25 @@ export const airports = [
   { name: 'Bodrum (TODOS)', city: 'Bodrum', country: 'Turkey', IATA: 'TODOS' },
   { name: 'Bursa ', city: 'Bursa', country: 'Turkey', IATA: 'BTZ' },
   {
-    name: '\u00c7anakkale ',
+    name: '\u00C7anakkale ',
     city: 'Canakkale',
     country: 'Turkey',
     IATA: 'CKZ'
   },
   {
-    name: '\u015e\u0131rnak \u015eerafettin El\u00e7i ',
+    name: '\u015E\u0131rnak \u015Eerafettin El\u00E7i ',
     city: 'Cizre',
     country: 'Turkey',
     IATA: 'NKT'
   },
   { name: 'Dalaman Intl ', city: 'Dalaman', country: 'Turkey', IATA: 'DLM' },
-  { name: '\u00c7ardak ', city: 'Denizli', country: 'Turkey', IATA: 'DNZ' },
+  { name: '\u00C7ardak ', city: 'Denizli', country: 'Turkey', IATA: 'DNZ' },
   { name: 'Diyarbakir ', city: 'Diyabakir', country: 'Turkey', IATA: 'DIY' },
-  { name: 'Elaz\u0131\u011f ', city: 'Elazig', country: 'Turkey', IATA: 'EZS' },
+  { name: 'Elaz\u0131\u011F ', city: 'Elazig', country: 'Turkey', IATA: 'EZS' },
   { name: 'Erzincan ', city: 'Erzincan', country: 'Turkey', IATA: 'ERC' },
   { name: 'Erzurum Intl ', city: 'Erzurum', country: 'Turkey', IATA: 'ERZ' },
   {
-    name: 'Eski\u015fehir Air Base',
+    name: 'Eski\u015Fehir Air Base',
     city: 'Eskisehir',
     country: 'Turkey',
     IATA: 'ESK'
@@ -14788,27 +14788,27 @@ export const airports = [
     IATA: 'GZT'
   },
   {
-    name: 'Hakkari Y\u00fcksekova ',
+    name: 'Hakkari Y\u00FCksekova ',
     city: 'Hakkari',
     country: 'Turkey',
     IATA: 'YKO'
   },
   { name: 'Hatay ', city: 'Hatay', country: 'Turkey', IATA: 'HTY' },
-  { name: 'I\u011fd\u0131r ', city: 'Igdir', country: 'Turkey', IATA: 'IGD' },
+  { name: 'I\u011Fd\u0131r ', city: 'Igdir', country: 'Turkey', IATA: 'IGD' },
   {
-    name: 'S\u00fcleyman Demirel Intl ',
+    name: 'S\u00FCleyman Demirel Intl ',
     city: 'Isparta',
     country: 'Turkey',
     IATA: 'ISE'
   },
   {
-    name: 'Atat\u00fcrk Intl ',
+    name: 'Atat\u00FCrk Intl ',
     city: 'Istanbul',
     country: 'Turkey',
     IATA: 'ISL'
   },
   {
-    name: 'Sabiha G\u00f6k\u00e7en Intl ',
+    name: 'Sabiha G\u00F6k\u00E7en Intl ',
     city: 'Istanbul',
     country: 'Turkey',
     IATA: 'SAW'
@@ -14826,10 +14826,10 @@ export const airports = [
     country: 'Turkey',
     IATA: 'ADB'
   },
-  { name: '\u00c7i\u011fli ', city: 'Izmir', country: 'Turkey', IATA: 'IGL' },
+  { name: '\u00C7i\u011Fli ', city: 'Izmir', country: 'Turkey', IATA: 'IGL' },
   { name: 'Izmir (TODOS)', city: 'Izmir', country: 'Turkey', IATA: 'TODOS' },
   {
-    name: 'Kahramanmara\u015f ',
+    name: 'Kahramanmara\u015F ',
     city: 'Kahramanmaras',
     country: 'Turkey',
     IATA: 'KCM'
@@ -14840,7 +14840,7 @@ export const airports = [
   { name: 'Konya ', city: 'Konya', country: 'Turkey', IATA: 'KYA' },
   { name: 'Zafer ', city: 'Kutahya', country: 'Turkey', IATA: 'KZR' },
   {
-    name: 'Malatya Erha\u00e7 ',
+    name: 'Malatya Erha\u00E7 ',
     city: 'Malatya',
     country: 'Turkey',
     IATA: 'MLX'
@@ -14852,9 +14852,9 @@ export const airports = [
     country: 'Turkey',
     IATA: 'MZH'
   },
-  { name: 'Mu\u015f ', city: 'Mus', country: 'Turkey', IATA: 'MSR' },
+  { name: 'Mu\u015F ', city: 'Mus', country: 'Turkey', IATA: 'MSR' },
   {
-    name: 'Nev\u015fehir Kapadokya ',
+    name: 'Nev\u015Fehir Kapadokya ',
     city: 'Nevsehir',
     country: 'Turkey',
     IATA: 'NAV'
@@ -14866,25 +14866,25 @@ export const airports = [
     IATA: 'OGU'
   },
   {
-    name: 'Samsun \u00c7ar\u015famba ',
+    name: 'Samsun \u00C7ar\u015Famba ',
     city: 'Samsun',
     country: 'Turkey',
     IATA: 'SZF'
   },
   {
-    name: '\u015eanl\u0131urfa ',
+    name: '\u015Eanl\u0131urfa ',
     city: 'Sanliurfa',
     country: 'Turkey',
     IATA: 'SFQ'
   },
   {
-    name: '\u015eanl\u0131urfa GAP ',
+    name: '\u015Eanl\u0131urfa GAP ',
     city: 'Sanliurfa',
     country: 'Turkey',
     IATA: 'GNY'
   },
   {
-    name: '\u015eanl\u0131urfa (TODOS) ',
+    name: '\u015Eanl\u0131urfa (TODOS) ',
     city: 'Sanliurfa',
     country: 'Turkey',
     IATA: 'TODOS'
@@ -14892,7 +14892,7 @@ export const airports = [
   { name: 'Siirt ', city: 'Siirt', country: 'Turkey', IATA: 'SXZ' },
   { name: 'Sinop ', city: 'Sinop', country: 'Turkey', IATA: 'NOP' },
   {
-    name: 'Sivas Nuri Demira\u011f ',
+    name: 'Sivas Nuri Demira\u011F ',
     city: 'Sivas',
     country: 'Turkey',
     IATA: 'VAS'
@@ -14900,10 +14900,10 @@ export const airports = [
   { name: 'Tokat ', city: 'Tokat', country: 'Turkey', IATA: 'TJK' },
   { name: 'Cengiz Topel ', city: 'Topel', country: 'Turkey', IATA: 'KCO' },
   { name: 'Trabzon Intl ', city: 'Trabzon', country: 'Turkey', IATA: 'TZX' },
-  { name: 'U\u015fak ', city: 'Usak', country: 'Turkey', IATA: 'USQ' },
+  { name: 'U\u015Fak ', city: 'Usak', country: 'Turkey', IATA: 'USQ' },
   { name: 'Van Ferit Melen ', city: 'Van', country: 'Turkey', IATA: 'VAN' },
   {
-    name: 'Bursa Yeni\u015fehir ',
+    name: 'Bursa Yeni\u015Fehir ',
     city: 'Yenisehir',
     country: 'Turkey',
     IATA: 'YEI'
@@ -14922,7 +14922,7 @@ export const airports = [
     IATA: 'CRZ'
   },
   {
-    name: 'Da\u015foguz ',
+    name: 'Da\u015Foguz ',
     city: 'Dasoguz',
     country: 'Turkmenistan',
     IATA: 'TAZ'
@@ -17169,7 +17169,7 @@ export const airports = [
     IATA: 'OSU'
   },
   {
-    name: 'Tasz\u00e1r Air Base',
+    name: 'Tasz\u00E1r Air Base',
     city: 'Columbus',
     country: 'United States',
     IATA: 'TZR'
@@ -23531,7 +23531,7 @@ export const airports = [
   { name: 'Sugraly ', city: 'Zarafshan', country: 'Uzbekistan', IATA: 'AFS' },
   { name: 'Mota Lava ', city: 'Ablow', country: 'Vanuatu', IATA: 'MTV' },
   {
-    name: 'Ul\u00e9i ',
+    name: 'Ul\u00E9i ',
     city: 'Ambryn Island',
     country: 'Vanuatu',
     IATA: 'ULB'
@@ -23601,7 +23601,7 @@ export const airports = [
   },
   { name: 'Anaco ', city: 'Anaco', country: 'Venezuela', IATA: 'AAO' },
   {
-    name: 'General Jos\u00e9 Antonio Anzoategui Intl ',
+    name: 'General Jos\u00E9 Antonio Anzoategui Intl ',
     city: 'Barcelona',
     country: 'Venezuela',
     IATA: 'BLA'
@@ -23622,14 +23622,14 @@ export const airports = [
   { name: 'Calabozo ', city: 'Calabozo', country: 'Venezuela', IATA: 'CLZ' },
   { name: 'Canaima ', city: 'Canaima', country: 'Venezuela', IATA: 'CAJ' },
   {
-    name: 'Sim\u00f3n Bol\u00edvar Intl ',
+    name: 'Sim\u00F3n Bol\u00EDvar Intl ',
     city: 'Caracas',
     country: 'Venezuela',
     IATA: 'CCS'
   },
   { name: 'Carora ', city: 'Carora', country: 'Venezuela', IATA: 'VCR' },
   {
-    name: 'General Francisco Berm\u00fadez ',
+    name: 'General Francisco Berm\u00FAdez ',
     city: 'Carupano',
     country: 'Venezuela',
     IATA: 'CUP'
@@ -23641,21 +23641,21 @@ export const airports = [
     IATA: 'CBL'
   },
   {
-    name: 'Jos\u00e9 Leonardo Chirinos ',
+    name: 'Jos\u00E9 Leonardo Chirinos ',
     city: 'Coro',
     country: 'Venezuela',
     IATA: 'CZE'
   },
   {
-    name: 'Cuman\u00e1 (Antonio Jos\u00e9 de Sucre) ',
+    name: 'Cuman\u00E1 (Antonio Jos\u00E9 de Sucre) ',
     city: 'Cumana',
     country: 'Venezuela',
     IATA: 'CUM'
   },
   { name: 'El Dorado ', city: 'El Dorado', country: 'Venezuela', IATA: 'EOR' },
   {
-    name: 'Juan Pablo P\u00e9rez Alfonso ',
-    city: 'El Vig\u00eda',
+    name: 'Juan Pablo P\u00E9rez Alfonso ',
+    city: 'El Vig\u00EDa',
     country: 'Venezuela',
     IATA: 'VIG'
   },
@@ -23676,7 +23676,7 @@ export const airports = [
   { name: 'Guiria ', city: 'Guiria', country: 'Venezuela', IATA: 'GUI' },
   { name: 'Higuerote ', city: 'Higuerote', country: 'Venezuela', IATA: 'HGE' },
   {
-    name: 'Andr\u00e9s Miguel Salazar Marcano ',
+    name: 'Andr\u00E9s Miguel Salazar Marcano ',
     city: 'Isla De Coche',
     country: 'Venezuela',
     IATA: 'ICC'
@@ -23700,7 +23700,7 @@ export const airports = [
     country: 'Venezuela',
     IATA: 'MYC'
   },
-  { name: 'Matur\u00edn ', city: 'Maturin', country: 'Venezuela', IATA: 'MUN' },
+  { name: 'Matur\u00EDn ', city: 'Maturin', country: 'Venezuela', IATA: 'MUN' },
   {
     name: 'Alberto Carnevalli ',
     city: 'Merida',
@@ -23715,7 +23715,7 @@ export const airports = [
     IATA: 'LSP'
   },
   {
-    name: 'Del Caribe Santiago Mari\u00f1o Intl ',
+    name: 'Del Caribe Santiago Mari\u00F1o Intl ',
     city: 'Porlamar',
     country: 'Venezuela',
     IATA: 'PMV'
@@ -23757,7 +23757,7 @@ export const airports = [
     IATA: 'SFD'
   },
   {
-    name: 'San Tom\u00e9 ',
+    name: 'San Tom\u00E9 ',
     city: 'San Tome',
     country: 'Venezuela',
     IATA: 'SOM'
@@ -23769,19 +23769,19 @@ export const airports = [
     IATA: 'SNV'
   },
   {
-    name: 'Santa B\u00e1rbara de Barinas ',
+    name: 'Santa B\u00E1rbara de Barinas ',
     city: 'Santa Barbara',
     country: 'Venezuela',
     IATA: 'SBB'
   },
   {
-    name: 'Santa B\u00e1rbara del Zulia ',
+    name: 'Santa B\u00E1rbara del Zulia ',
     city: 'Santa Barbara',
     country: 'Venezuela',
     IATA: 'STB'
   },
   {
-    name: 'Santa B\u00e1rbara (TODOS)',
+    name: 'Santa B\u00E1rbara (TODOS)',
     city: 'Santa Barbara',
     country: 'Venezuela',
     IATA: 'TODOS'
@@ -23801,7 +23801,7 @@ export const airports = [
     IATA: 'VLN'
   },
   {
-    name: 'Dr. Antonio Nicol\u00e1s Brice\u00f1o ',
+    name: 'Dr. Antonio Nicol\u00E1s Brice\u00F1o ',
     city: 'Valera',
     country: 'Venezuela',
     IATA: 'VLV'
@@ -23818,7 +23818,7 @@ export const airports = [
     country: 'Vietnam',
     IATA: 'BMV'
   },
-  { name: 'C\u00e0 Mau ', city: 'Ca Mau', country: 'Vietnam', IATA: 'CAH' },
+  { name: 'C\u00E0 Mau ', city: 'Ca Mau', country: 'Vietnam', IATA: 'CAH' },
   { name: 'Can Tho Intl ', city: 'Can Tho', country: 'Vietnam', IATA: 'VCA' },
   { name: 'Chu Lai Intl ', city: 'Chu Lai', country: 'Vietnam', IATA: 'VCL' },
   { name: 'Co Ong ', city: 'Conson', country: 'Vietnam', IATA: 'VCS' },
@@ -23894,7 +23894,7 @@ export const airports = [
   { name: 'Dakhla ', city: 'Dakhla', country: 'Western Sahara', IATA: 'VIL' },
   {
     name: 'Hassan I ',
-    city: 'El Aai\u00fan',
+    city: 'El Aai\u00FAn',
     country: 'Western Sahara',
     IATA: 'EUN'
   },

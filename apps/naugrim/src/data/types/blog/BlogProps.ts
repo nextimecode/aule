@@ -1,8 +1,4 @@
-export type Author = {
-  name: string
-  image: string
-  designation: string
-}
+import { Author } from './Author'
 
 export type BlogProps = {
   id: number

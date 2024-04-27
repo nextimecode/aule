@@ -1,12 +1,17 @@
-import { FeaturesProps, Feature } from '@/data/types/Features'
+import { Feature } from '@/data/types/Features'
 
 import { SectionTitle } from '../Common/SectionTitle'
 import { SingleFeature } from './SingleFeature'
 
+interface FeaturesProps {
+  features: Feature[]
+  title?: string
+  subTitle?: string
+}
 export const Features = ({
   features,
-  title = 'Assessoria Gratuita em Viagens',
-  subTitle = 'Navegue pelo mundo dos ares com a confiança e o suporte da nossa assessoria especializada. Transformamos cada etapa da sua viagem em uma experiência descomplicada e memorável.'
+  title = 'Assessoria Gratuita',
+  subTitle = 'Embarque nessa jornada com toda tranquilidade e o suporte da nossa assessoria especializada. Descomplicando todas os tramites para que você tenha uma experiencia memorável.'
 }: FeaturesProps) => {
   return (
     <>

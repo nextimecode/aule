@@ -1,8 +1,4 @@
-import { serialize } from 'next-mdx-remote/serialize'
-
 import { AboutSubtitle } from '@/components/About/AboutSubtitle'
-
-import he from 'he'
 
 import { AboutProps } from '@/data/types/AboutProps'
 import { env } from '@/env'
@@ -19,23 +15,26 @@ async function getAboutData(): Promise<AboutProps> {
         page(where: {slug: "about"}) {
           id
           navigationLabel
-          subtitle
+          content {
+            html
+          }
         },
       }`
-    })
+    }),
+    next: {
+      revalidate: 60 * 5 // 5 minutes
+    }
   })
-  const json = await response.json()
-  const subtitle = await serialize(he.decode(json.data.page.subtitle))
-  json.data.page.subtitle = subtitle
-  return json.data.page
+  const { data } = await response.json()
+  return data.page
 }
 
 export default async function AboutPage() {
-  const { navigationLabel, subtitle } = await getAboutData()
+  const { navigationLabel, content } = await getAboutData()
 
   return (
     <>
-      <AboutSubtitle subtitle={subtitle} navigationLabel={navigationLabel} />
+      <AboutSubtitle content={content.html} navigationLabel={navigationLabel} />
       {/* <AboutSectionOne />
       <AboutSectionTwo /> */}
     </>

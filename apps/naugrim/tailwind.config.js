@@ -1,11 +1,10 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
+/**
+ * @type {import('tailwindcss').Config}
+ */
+module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/preline/preline.js'
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    '../../node_modules/preline/dist/*.js'
   ],
   darkMode: 'class',
   theme: {
@@ -24,23 +23,12 @@ const config: Config = {
       'body-color': '#959CB1'
     },
     screens: {
-      xs: '450px',
-      // => @media (min-width: 450px) { ... }
-
-      sm: '575px',
-      // => @media (min-width: 576px) { ... }
-
+      xs: { max: '479px' },
+      sm: '480px',
       md: '768px',
-      // => @media (min-width: 768px) { ... }
-
       lg: '992px',
-      // => @media (min-width: 992px) { ... }
-
       xl: '1200px',
-      // => @media (min-width: 1200px) { ... }
-
-      '2xl': '1400px'
-      // => @media (min-width: 1400px) { ... }
+      '2xl': '1200px'
     },
     extend: {
       fontFamily: {
@@ -60,4 +48,3 @@ const config: Config = {
   },
   plugins: [require('@tailwindcss/forms'), require('preline/plugin')]
 }
-export default config

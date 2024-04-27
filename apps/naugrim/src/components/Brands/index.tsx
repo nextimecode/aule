@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import type { Brand } from '@/data/types/brand'
+import type { BrandProps } from '@/data/types'
 
-export const brandsData: Brand[] = [
+export const brandsData: BrandProps[] = [
   {
     id: 1,
     name: 'Gol',
@@ -51,11 +51,11 @@ export const Brands = () => {
   )
 }
 
-export const SingleBrand = ({ brand }: { brand: Brand }) => {
+export const SingleBrand = ({ brand }: { brand: BrandProps }) => {
   const { href, image, name } = brand
 
   return (
-    <div className="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]">
+    <div className="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 2xl:max-w-[160px]">
       <a
         href={href}
         target="_blank"

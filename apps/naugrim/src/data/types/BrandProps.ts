@@ -1,4 +1,4 @@
-export type Brand = {
+export type BrandProps = {
   id: number
   name: string
   href: string

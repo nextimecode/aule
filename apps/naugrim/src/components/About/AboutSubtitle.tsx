@@ -1,14 +1,12 @@
-'use client'
-import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote'
 import Image from 'next/image'
 
 import { SectionTitle } from '@/components'
 
-export const AboutSubtitle = async ({
-  subtitle,
+export const AboutSubtitle = ({
+  content,
   navigationLabel
 }: {
-  subtitle: MDXRemoteSerializeResult
+  content: string
   navigationLabel: string
 }) => {
   return (
@@ -18,7 +16,12 @@ export const AboutSubtitle = async ({
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle title={navigationLabel} mb="44px" />
-              {subtitle && <MDXRemote {...subtitle} />}
+              <div
+                className="[&_*]:mb-4 [&_h1]:text-4xl [&_h2]:text-3xl [&_h3]:text-2xl [&_h4]:text-xl"
+                dangerouslySetInnerHTML={{
+                  __html: content
+                }}
+              />
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
@@ -27,10 +30,10 @@ export const AboutSubtitle = async ({
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/about-image.jpg"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full lg:mr-0"
+                  className="mx-auto max-w-full lg:mr-0 rounded-xl"
                 />
               </div>
             </div>

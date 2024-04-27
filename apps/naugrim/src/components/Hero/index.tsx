@@ -16,7 +16,7 @@ export const Hero = ({ heading, subheading }: HeroProps) => {
     <>
       <section
         id="home"
-        className="bg-primary/10 relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="bg-primary/10 relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
