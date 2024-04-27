@@ -14,11 +14,20 @@ import {
   Video
 } from '@/components'
 
-import { HomeProps } from '@/data/types/home'
 import { env } from '@/env'
+
+import { Feature } from '../../../data/types/Features'
+import type { HeroProps } from '../../../data/types/Hero'
+import { Testimonial } from '../../../data/types/testimonial'
 
 export const metadata: Metadata = {
   title: 'Home'
+}
+
+interface HomeProps {
+  hero: HeroProps
+  features: Feature[]
+  testimonials: Testimonial[]
 }
 
 async function getHomeData(): Promise<HomeProps> {
@@ -72,8 +81,9 @@ async function getHomeData(): Promise<HomeProps> {
       }`
     })
   })
-  const json = await response.json()
-  return json.data
+  const { data } = await response.json()
+
+  return data
 }
 
 export default async function Home() {
